@@ -1,0 +1,55 @@
+The LS3-Thesis LaTeX-template
+
+
+Files
+-----
+
+This template uses the KOMA class. The template consists of several files.
+
+Edit the following files:
+- main.tex: Insert the title of the thesis, your name, names of the supervisors
+  examinors etc.... Further below in the part "Here comes the main part", add
+  an \include-command for each chapter you have.
+  You can switch between German and English language with the command \englishtrue
+  and \englishfalse
+
+- Chapters: Create an individual tex-file for each chapter you have, for example:
+  chapter_1.tex, chapter_2.tex,...
+
+- literature.bib: Insert all your citations here, in bibtex-format.
+
+
+Do NOT edit these files:
+- preamble.tex: loads the necessary LaTex packages.
+- titlepage.tex: defines the titlepage
+- coverpage.tex: defines the coverpage (blue circle...)
+- author_declaration.tex: Short text at the beginning (if you write in German,
+  you need to translate this text)
+
+
+Compiling the document
+----------------------
+
+To compile the document, either compile main.tex in a LaTeX editor like Kile,
+or TeXMaker, or call `make` under Linux.
+
+
+Additional information
+----------------------
+
+You are responsible for your thesis document. So, you can hand it in however
+you want. Yet, we would strongly advice you to just use this template as-is,
+without changing page margins etc.
+
+Some more technical information: This document uses the KOMA scrreprt class.
+The KOMA documentation (you can find it online) is very verbose, but also very
+thorough.  Searching chapter 3 of the  of the documentation may even be quicker
+than doing a Google search.
+
+Some basic information about how KOMA handles pages: A page consists of header
+| margin | text body | margin | footer Additionally, for 2-sided documents,
+there are inner and left/right margins on a page, depending whether it's an
+even or uneven page (1-sided documents: there's just a left+right margin of the
+same size on each page) Imagine a 2-sided document with two pages side-by-side.
+left margin = right margin = 2 * inner  margin If part of a page is 'lost' due
+to the binding, this is corrected for via the BCOR parameter.

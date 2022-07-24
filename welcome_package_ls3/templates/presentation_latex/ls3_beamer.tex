@@ -1,0 +1,78 @@
+% Code written by Michael Sinsbeck (michael.sinsbeck@iws.uni-stuttgart.de)
+
+\documentclass[aspectratio=1610]{beamer}
+
+% Other paper formats are possible: aspectratio = 43 (4:3), 169 (16:9), etc...
+
+% If you set the option "handout", overlay effects will be ignored:
+%\documentclass[aspectratio=43,handout]{beamer}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+% Title and author
+\title{This is the title of my presentation} % If needed, manually add line breaks with "\\"
+\author{This is my name}
+%\title{\footnotesize If the title is very long and does not fit easily, you might want to manually use a smaller font here.}
+
+% Use the subtitle-variable for additional information on the presentation 
+% (for example the name of the event "35th annual meeting of statistitians",
+% or the type of presentation "Master thesis presentation")
+\subtitle{Mini Milestone Presentation\\ August 8, 2017}
+
+\usetheme{ls3}
+
+
+\begin{document}
+
+% Create the titlepage
+\maketitle
+
+% If you want, show the outline
+\begin{frame}{Outline}
+\tableofcontents
+\end{frame}
+
+% This command start a new section and automatically inserts a section-title-page
+% The section names are automatically put into the \tableofcontents
+\section{Motivation}
+
+% Normal slide
+\begin{frame}{Title of the slide}
+Itemizations:
+\begin{itemize}
+	\item One
+	\begin{itemize}
+		\item Second Layer
+	\end{itemize}	
+	\item Two
+\end{itemize}
+
+Enumerations
+\begin{enumerate}
+	\item One
+	\item Two
+\end{enumerate}
+\end{frame}
+
+% Second Section
+\section{Results}
+
+% Another Normal Slide
+\begin{frame}{First slide in second chapter}
+Content...
+\end{frame}
+
+\section{Conclusions}
+
+% There are two possible final slide layouts (white and blue). Choose one of them!
+% You need five arguments:
+% 1) Text phrase ("Thank you!"), 2) Your Name, 3) E-Mail-Address 4) Phonenumber of whatever you want (or leave empty)
+% 5) An image for the cicle on the left (for example Logo of the institute)
+\thankyou{Thank you for your attention!}{Max Mustermann}{max.mustermann@abc.uni-stuttgart.de}{+49 (0)711 586-12345}{gfx/abschluss.jpg}
+\thankyoublue{Thank you!}{Max Mustermann}{max.mustermann@abc.uni-stuttgart.de}{+49 (0)711 586-12345}{gfx/logos/ls3_logo_white_bg.png}
+
+
+
+
+\end{document}

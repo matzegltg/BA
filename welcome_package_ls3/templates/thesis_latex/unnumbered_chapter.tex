@@ -1,0 +1,16 @@
+\addchap{A chapter that does not get enumerated}
+This chapter is part of the index, but is not enumerated.
+
+And another equation in a new chapter - obviously, because the chapter is not enumerated it fucks up the numbering as the scheme is (chapter\_number.equation\_number):
+\begin{equation}
+    \label{eq:trig}
+    \sin (\alpha)^2 + \cos (\alpha)^2 = 1
+\end{equation}
+
+So if you really need unnumbered chapters with equations the easiest way to fix this may be to use consecutive equation numbers.
+See the source and uncomment the `chngcntr` package.
+
+And here we have a reference to an equation from the previous chapter: equation ~\vref{eq:circle}.
+When using the `hyperref` package, clicking on the reference should send you to the correct equation.
+
+Test. 

@@ -1,0 +1,257 @@
+% Code written by Michael Sinsbeck (michael.sinsbeck@iws.uni-stuttgart.de)
+
+\mode<presentation>
+
+% Requirement
+\RequirePackage{tikz}
+\usetikzlibrary{positioning}
+\usepackage{varwidth}
+
+% Set font to look similar to univers
+\usepackage{helvet}
+\usepackage{anyfontsize}
+
+% Settings
+%\useinnertheme{unistuttgart}
+%\useoutertheme{unistuttgart}
+%\usecolortheme{unistuttgart}
+
+% Disable navigation symbols
+\setbeamertemplate{navigation symbols}{}
+
+
+
+
+
+
+% -------- colors and fonts ---------------------------------------------------
+\definecolor{anthrazit}{RGB}{62,68,76}
+\definecolor{mittelblau}{RGB}{0,81,158}
+\definecolor{hellblau}{RGB}{0,190,255}
+
+\definecolor{ls3blue}{RGB}{130, 176, 226}
+
+\setbeamercolor{title}{fg=white}
+\setbeamercolor{date}{fg=white}
+\setbeamerfont{date}{size=\usebeamerfont{subtitle}}
+
+\setbeamerfont{frametitle}{series=\bfseries,size=\normalsize}
+\setbeamercolor{frametitle}{fg=anthrazit}
+
+\setbeamerfont{framesubtitle}{size=\normalfont\small}
+\setbeamercolor{framesubtitle}{fg=anthrazit}
+
+\setbeamerfont{structure}{size=\small}
+\setbeamercolor{structure}{fg=mittelblau}
+
+\setbeamerfont{normal text}{size=\normalfont\small}
+\setbeamercolor{normal text}{fg=anthrazit!70!black} % text ist dunkler als "anthrazit", damit er besser lesbar ist.
+
+
+\setbeamercolor{alerted text}{fg=mittelblau}
+\setbeamercolor{caption name}{fg=mittelblau}
+\setbeamercolor{itemize item}{fg=mittelblau}
+\setbeamercolor{itemize subitem}{fg=anthrazit}
+\setbeamercolor{enumerate item}{fg=mittelblau}
+\setbeamercolor{enumerate subitem}{fg=anthrazit}
+\setbeamercolor{description item}{fg=anthrazit}
+\setbeamercolor{block title}{fg=white,bg=anthrazit}
+\setbeamercolor{block body}{fg=anthrazit!70!black,bg=anthrazit!10!white}
+
+\setbeamertemplate{itemize items}{\tikz{\path (0,0); \fill (0em,0.36em) circle (0.13em);}}
+
+
+% Seitenränder
+\setbeamersize{text margin left=0.08\paperheight,text margin right=0.08\paperheight}
+
+% Folientitel
+\setbeamertemplate{frametitle}
+{\vskip 0.06\paperheight
+  \leavevmode
+  \large\textcolor{anthrazit}{\insertframetitle}
+}
+
+% Footline
+
+\defbeamertemplate{footline}{uni stuttgart footline}
+{
+  \begin{minipage}[b][0.05\paperheight][t]{\paperwidth}
+  \hspace{0.08\paperheight}University of Stuttgart\hfill \insertframenumber\hspace{0.08\paperheight}
+  \end{minipage}
+}
+
+\setbeamerfont{footline}{size=\fontsize{5}{6}\selectfont}
+\setbeamertemplate{footline}[uni stuttgart footline]
+
+% ------------------ Show chapter names
+\AtBeginSection[]{
+	\newchapter{\insertsectionhead}
+}
+
+% ------------------Strudel auf Inhaltsfolien (LS3-Spezifisch)
+\setbeamertemplate{background}{
+	\begin{tikzpicture}
+		\clip (0,0) rectangle (\paperwidth,\paperheight);
+		% Strudel
+		\draw (\paperwidth,\paperheight) node[anchor=north east,inner sep = 0,outer sep = 0,yshift=-0.05\paperheight]
+			{\includegraphics[height=0.1\paperheight]{gfx/logos/strahl_klein.jpg}};
+		% Kreis	
+		\fill [white,opacity=0.8,yshift=-0.1\paperheight,xshift=-0.15\paperheight](\paperwidth,\paperheight) circle (0.06\paperheight);
+
+		% Logos
+		\node at (\paperwidth,\paperheight) [yshift=-0.1\paperheight,xshift=-0.15\paperheight]{
+		\includegraphics[height=0.07\paperheight]{gfx/logos/ls3_logo.pdf}};
+
+
+		\fill [white,opacity=0.7] (0,0) rectangle (\paperwidth,\paperheight);
+	\end{tikzpicture}
+}
+
+% ---------------- title page -------------------------------------------------
+\renewcommand{\maketitle}
+{
+	{
+	\setbeamertemplate{footline}{} % No page number
+	\setbeamertemplate{background}{
+			\begin{tikzpicture}
+					% clip everything to the screen (to control alignment absolutely)
+					\clip (0,0) rectangle (\paperwidth,\paperheight);
+
+					% Uni Stuttgart logo
+					\node at (0,\paperheight)[xshift=-0.055\paperheight,yshift=0.06\paperheight,anchor=north west]
+						{\includegraphics[height=0.29\paperheight]{gfx/logos/unistuttgart_logo_englisch.pdf}};
+
+					% LS3 - Strudel
+					\node at (\paperwidth,0)[yshift=0.025\paperheight,anchor=south east,inner sep = 0]{
+						\includegraphics[height=0.2\paperheight]{gfx/logos/strahl_klein.jpg}};
+						
+					% Large gray circle (for title)
+					\fill[anthrazit,xshift=-0.36\paperheight] (\paperwidth,0.47\paperheight) circle (0.315\paperheight);			
+
+					% Small white circle (for logo)
+					\fill[white,xshift=-0.2\paperheight] (\paperwidth,0.2\paperheight) circle (0.09\paperheight);
+					
+					% Title, Name ans Subtitle
+					\node[anchor=south west,xshift=-0.61\paperheight,white,align=left,text width=0.48\paperheight] at (\paperwidth,0.45\paperheight){{\bf \large \inserttitle\par}};
+					\node[anchor=north west,xshift=-0.61\paperheight,ls3blue,align=left,text width=0.48\paperheight] at (\paperwidth,0.40\paperheight){{\bf \scriptsize \insertauthor\par}};
+					\node[anchor=north west,xshift=-0.61\paperheight,white,align=left,text width=0.48\paperheight] at (\paperwidth,0.35\paperheight){{\tiny \insertsubtitle\par}};					
+					
+					% LS3-Logo
+					\node at (\paperwidth,0.2\paperheight)[xshift=-0.2\paperheight]{
+					\includegraphics[height=0.1\paperheight]{gfx/logos/ls3_logo.pdf}};
+
+			\end{tikzpicture}
+		}
+		\frame{}
+		}
+		\clearpage
+		\setcounter{framenumber}{0}				
+}
+
+
+% ------- chapter ------
+\newcommand{\newchapter}[1]
+{
+	{
+	\setbeamertemplate{footline}{} % No page number
+	\setbeamertemplate{background}{
+			\begin{tikzpicture}
+					% clip everything to the screen (to control alignment absolutely)
+					\clip (0,0) rectangle (\paperwidth,\paperheight);
+					\fill[shading = axis, left color = mittelblau, right color = hellblau, shading angle = 135] (0,0) rectangle (\paperwidth,\paperheight);
+					
+					\fill[white](0.5\paperwidth,0.9\paperheight) circle (0.375\paperwidth);
+					\node at (0.5\paperwidth,0.65\paperheight) [anchor=south]{\bf \begin{varwidth}{0.6\paperwidth}\huge #1\par\end{varwidth}};
+			\end{tikzpicture}
+		}
+		\frame[plain,noframenumbering]{}
+		}
+		\clearpage
+}
+
+
+% ------- thankyou in white ------
+\newcommand{\thankyou}[5]
+{
+	{
+	\setbeamertemplate{footline}{} % No page number
+	\setbeamertemplate{background}{
+			\begin{tikzpicture}
+					% clip everything to the screen (to control alignment absolutely)
+					\clip (0,0) rectangle (\paperwidth,\paperheight);
+
+					% Uni Stuttgart logo
+					\node at (0,\paperheight)[xshift=-0.055\paperheight,yshift=0.06\paperheight,anchor=north west]
+						{\includegraphics[height=0.29\paperheight]{gfx/logos/unistuttgart_logo_englisch.pdf}};
+				
+					% Circle with Image
+					\begin{scope}
+					\clip[xshift=0.15\paperwidth](0,0.5\paperheight) circle (0.08\paperwidth);
+					\node at (0.15\paperwidth,0.5\paperheight) {\includegraphics[height=0.16\paperwidth]{#5}};
+					\end{scope}
+					
+					% Thank you/Vielen Dank
+					\node[anthrazit, xshift=0.07\paperwidth,anchor=west,inner sep = 0] at (0,0.7\paperheight) {\bf\large #1};
+					
+					% Contact data
+					
+					\node[anthrazit,xshift=0.42\paperheight,inner sep = 0, anchor = north west,align=left] at (0,0.54\paperheight) {\tiny \textbf {#2}};
+					
+					\node[anthrazit,xshift=0.42\paperheight,inner sep = 0, anchor = north west,align=left] at (0,0.5\paperheight) {\tiny #3};
+
+					\node[anthrazit,xshift=0.42\paperheight,inner sep = 0, anchor = north west,align=left] at (0,0.46\paperheight) {\tiny #4};
+					
+					\node[anthrazit,xshift=0.42\paperheight,inner sep = 0, anchor = north west,align=left] at (0,0.39\paperheight) {\tiny University of Stuttgart};
+			\end{tikzpicture}
+		}
+		\frame{}
+		}
+		\clearpage
+}
+
+
+
+
+% ------- thankyou in blue ------
+\newcommand{\thankyoublue}[5]
+{
+	{
+	\setbeamertemplate{footline}{} % No page number
+	\setbeamertemplate{background}{
+			\begin{tikzpicture}
+					% clip everything to the screen (to control alignment absolutely)
+					\clip (0,0) rectangle (\paperwidth,\paperheight);
+					\fill[shading = axis, left color = mittelblau, right color = hellblau, shading angle = 135] (0,0) rectangle (\paperwidth,\paperheight);
+					
+					% Uni Stuttgart logo
+					\node at (0,\paperheight)[xshift=-0.055\paperheight,yshift=0.06\paperheight,anchor=north west]
+						{\includegraphics[height=0.29\paperheight]{gfx/logos/unistuttgart_logo_englisch_white.pdf}};
+
+					% Circle with Image
+					\begin{scope}
+					\clip[xshift=0.15\paperwidth](0,0.5\paperheight) circle (0.08\paperwidth);
+					\node at (0.15\paperwidth,0.5\paperheight) {\includegraphics[height=0.16\paperwidth]{#5}};
+					\end{scope}
+									
+					% Thank you/Vielen Dank
+					\node[white, xshift=0.07\paperwidth,anchor=west,inner sep = 0] at (0,0.7\paperheight) {\bf\large #1};
+					
+					% Contact data
+					\node[white,xshift=0.42\paperheight,inner sep = 0, anchor = north west,align=left] at (0,0.54\paperheight) {\tiny \textbf {#2}};
+					
+					\node[white,xshift=0.42\paperheight,inner sep = 0, anchor = north west,align=left] at (0,0.5\paperheight) {\tiny #3};
+
+					\node[white,xshift=0.42\paperheight,inner sep = 0, anchor = north west,align=left] at (0,0.46\paperheight) {\tiny #4};
+					
+					\node[white,xshift=0.42\paperheight,inner sep = 0, anchor = north west,align=left] at (0,0.39\paperheight) {\tiny University of Stuttgart};
+			\end{tikzpicture}
+		}
+		\frame{}
+		}
+		\clearpage
+}
+
+
+% --------------------------------------------------------------------------------
+
+\mode<all>
