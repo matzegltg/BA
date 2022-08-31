@@ -2,5 +2,6 @@
     "python.linting.flake8Enabled": true,
     "python.linting.enabled": true,
     "python.linting.pylintEnabled": false,
-    "python.linting.flake8Path": "C:/Users/matth/AppData/Local/Programs/Python/Python310/Scripts"
+    "python.linting.flake8Path": "C:/Users/matth/AppData/Local/Programs/Python/Python310/Scripts",
+    "python.analysis.extraPaths": ["C:/Users/matth/AppData/Local/Programs/Python/Python39/Lib/site-packages"]
 }
