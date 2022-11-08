@@ -1,0 +1,68 @@
+Pcp_File_Version=4
+*** BLOCK A: BASIC INFORMATION *****************************************
+Heading
+PFOS
+LUnit  TUnit  MUnit  (indicated units are obligatory for all input data)
+cm
+days
+µg
+lWat   lChem lTemp  lSink lRoot lShort lWDep lScreen lVariabBC lEquil lInverse
+ f     t     f      f     f     t      f     f       f         f         f
+lSnow  lHP1   lMeteo  lVapor lActiveU lFluxes lIrrig  lDummy  lDummy  lDummy
+ f       f       f       f       f       t       f       f       f       f
+NMat    NLay  CosAlpha
+  1       1       0
+*** BLOCK B: WATER FLOW INFORMATION ************************************
+MaxIt   TolTh   TolH       (maximum number of iterations and tolerances)
+  11    0.001      1
+TopInf WLayer KodTop InitCond
+ f     f       1       f
+BotInf qGWLF FreeD SeepF KodBot DrainF  hSeep
+ f     f     f     f      1      f      0
+    hTab1   hTabN
+       0.9     1.1
+    Model   Hysteresis
+      0          0
+   thr     ths    Alfa      n         Ks       l
+    0.2     0.4       4       4         10     0.5 
+*** BLOCK C: TIME INFORMATION ******************************************
+        dt       dtMin       dtMax     DMul    DMul2  ItMin ItMax  MPL
+     0.0001      0.0001      0.0001     1.1     0.8     3     7   100
+      tInit        tMax
+          0          20
+  lPrintD  nPrintSteps tPrintInterval lEnter
+     f           1             1       f
+TPrint(1),TPrint(2),...,TPrint(MPL)
+        0.2         0.4         0.6         0.8           1         1.2 
+        1.4         1.6         1.8           2         2.2         2.4 
+        2.6         2.8           3         3.2         3.4         3.6 
+        3.8           4         4.2         4.4         4.6         4.8 
+          5         5.2         5.4         5.6         5.8           6 
+        6.2         6.4         6.6         6.8           7         7.2 
+        7.4         7.6         7.8           8         8.2         8.4 
+        8.6         8.8           9         9.2         9.4         9.6 
+        9.8          10        10.2        10.4        10.6        10.8 
+         11        11.2        11.4        11.6        11.8          12 
+       12.2        12.4        12.6        12.8          13        13.2 
+       13.4        13.6        13.8          14        14.2        14.4 
+       14.6        14.8          15        15.2        15.4        15.6 
+       15.8          16        16.2        16.4        16.6        16.8 
+         17        17.2        17.4        17.6        17.8          18 
+       18.2        18.4        18.6        18.8          19        19.2 
+       19.4        19.6        19.8          20 
+*** BLOCK F: SOLUTE TRANSPORT INFORMATION *****************************************************
+ Epsi  lUpW  lArtD lTDep    cTolA    cTolR   MaxItC    PeCr  No.Solutes  lTort   iBacter   lFiltr  nChPar
+  0.5     f     f     f     0.001      0.01    20        2        1       f       0        f       16
+iNonEqul lWatDep lDualNEq lInitM  lInitEq lTort lDummy  lDummy  lDummy  lDummy  lCFTr
+   2       f       f       f       f       f       t       f       f       f       f
+     Bulk.d.     DisperL.      Frac      Mobile WC (1..NMat)
+       1.58           9         0.5           0 
+         DifW       DifG                n-th solute
+          0           0 
+         Ks          Nu        Beta       Henry       SnkL1       SnkS1       SnkG1       SnkL1'      SnkS1'      SnkG1'      SnkL0       SnkS0       SnkG0        Alfa
+        4.5           0        0.98           0           0           0           0           0           0           0           0           0           0       0.005 
+      kTopSolute  SolTop    kBotSolute  SolBot
+          1           0           0           0 
+      tPulse
+        200
+*** END OF INPUT FILE 'SELECTOR.IN' ************************************
