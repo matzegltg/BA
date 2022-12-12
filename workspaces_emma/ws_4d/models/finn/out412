@@ -1,0 +1,3109 @@
+Model name: diff-ad2ss_412
+/projects/matthias_g/ws_4d/data/diffusion_ad2ss/data_exp
+Trainable model parameters: 1386
+sk_end_loss: 0
+BTC: 1.6277034282684326
+neg_loss: 1.0372124961577356e-05
+loss: 2.6649160385131836
+sk_end_loss: 0
+BTC: 0.9477910995483398
+neg_loss: 0.0
+loss: 0.9477910995483398
+saving candidate
+saved
+Epoch 001/300 took 642.32 seconds. 		Average epoch training error: (+)0.9477910995
+sk_end_loss: 0
+BTC: 0.9477910995483398
+neg_loss: 0.0
+loss: 0.9477910995483398
+sk_end_loss: 0
+BTC: 0.7170279026031494
+neg_loss: 6.6317307201302356e-09
+loss: 0.7176910638809204
+Epoch 002/300 took 692.76 seconds. 		Average epoch training error: (-)0.7176910639
+sk_end_loss: 0
+BTC: 0.7170279026031494
+neg_loss: 6.6317307201302356e-09
+loss: 0.7176910638809204
+sk_end_loss: 0
+BTC: 0.8940621614456177
+neg_loss: 5.037042001276859e-07
+loss: 0.9444325566291809
+Epoch 003/300 took 685.36 seconds. 		Average epoch training error: (-)0.9444325566
+sk_end_loss: 0
+BTC: 0.8940621614456177
+neg_loss: 5.037042001276859e-07
+loss: 0.9444325566291809
+sk_end_loss: 0
+BTC: 0.825605034828186
+neg_loss: 2.137554275805087e-07
+loss: 0.8469805717468262
+Epoch 004/300 took 687.92 seconds. 		Average epoch training error: (-)0.8469805717
+sk_end_loss: 0
+BTC: 0.825605034828186
+neg_loss: 2.137554275805087e-07
+loss: 0.8469805717468262
+sk_end_loss: 0
+BTC: 0.6505234241485596
+neg_loss: 0.0
+loss: 0.6505234241485596
+saving candidate
+saved
+Epoch 005/300 took 740.53 seconds. 		Average epoch training error: (+)0.6505234241
+sk_end_loss: 0
+BTC: 0.6505234241485596
+neg_loss: 0.0
+loss: 0.6505234241485596
+sk_end_loss: 0
+BTC: 0.7371804714202881
+neg_loss: 0.0
+loss: 0.7371804714202881
+saving candidate
+Epoch 006/300 took 742.26 seconds. 		Average epoch training error: (-)0.7371804714
+sk_end_loss: 0
+BTC: 0.7371804714202881
+neg_loss: 0.0
+loss: 0.7371804714202881
+sk_end_loss: 0
+BTC: 0.7568193078041077
+neg_loss: 0.0
+loss: 0.7568193078041077
+saving candidate
+Epoch 007/300 took 729.45 seconds. 		Average epoch training error: (-)0.7568193078
+sk_end_loss: 0
+BTC: 0.7568193078041077
+neg_loss: 0.0
+loss: 0.7568193078041077
+sk_end_loss: 0
+BTC: 0.6353418827056885
+neg_loss: 0.0
+loss: 0.6353418827056885
+saving candidate
+saved
+Epoch 008/300 took 745.81 seconds. 		Average epoch training error: (+)0.6353418827
+sk_end_loss: 0
+BTC: 0.6353418827056885
+neg_loss: 0.0
+loss: 0.6353418827056885
+sk_end_loss: 0
+BTC: 0.6739543676376343
+neg_loss: 9.350559389276203e-12
+loss: 0.6739553213119507
+Epoch 009/300 took 737.2 seconds. 		Average epoch training error: (-)0.6739553213
+sk_end_loss: 0
+BTC: 0.6739543676376343
+neg_loss: 9.350559389276203e-12
+loss: 0.6739553213119507
+sk_end_loss: 0
+BTC: 0.7046664357185364
+neg_loss: 3.383779034749068e-09
+loss: 0.7050048112869263
+Epoch 010/300 took 745.17 seconds. 		Average epoch training error: (-)0.7050048113
+sk_end_loss: 0
+BTC: 0.7046664357185364
+neg_loss: 3.383779034749068e-09
+loss: 0.7050048112869263
+sk_end_loss: 0
+BTC: 0.667167067527771
+neg_loss: 4.499081991427576e-15
+loss: 0.667167067527771
+Epoch 011/300 took 740.97 seconds. 		Average epoch training error: (-)0.6671670675
+sk_end_loss: 0
+BTC: 0.667167067527771
+neg_loss: 4.499081991427576e-15
+loss: 0.667167067527771
+sk_end_loss: 0
+BTC: 0.6314929723739624
+neg_loss: 0.0
+loss: 0.6314929723739624
+saving candidate
+saved
+Epoch 012/300 took 732.78 seconds. 		Average epoch training error: (+)0.6314929724
+sk_end_loss: 0
+BTC: 0.6314929723739624
+neg_loss: 0.0
+loss: 0.6314929723739624
+sk_end_loss: 0
+BTC: 0.6418641805648804
+neg_loss: 0.0
+loss: 0.6418641805648804
+saving candidate
+Epoch 013/300 took 744.45 seconds. 		Average epoch training error: (-)0.6418641806
+sk_end_loss: 0
+BTC: 0.6418641805648804
+neg_loss: 0.0
+loss: 0.6418641805648804
+sk_end_loss: 0
+BTC: 0.6557711362838745
+neg_loss: 0.0
+loss: 0.6557711362838745
+saving candidate
+Epoch 014/300 took 738.55 seconds. 		Average epoch training error: (-)0.6557711363
+sk_end_loss: 0
+BTC: 0.6557711362838745
+neg_loss: 0.0
+loss: 0.6557711362838745
+sk_end_loss: 0
+BTC: 0.6306332349777222
+neg_loss: 0.0
+loss: 0.6306332349777222
+saving candidate
+saved
+Epoch 015/300 took 743.37 seconds. 		Average epoch training error: (+)0.630633235 
+sk_end_loss: 0
+BTC: 0.6306332349777222
+neg_loss: 0.0
+loss: 0.6306332349777222
+sk_end_loss: 0
+BTC: 0.6281582117080688
+neg_loss: 0.0
+loss: 0.6281582117080688
+saving candidate
+saved
+Epoch 016/300 took 744.54 seconds. 		Average epoch training error: (+)0.6281582117
+sk_end_loss: 0
+BTC: 0.6281582117080688
+neg_loss: 0.0
+loss: 0.6281582117080688
+sk_end_loss: 0
+BTC: 0.6429125666618347
+neg_loss: 0.0
+loss: 0.6429125666618347
+saving candidate
+Epoch 017/300 took 741.16 seconds. 		Average epoch training error: (-)0.6429125667
+sk_end_loss: 0
+BTC: 0.6429125666618347
+neg_loss: 0.0
+loss: 0.6429125666618347
+sk_end_loss: 0
+BTC: 0.6550868153572083
+neg_loss: 0.0
+loss: 0.6550868153572083
+saving candidate
+Epoch 018/300 took 740.36 seconds. 		Average epoch training error: (-)0.6550868154
+sk_end_loss: 0
+BTC: 0.6550868153572083
+neg_loss: 0.0
+loss: 0.6550868153572083
+sk_end_loss: 0
+BTC: 0.6383149027824402
+neg_loss: 0.0
+loss: 0.6383149027824402
+saving candidate
+Epoch 019/300 took 737.3 seconds. 		Average epoch training error: (-)0.6383149028
+sk_end_loss: 0
+BTC: 0.6383149027824402
+neg_loss: 0.0
+loss: 0.6383149027824402
+sk_end_loss: 0
+BTC: 0.6250737905502319
+neg_loss: 0.0
+loss: 0.6250737905502319
+saving candidate
+saved
+Epoch 020/300 took 744.54 seconds. 		Average epoch training error: (+)0.6250737906
+sk_end_loss: 0
+BTC: 0.6250737905502319
+neg_loss: 0.0
+loss: 0.6250737905502319
+sk_end_loss: 0
+BTC: 0.6255711317062378
+neg_loss: 0.0
+loss: 0.6255711317062378
+saving candidate
+Epoch 021/300 took 735.82 seconds. 		Average epoch training error: (-)0.6255711317
+sk_end_loss: 0
+BTC: 0.6255711317062378
+neg_loss: 0.0
+loss: 0.6255711317062378
+sk_end_loss: 0
+BTC: 0.6404211521148682
+neg_loss: 0.0
+loss: 0.6404211521148682
+saving candidate
+Epoch 022/300 took 739.23 seconds. 		Average epoch training error: (-)0.6404211521
+sk_end_loss: 0
+BTC: 0.6404211521148682
+neg_loss: 0.0
+loss: 0.6404211521148682
+sk_end_loss: 0
+BTC: 0.6372963190078735
+neg_loss: 0.0
+loss: 0.6372963190078735
+saving candidate
+Epoch 023/300 took 731.78 seconds. 		Average epoch training error: (-)0.637296319 
+sk_end_loss: 0
+BTC: 0.6372963190078735
+neg_loss: 0.0
+loss: 0.6372963190078735
+sk_end_loss: 0
+BTC: 0.622482180595398
+neg_loss: 0.0
+loss: 0.622482180595398
+saving candidate
+saved
+Epoch 024/300 took 735.38 seconds. 		Average epoch training error: (+)0.6224821806
+sk_end_loss: 0
+BTC: 0.622482180595398
+neg_loss: 0.0
+loss: 0.622482180595398
+sk_end_loss: 0
+BTC: 0.6202110648155212
+neg_loss: 0.0
+loss: 0.6202110648155212
+saving candidate
+saved
+Epoch 025/300 took 737.77 seconds. 		Average epoch training error: (+)0.6202110648
+sk_end_loss: 0
+BTC: 0.6202110648155212
+neg_loss: 0.0
+loss: 0.6202110648155212
+sk_end_loss: 0
+BTC: 0.6301546692848206
+neg_loss: 0.0
+loss: 0.6301546692848206
+saving candidate
+Epoch 026/300 took 735.49 seconds. 		Average epoch training error: (-)0.6301546693
+sk_end_loss: 0
+BTC: 0.6301546692848206
+neg_loss: 0.0
+loss: 0.6301546692848206
+sk_end_loss: 0
+BTC: 0.6324467062950134
+neg_loss: 0.0
+loss: 0.6324467062950134
+saving candidate
+Epoch 027/300 took 741.34 seconds. 		Average epoch training error: (-)0.6324467063
+sk_end_loss: 0
+BTC: 0.6324467062950134
+neg_loss: 0.0
+loss: 0.6324467062950134
+sk_end_loss: 0
+BTC: 0.6256237030029297
+neg_loss: 0.0
+loss: 0.6256237030029297
+saving candidate
+Epoch 028/300 took 731.2 seconds. 		Average epoch training error: (-)0.625623703 
+sk_end_loss: 0
+BTC: 0.6256237030029297
+neg_loss: 0.0
+loss: 0.6256237030029297
+sk_end_loss: 0
+BTC: 0.6163867712020874
+neg_loss: 0.0
+loss: 0.6163867712020874
+saving candidate
+saved
+Epoch 029/300 took 745.71 seconds. 		Average epoch training error: (+)0.6163867712
+sk_end_loss: 0
+BTC: 0.6163867712020874
+neg_loss: 0.0
+loss: 0.6163867712020874
+sk_end_loss: 0
+BTC: 0.616421103477478
+neg_loss: 0.0
+loss: 0.616421103477478
+saving candidate
+Epoch 030/300 took 734.52 seconds. 		Average epoch training error: (-)0.6164211035
+sk_end_loss: 0
+BTC: 0.616421103477478
+neg_loss: 0.0
+loss: 0.616421103477478
+sk_end_loss: 0
+BTC: 0.6252936124801636
+neg_loss: 0.0
+loss: 0.6252936124801636
+saving candidate
+Epoch 031/300 took 743.36 seconds. 		Average epoch training error: (-)0.6252936125
+sk_end_loss: 0
+BTC: 0.6252936124801636
+neg_loss: 0.0
+loss: 0.6252936124801636
+sk_end_loss: 0
+BTC: 0.6169549822807312
+neg_loss: 0.0
+loss: 0.6169549822807312
+saving candidate
+Epoch 032/300 took 738.62 seconds. 		Average epoch training error: (-)0.6169549823
+sk_end_loss: 0
+BTC: 0.6169549822807312
+neg_loss: 0.0
+loss: 0.6169549822807312
+sk_end_loss: 0
+BTC: 0.6117035746574402
+neg_loss: 0.0
+loss: 0.6117035746574402
+saving candidate
+saved
+Epoch 033/300 took 737.92 seconds. 		Average epoch training error: (+)0.6117035747
+sk_end_loss: 0
+BTC: 0.6117035746574402
+neg_loss: 0.0
+loss: 0.6117035746574402
+sk_end_loss: 0
+BTC: 0.6230517625808716
+neg_loss: 0.0
+loss: 0.6230517625808716
+saving candidate
+Epoch 034/300 took 741.49 seconds. 		Average epoch training error: (-)0.6230517626
+sk_end_loss: 0
+BTC: 0.6230517625808716
+neg_loss: 0.0
+loss: 0.6230517625808716
+sk_end_loss: 0
+BTC: 0.6317248344421387
+neg_loss: 0.0
+loss: 0.6317248344421387
+saving candidate
+Epoch 035/300 took 739.49 seconds. 		Average epoch training error: (-)0.6317248344
+sk_end_loss: 0
+BTC: 0.6317248344421387
+neg_loss: 0.0
+loss: 0.6317248344421387
+sk_end_loss: 0
+BTC: 0.6145885586738586
+neg_loss: 0.0
+loss: 0.6145885586738586
+saving candidate
+Epoch 036/300 took 741.16 seconds. 		Average epoch training error: (-)0.6145885587
+sk_end_loss: 0
+BTC: 0.6145885586738586
+neg_loss: 0.0
+loss: 0.6145885586738586
+sk_end_loss: 0
+BTC: 0.6074514985084534
+neg_loss: 0.0
+loss: 0.6074514985084534
+saving candidate
+saved
+Epoch 037/300 took 738.08 seconds. 		Average epoch training error: (+)0.6074514985
+sk_end_loss: 0
+BTC: 0.6074514985084534
+neg_loss: 0.0
+loss: 0.6074514985084534
+sk_end_loss: 0
+BTC: 0.622843861579895
+neg_loss: 0.0
+loss: 0.622843861579895
+saving candidate
+Epoch 038/300 took 736.15 seconds. 		Average epoch training error: (-)0.6228438616
+sk_end_loss: 0
+BTC: 0.622843861579895
+neg_loss: 0.0
+loss: 0.622843861579895
+sk_end_loss: 0
+BTC: 0.6238548159599304
+neg_loss: 0.0
+loss: 0.6238548159599304
+saving candidate
+Epoch 039/300 took 740.87 seconds. 		Average epoch training error: (-)0.623854816 
+sk_end_loss: 0
+BTC: 0.6238548159599304
+neg_loss: 0.0
+loss: 0.6238548159599304
+sk_end_loss: 0
+BTC: 0.6037938594818115
+neg_loss: 0.0
+loss: 0.6037938594818115
+saving candidate
+saved
+Epoch 040/300 took 737.32 seconds. 		Average epoch training error: (+)0.6037938595
+sk_end_loss: 0
+BTC: 0.6037938594818115
+neg_loss: 0.0
+loss: 0.6037938594818115
+sk_end_loss: 0
+BTC: 0.6010538339614868
+neg_loss: 0.0
+loss: 0.6010538339614868
+saving candidate
+saved
+Epoch 041/300 took 746.03 seconds. 		Average epoch training error: (+)0.601053834 
+sk_end_loss: 0
+BTC: 0.6010538339614868
+neg_loss: 0.0
+loss: 0.6010538339614868
+sk_end_loss: 0
+BTC: 0.6048957705497742
+neg_loss: 0.0
+loss: 0.6048957705497742
+saving candidate
+Epoch 042/300 took 737.5 seconds. 		Average epoch training error: (-)0.6048957705
+sk_end_loss: 0
+BTC: 0.6048957705497742
+neg_loss: 0.0
+loss: 0.6048957705497742
+sk_end_loss: 0
+BTC: 0.6049067974090576
+neg_loss: 0.0
+loss: 0.6049067974090576
+saving candidate
+Epoch 043/300 took 735.16 seconds. 		Average epoch training error: (-)0.6049067974
+sk_end_loss: 0
+BTC: 0.6049067974090576
+neg_loss: 0.0
+loss: 0.6049067974090576
+sk_end_loss: 0
+BTC: 0.5957399606704712
+neg_loss: 0.0
+loss: 0.5957399606704712
+saving candidate
+saved
+Epoch 044/300 took 735.54 seconds. 		Average epoch training error: (+)0.5957399607
+sk_end_loss: 0
+BTC: 0.5957399606704712
+neg_loss: 0.0
+loss: 0.5957399606704712
+sk_end_loss: 0
+BTC: 0.5947120189666748
+neg_loss: 0.0
+loss: 0.5947120189666748
+saving candidate
+saved
+Epoch 045/300 took 732.49 seconds. 		Average epoch training error: (+)0.594712019 
+sk_end_loss: 0
+BTC: 0.5947120189666748
+neg_loss: 0.0
+loss: 0.5947120189666748
+sk_end_loss: 0
+BTC: 0.5934812426567078
+neg_loss: 0.0
+loss: 0.5934812426567078
+saving candidate
+saved
+Epoch 046/300 took 743.0 seconds. 		Average epoch training error: (+)0.5934812427
+sk_end_loss: 0
+BTC: 0.5934812426567078
+neg_loss: 0.0
+loss: 0.5934812426567078
+sk_end_loss: 0
+BTC: 0.5920602083206177
+neg_loss: 0.0
+loss: 0.5920602083206177
+saving candidate
+saved
+Epoch 047/300 took 742.51 seconds. 		Average epoch training error: (+)0.5920602083
+sk_end_loss: 0
+BTC: 0.5920602083206177
+neg_loss: 0.0
+loss: 0.5920602083206177
+sk_end_loss: 0
+BTC: 0.5904594659805298
+neg_loss: 0.0
+loss: 0.5904594659805298
+saving candidate
+saved
+Epoch 048/300 took 733.92 seconds. 		Average epoch training error: (+)0.590459466 
+sk_end_loss: 0
+BTC: 0.5904594659805298
+neg_loss: 0.0
+loss: 0.5904594659805298
+sk_end_loss: 0
+BTC: 0.5886892080307007
+neg_loss: 0.0
+loss: 0.5886892080307007
+saving candidate
+saved
+Epoch 049/300 took 733.69 seconds. 		Average epoch training error: (+)0.588689208 
+sk_end_loss: 0
+BTC: 0.5886892080307007
+neg_loss: 0.0
+loss: 0.5886892080307007
+sk_end_loss: 0
+BTC: 0.5867581367492676
+neg_loss: 0.0
+loss: 0.5867581367492676
+saving candidate
+saved
+Epoch 050/300 took 738.43 seconds. 		Average epoch training error: (+)0.5867581367
+sk_end_loss: 0
+BTC: 0.5867581367492676
+neg_loss: 0.0
+loss: 0.5867581367492676
+sk_end_loss: 0
+BTC: 0.5846747159957886
+neg_loss: 0.0
+loss: 0.5846747159957886
+saving candidate
+saved
+Epoch 051/300 took 739.78 seconds. 		Average epoch training error: (+)0.584674716 
+sk_end_loss: 0
+BTC: 0.5846747159957886
+neg_loss: 0.0
+loss: 0.5846747159957886
+sk_end_loss: 0
+BTC: 0.5825847387313843
+neg_loss: 0.0
+loss: 0.5825847387313843
+saving candidate
+saved
+Epoch 052/300 took 731.69 seconds. 		Average epoch training error: (+)0.5825847387
+sk_end_loss: 0
+BTC: 0.5825847387313843
+neg_loss: 0.0
+loss: 0.5825847387313843
+sk_end_loss: 0
+BTC: 0.5804336667060852
+neg_loss: 0.0
+loss: 0.5804336667060852
+saving candidate
+saved
+Epoch 053/300 took 737.85 seconds. 		Average epoch training error: (+)0.5804336667
+sk_end_loss: 0
+BTC: 0.5804336667060852
+neg_loss: 0.0
+loss: 0.5804336667060852
+sk_end_loss: 0
+BTC: 0.5781572461128235
+neg_loss: 0.0
+loss: 0.5781572461128235
+saving candidate
+saved
+Epoch 054/300 took 729.74 seconds. 		Average epoch training error: (+)0.5781572461
+sk_end_loss: 0
+BTC: 0.5781572461128235
+neg_loss: 0.0
+loss: 0.5781572461128235
+sk_end_loss: 0
+BTC: 0.5757594108581543
+neg_loss: 0.0
+loss: 0.5757594108581543
+saving candidate
+saved
+Epoch 055/300 took 737.35 seconds. 		Average epoch training error: (+)0.5757594109
+sk_end_loss: 0
+BTC: 0.5757594108581543
+neg_loss: 0.0
+loss: 0.5757594108581543
+sk_end_loss: 0
+BTC: 0.5732439756393433
+neg_loss: 0.0
+loss: 0.5732439756393433
+saving candidate
+saved
+Epoch 056/300 took 742.58 seconds. 		Average epoch training error: (+)0.5732439756
+sk_end_loss: 0
+BTC: 0.5732439756393433
+neg_loss: 0.0
+loss: 0.5732439756393433
+sk_end_loss: 0
+BTC: 0.5735029578208923
+neg_loss: 0.0
+loss: 0.5735029578208923
+saving candidate
+Epoch 057/300 took 727.11 seconds. 		Average epoch training error: (-)0.5735029578
+sk_end_loss: 0
+BTC: 0.5735029578208923
+neg_loss: 0.0
+loss: 0.5735029578208923
+sk_end_loss: 0
+BTC: 0.5690559148788452
+neg_loss: 0.0
+loss: 0.5690559148788452
+saving candidate
+saved
+Epoch 058/300 took 744.04 seconds. 		Average epoch training error: (+)0.5690559149
+sk_end_loss: 0
+BTC: 0.5690559148788452
+neg_loss: 0.0
+loss: 0.5690559148788452
+sk_end_loss: 0
+BTC: 0.5672801733016968
+neg_loss: 0.0
+loss: 0.5672801733016968
+saving candidate
+saved
+Epoch 059/300 took 729.71 seconds. 		Average epoch training error: (+)0.5672801733
+sk_end_loss: 0
+BTC: 0.5672801733016968
+neg_loss: 0.0
+loss: 0.5672801733016968
+sk_end_loss: 0
+BTC: 0.5653002262115479
+neg_loss: 0.0
+loss: 0.5653002262115479
+saving candidate
+saved
+Epoch 060/300 took 736.41 seconds. 		Average epoch training error: (+)0.5653002262
+sk_end_loss: 0
+BTC: 0.5653002262115479
+neg_loss: 0.0
+loss: 0.5653002262115479
+sk_end_loss: 0
+BTC: 0.5631281137466431
+neg_loss: 0.0
+loss: 0.5631281137466431
+saving candidate
+saved
+Epoch 061/300 took 732.92 seconds. 		Average epoch training error: (+)0.5631281137
+sk_end_loss: 0
+BTC: 0.5631281137466431
+neg_loss: 0.0
+loss: 0.5631281137466431
+sk_end_loss: 0
+BTC: 0.5607751607894897
+neg_loss: 0.0
+loss: 0.5607751607894897
+saving candidate
+saved
+Epoch 062/300 took 747.49 seconds. 		Average epoch training error: (+)0.5607751608
+sk_end_loss: 0
+BTC: 0.5607751607894897
+neg_loss: 0.0
+loss: 0.5607751607894897
+sk_end_loss: 0
+BTC: 0.5582519173622131
+neg_loss: 0.0
+loss: 0.5582519173622131
+saving candidate
+saved
+Epoch 063/300 took 738.89 seconds. 		Average epoch training error: (+)0.5582519174
+sk_end_loss: 0
+BTC: 0.5582519173622131
+neg_loss: 0.0
+loss: 0.5582519173622131
+sk_end_loss: 0
+BTC: 0.5555678606033325
+neg_loss: 0.0
+loss: 0.5555678606033325
+saving candidate
+saved
+Epoch 064/300 took 733.04 seconds. 		Average epoch training error: (+)0.5555678606
+sk_end_loss: 0
+BTC: 0.5555678606033325
+neg_loss: 0.0
+loss: 0.5555678606033325
+sk_end_loss: 0
+BTC: 0.5527319312095642
+neg_loss: 0.0
+loss: 0.5527319312095642
+saving candidate
+saved
+Epoch 065/300 took 732.44 seconds. 		Average epoch training error: (+)0.5527319312
+sk_end_loss: 0
+BTC: 0.5527319312095642
+neg_loss: 0.0
+loss: 0.5527319312095642
+sk_end_loss: 0
+BTC: 0.5497527718544006
+neg_loss: 0.0
+loss: 0.5497527718544006
+saving candidate
+saved
+Epoch 066/300 took 742.9 seconds. 		Average epoch training error: (+)0.5497527719
+sk_end_loss: 0
+BTC: 0.5497527718544006
+neg_loss: 0.0
+loss: 0.5497527718544006
+sk_end_loss: 0
+BTC: 0.5466379523277283
+neg_loss: 0.0
+loss: 0.5466379523277283
+saving candidate
+saved
+Epoch 067/300 took 740.5 seconds. 		Average epoch training error: (+)0.5466379523
+sk_end_loss: 0
+BTC: 0.5466379523277283
+neg_loss: 0.0
+loss: 0.5466379523277283
+sk_end_loss: 0
+BTC: 0.5474279522895813
+neg_loss: 0.0
+loss: 0.5474279522895813
+saving candidate
+Epoch 068/300 took 734.75 seconds. 		Average epoch training error: (-)0.5474279523
+sk_end_loss: 0
+BTC: 0.5474279522895813
+neg_loss: 0.0
+loss: 0.5474279522895813
+sk_end_loss: 0
+BTC: 0.5413145422935486
+neg_loss: 0.0
+loss: 0.5413145422935486
+saving candidate
+saved
+Epoch 069/300 took 736.33 seconds. 		Average epoch training error: (+)0.5413145423
+sk_end_loss: 0
+BTC: 0.5413145422935486
+neg_loss: 0.0
+loss: 0.5413145422935486
+sk_end_loss: 0
+BTC: 0.5389987230300903
+neg_loss: 0.0
+loss: 0.5389987230300903
+saving candidate
+saved
+Epoch 070/300 took 731.62 seconds. 		Average epoch training error: (+)0.538998723 
+sk_end_loss: 0
+BTC: 0.5389987230300903
+neg_loss: 0.0
+loss: 0.5389987230300903
+sk_end_loss: 0
+BTC: 0.5364649891853333
+neg_loss: 0.0
+loss: 0.5364649891853333
+saving candidate
+saved
+Epoch 071/300 took 738.4 seconds. 		Average epoch training error: (+)0.5364649892
+sk_end_loss: 0
+BTC: 0.5364649891853333
+neg_loss: 0.0
+loss: 0.5364649891853333
+sk_end_loss: 0
+BTC: 0.5337293148040771
+neg_loss: 0.0
+loss: 0.5337293148040771
+saving candidate
+saved
+Epoch 072/300 took 746.32 seconds. 		Average epoch training error: (+)0.5337293148
+sk_end_loss: 0
+BTC: 0.5337293148040771
+neg_loss: 0.0
+loss: 0.5337293148040771
+sk_end_loss: 0
+BTC: 0.5308061838150024
+neg_loss: 0.0
+loss: 0.5308061838150024
+saving candidate
+saved
+Epoch 073/300 took 735.03 seconds. 		Average epoch training error: (+)0.5308061838
+sk_end_loss: 0
+BTC: 0.5308061838150024
+neg_loss: 0.0
+loss: 0.5308061838150024
+sk_end_loss: 0
+BTC: 0.5277093052864075
+neg_loss: 0.0
+loss: 0.5277093052864075
+saving candidate
+saved
+Epoch 074/300 took 738.78 seconds. 		Average epoch training error: (+)0.5277093053
+sk_end_loss: 0
+BTC: 0.5277093052864075
+neg_loss: 0.0
+loss: 0.5277093052864075
+sk_end_loss: 0
+BTC: 0.5244504809379578
+neg_loss: 0.0
+loss: 0.5244504809379578
+saving candidate
+saved
+Epoch 075/300 took 729.42 seconds. 		Average epoch training error: (+)0.5244504809
+sk_end_loss: 0
+BTC: 0.5244504809379578
+neg_loss: 0.0
+loss: 0.5244504809379578
+sk_end_loss: 0
+BTC: 0.5210410952568054
+neg_loss: 0.0
+loss: 0.5210410952568054
+saving candidate
+saved
+Epoch 076/300 took 736.09 seconds. 		Average epoch training error: (+)0.5210410953
+sk_end_loss: 0
+BTC: 0.5210410952568054
+neg_loss: 0.0
+loss: 0.5210410952568054
+sk_end_loss: 0
+BTC: 0.5174912214279175
+neg_loss: 0.0
+loss: 0.5174912214279175
+saving candidate
+saved
+Epoch 077/300 took 691.76 seconds. 		Average epoch training error: (+)0.5174912214
+sk_end_loss: 0
+BTC: 0.5174912214279175
+neg_loss: 0.0
+loss: 0.5174912214279175
+sk_end_loss: 0
+BTC: 0.5138101577758789
+neg_loss: 0.0
+loss: 0.5138101577758789
+saving candidate
+saved
+Epoch 078/300 took 680.45 seconds. 		Average epoch training error: (+)0.5138101578
+sk_end_loss: 0
+BTC: 0.5138101577758789
+neg_loss: 0.0
+loss: 0.5138101577758789
+sk_end_loss: 0
+BTC: 0.510006308555603
+neg_loss: 0.0
+loss: 0.510006308555603
+saving candidate
+saved
+Epoch 079/300 took 687.51 seconds. 		Average epoch training error: (+)0.5100063086
+sk_end_loss: 0
+BTC: 0.510006308555603
+neg_loss: 0.0
+loss: 0.510006308555603
+sk_end_loss: 0
+BTC: 0.511357843875885
+neg_loss: 0.0
+loss: 0.511357843875885
+saving candidate
+Epoch 080/300 took 680.02 seconds. 		Average epoch training error: (-)0.5113578439
+sk_end_loss: 0
+BTC: 0.511357843875885
+neg_loss: 0.0
+loss: 0.511357843875885
+sk_end_loss: 0
+BTC: 0.5034464597702026
+neg_loss: 0.0
+loss: 0.5034464597702026
+saving candidate
+saved
+Epoch 081/300 took 688.96 seconds. 		Average epoch training error: (+)0.5034464598
+sk_end_loss: 0
+BTC: 0.5034464597702026
+neg_loss: 0.0
+loss: 0.5034464597702026
+sk_end_loss: 0
+BTC: 0.5005722045898438
+neg_loss: 0.0
+loss: 0.5005722045898438
+saving candidate
+saved
+Epoch 082/300 took 685.79 seconds. 		Average epoch training error: (+)0.5005722046
+sk_end_loss: 0
+BTC: 0.5005722045898438
+neg_loss: 0.0
+loss: 0.5005722045898438
+sk_end_loss: 0
+BTC: 0.49748268723487854
+neg_loss: 0.0
+loss: 0.49748268723487854
+saving candidate
+saved
+Epoch 083/300 took 684.9 seconds. 		Average epoch training error: (+)0.4974826872
+sk_end_loss: 0
+BTC: 0.49748268723487854
+neg_loss: 0.0
+loss: 0.49748268723487854
+sk_end_loss: 0
+BTC: 0.4941941201686859
+neg_loss: 0.0
+loss: 0.4941941201686859
+saving candidate
+saved
+Epoch 084/300 took 689.0 seconds. 		Average epoch training error: (+)0.4941941202
+sk_end_loss: 0
+BTC: 0.4941941201686859
+neg_loss: 0.0
+loss: 0.4941941201686859
+sk_end_loss: 0
+BTC: 0.49072128534317017
+neg_loss: 0.0
+loss: 0.49072128534317017
+saving candidate
+saved
+Epoch 085/300 took 686.76 seconds. 		Average epoch training error: (+)0.4907212853
+sk_end_loss: 0
+BTC: 0.49072128534317017
+neg_loss: 0.0
+loss: 0.49072128534317017
+sk_end_loss: 0
+BTC: 0.48707738518714905
+neg_loss: 0.0
+loss: 0.48707738518714905
+saving candidate
+saved
+Epoch 086/300 took 693.95 seconds. 		Average epoch training error: (+)0.4870773852
+sk_end_loss: 0
+BTC: 0.48707738518714905
+neg_loss: 0.0
+loss: 0.48707738518714905
+sk_end_loss: 0
+BTC: 0.4832741618156433
+neg_loss: 0.0
+loss: 0.4832741618156433
+saving candidate
+saved
+Epoch 087/300 took 698.19 seconds. 		Average epoch training error: (+)0.4832741618
+sk_end_loss: 0
+BTC: 0.4832741618156433
+neg_loss: 0.0
+loss: 0.4832741618156433
+sk_end_loss: 0
+BTC: 0.4793224334716797
+neg_loss: 0.0
+loss: 0.4793224334716797
+saving candidate
+saved
+Epoch 088/300 took 681.44 seconds. 		Average epoch training error: (+)0.4793224335
+sk_end_loss: 0
+BTC: 0.4793224334716797
+neg_loss: 0.0
+loss: 0.4793224334716797
+sk_end_loss: 0
+BTC: 0.47523146867752075
+neg_loss: 0.0
+loss: 0.47523146867752075
+saving candidate
+saved
+Epoch 089/300 took 680.63 seconds. 		Average epoch training error: (+)0.4752314687
+sk_end_loss: 0
+BTC: 0.47523146867752075
+neg_loss: 0.0
+loss: 0.47523146867752075
+sk_end_loss: 0
+BTC: 0.4710097312927246
+neg_loss: 0.0
+loss: 0.4710097312927246
+saving candidate
+saved
+Epoch 090/300 took 687.5 seconds. 		Average epoch training error: (+)0.4710097313
+sk_end_loss: 0
+BTC: 0.4710097312927246
+neg_loss: 0.0
+loss: 0.4710097312927246
+sk_end_loss: 0
+BTC: 0.46859437227249146
+neg_loss: 0.0
+loss: 0.46859437227249146
+saving candidate
+saved
+Epoch 091/300 took 700.53 seconds. 		Average epoch training error: (+)0.4685943723
+sk_end_loss: 0
+BTC: 0.46859437227249146
+neg_loss: 0.0
+loss: 0.46859437227249146
+sk_end_loss: 0
+BTC: 0.4636758863925934
+neg_loss: 0.0
+loss: 0.4636758863925934
+saving candidate
+saved
+Epoch 092/300 took 681.98 seconds. 		Average epoch training error: (+)0.4636758864
+sk_end_loss: 0
+BTC: 0.4636758863925934
+neg_loss: 0.0
+loss: 0.4636758863925934
+sk_end_loss: 0
+BTC: 0.46043556928634644
+neg_loss: 0.0
+loss: 0.46043556928634644
+saving candidate
+saved
+Epoch 093/300 took 680.17 seconds. 		Average epoch training error: (+)0.4604355693
+sk_end_loss: 0
+BTC: 0.46043556928634644
+neg_loss: 0.0
+loss: 0.46043556928634644
+sk_end_loss: 0
+BTC: 0.4569624364376068
+neg_loss: 0.0
+loss: 0.4569624364376068
+saving candidate
+saved
+Epoch 094/300 took 679.01 seconds. 		Average epoch training error: (+)0.4569624364
+sk_end_loss: 0
+BTC: 0.4569624364376068
+neg_loss: 0.0
+loss: 0.4569624364376068
+sk_end_loss: 0
+BTC: 0.45600271224975586
+neg_loss: 0.0
+loss: 0.45600271224975586
+saving candidate
+saved
+Epoch 095/300 took 691.05 seconds. 		Average epoch training error: (+)0.4560027122
+sk_end_loss: 0
+BTC: 0.45600271224975586
+neg_loss: 0.0
+loss: 0.45600271224975586
+sk_end_loss: 0
+BTC: 0.44743776321411133
+neg_loss: 0.0
+loss: 0.44743776321411133
+saving candidate
+saved
+Epoch 096/300 took 692.55 seconds. 		Average epoch training error: (+)0.4474377632
+sk_end_loss: 0
+BTC: 0.44743776321411133
+neg_loss: 0.0
+loss: 0.44743776321411133
+sk_end_loss: 0
+BTC: 0.45848268270492554
+neg_loss: 0.0
+loss: 0.45848268270492554
+saving candidate
+Epoch 097/300 took 694.97 seconds. 		Average epoch training error: (-)0.4584826827
+sk_end_loss: 0
+BTC: 0.45848268270492554
+neg_loss: 0.0
+loss: 0.45848268270492554
+sk_end_loss: 0
+BTC: 0.4583011269569397
+neg_loss: 0.0
+loss: 0.4583011269569397
+saving candidate
+Epoch 098/300 took 688.24 seconds. 		Average epoch training error: (-)0.458301127 
+sk_end_loss: 0
+BTC: 0.4583011269569397
+neg_loss: 0.0
+loss: 0.4583011269569397
+sk_end_loss: 0
+BTC: 0.4355909824371338
+neg_loss: 0.0
+loss: 0.4355909824371338
+saving candidate
+saved
+Epoch 099/300 took 694.89 seconds. 		Average epoch training error: (+)0.4355909824
+sk_end_loss: 0
+BTC: 0.4355909824371338
+neg_loss: 0.0
+loss: 0.4355909824371338
+sk_end_loss: 0
+BTC: 0.4493439793586731
+neg_loss: 0.0
+loss: 0.4493439793586731
+saving candidate
+Epoch 100/300 took 698.61 seconds. 		Average epoch training error: (-)0.4493439794
+sk_end_loss: 0
+BTC: 0.4493439793586731
+neg_loss: 0.0
+loss: 0.4493439793586731
+sk_end_loss: 0
+BTC: 0.4419742226600647
+neg_loss: 0.0
+loss: 0.4419742226600647
+saving candidate
+Epoch 101/300 took 689.71 seconds. 		Average epoch training error: (-)0.4419742227
+sk_end_loss: 0
+BTC: 0.4419742226600647
+neg_loss: 0.0
+loss: 0.4419742226600647
+sk_end_loss: 0
+BTC: 0.4224250912666321
+neg_loss: 0.0
+loss: 0.4224250912666321
+saving candidate
+saved
+Epoch 102/300 took 685.09 seconds. 		Average epoch training error: (+)0.4224250913
+sk_end_loss: 0
+BTC: 0.4224250912666321
+neg_loss: 0.0
+loss: 0.4224250912666321
+sk_end_loss: 0
+BTC: 0.43788662552833557
+neg_loss: 0.0
+loss: 0.43788662552833557
+saving candidate
+Epoch 103/300 took 681.93 seconds. 		Average epoch training error: (-)0.4378866255
+sk_end_loss: 0
+BTC: 0.43788662552833557
+neg_loss: 0.0
+loss: 0.43788662552833557
+sk_end_loss: 0
+BTC: 0.42323923110961914
+neg_loss: 0.0
+loss: 0.42323923110961914
+saving candidate
+Epoch 104/300 took 685.86 seconds. 		Average epoch training error: (-)0.4232392311
+sk_end_loss: 0
+BTC: 0.42323923110961914
+neg_loss: 0.0
+loss: 0.42323923110961914
+sk_end_loss: 0
+BTC: 0.40975040197372437
+neg_loss: 0.0
+loss: 0.40975040197372437
+saving candidate
+saved
+Epoch 105/300 took 698.59 seconds. 		Average epoch training error: (+)0.409750402 
+sk_end_loss: 0
+BTC: 0.40975040197372437
+neg_loss: 0.0
+loss: 0.40975040197372437
+sk_end_loss: 0
+BTC: 0.4212522506713867
+neg_loss: 0.0
+loss: 0.4212522506713867
+saving candidate
+Epoch 106/300 took 683.91 seconds. 		Average epoch training error: (-)0.4212522507
+sk_end_loss: 0
+BTC: 0.4212522506713867
+neg_loss: 0.0
+loss: 0.4212522506713867
+sk_end_loss: 0
+BTC: 0.4079229235649109
+neg_loss: 0.0
+loss: 0.4079229235649109
+saving candidate
+saved
+Epoch 107/300 took 681.45 seconds. 		Average epoch training error: (+)0.4079229236
+sk_end_loss: 0
+BTC: 0.4079229235649109
+neg_loss: 0.0
+loss: 0.4079229235649109
+sk_end_loss: 0
+BTC: 0.40465420484542847
+neg_loss: 0.0
+loss: 0.40465420484542847
+saving candidate
+saved
+Epoch 108/300 took 681.02 seconds. 		Average epoch training error: (+)0.4046542048
+sk_end_loss: 0
+BTC: 0.40465420484542847
+neg_loss: 0.0
+loss: 0.40465420484542847
+sk_end_loss: 0
+BTC: 0.4134567677974701
+neg_loss: 0.0
+loss: 0.4134567677974701
+saving candidate
+Epoch 109/300 took 689.95 seconds. 		Average epoch training error: (-)0.4134567678
+sk_end_loss: 0
+BTC: 0.4134567677974701
+neg_loss: 0.0
+loss: 0.4134567677974701
+sk_end_loss: 0
+BTC: 0.4023779332637787
+neg_loss: 0.0
+loss: 0.4023779332637787
+saving candidate
+saved
+Epoch 110/300 took 696.41 seconds. 		Average epoch training error: (+)0.4023779333
+sk_end_loss: 0
+BTC: 0.4023779332637787
+neg_loss: 0.0
+loss: 0.4023779332637787
+sk_end_loss: 0
+BTC: 0.39970701932907104
+neg_loss: 0.0
+loss: 0.39970701932907104
+saving candidate
+saved
+Epoch 111/300 took 684.06 seconds. 		Average epoch training error: (+)0.3997070193
+sk_end_loss: 0
+BTC: 0.39970701932907104
+neg_loss: 0.0
+loss: 0.39970701932907104
+sk_end_loss: 0
+BTC: 0.40069350600242615
+neg_loss: 0.0
+loss: 0.40069350600242615
+saving candidate
+Epoch 112/300 took 678.42 seconds. 		Average epoch training error: (-)0.400693506 
+sk_end_loss: 0
+BTC: 0.40069350600242615
+neg_loss: 0.0
+loss: 0.40069350600242615
+sk_end_loss: 0
+BTC: 0.39666569232940674
+neg_loss: 0.0
+loss: 0.39666569232940674
+saving candidate
+saved
+Epoch 113/300 took 693.4 seconds. 		Average epoch training error: (+)0.3966656923
+sk_end_loss: 0
+BTC: 0.39666569232940674
+neg_loss: 0.0
+loss: 0.39666569232940674
+sk_end_loss: 0
+BTC: 0.4128921926021576
+neg_loss: 0.0
+loss: 0.4128921926021576
+saving candidate
+Epoch 114/300 took 689.63 seconds. 		Average epoch training error: (-)0.4128921926
+sk_end_loss: 0
+BTC: 0.4128921926021576
+neg_loss: 0.0
+loss: 0.4128921926021576
+sk_end_loss: 0
+BTC: 0.4113646447658539
+neg_loss: 0.0
+loss: 0.4113646447658539
+saving candidate
+Epoch 115/300 took 685.09 seconds. 		Average epoch training error: (-)0.4113646448
+sk_end_loss: 0
+BTC: 0.4113646447658539
+neg_loss: 0.0
+loss: 0.4113646447658539
+sk_end_loss: 0
+BTC: 0.39462220668792725
+neg_loss: 0.0
+loss: 0.39462220668792725
+saving candidate
+saved
+Epoch 116/300 took 681.31 seconds. 		Average epoch training error: (+)0.3946222067
+sk_end_loss: 0
+BTC: 0.39462220668792725
+neg_loss: 0.0
+loss: 0.39462220668792725
+sk_end_loss: 0
+BTC: 0.39371174573898315
+neg_loss: 0.0
+loss: 0.39371174573898315
+saving candidate
+saved
+Epoch 117/300 took 680.97 seconds. 		Average epoch training error: (+)0.3937117457
+sk_end_loss: 0
+BTC: 0.39371174573898315
+neg_loss: 0.0
+loss: 0.39371174573898315
+sk_end_loss: 0
+BTC: 0.4129684567451477
+neg_loss: 0.0
+loss: 0.4129684567451477
+saving candidate
+Epoch 118/300 took 696.38 seconds. 		Average epoch training error: (-)0.4129684567
+sk_end_loss: 0
+BTC: 0.4129684567451477
+neg_loss: 0.0
+loss: 0.4129684567451477
+sk_end_loss: 0
+BTC: 0.40067893266677856
+neg_loss: 0.0
+loss: 0.40067893266677856
+saving candidate
+Epoch 119/300 took 693.16 seconds. 		Average epoch training error: (-)0.4006789327
+sk_end_loss: 0
+BTC: 0.40067893266677856
+neg_loss: 0.0
+loss: 0.40067893266677856
+sk_end_loss: 0
+BTC: 0.3952057361602783
+neg_loss: 0.0
+loss: 0.3952057361602783
+saving candidate
+Epoch 120/300 took 683.04 seconds. 		Average epoch training error: (-)0.3952057362
+sk_end_loss: 0
+BTC: 0.3952057361602783
+neg_loss: 0.0
+loss: 0.3952057361602783
+sk_end_loss: 0
+BTC: 0.4048314094543457
+neg_loss: 0.0
+loss: 0.4048314094543457
+saving candidate
+Epoch 121/300 took 687.84 seconds. 		Average epoch training error: (-)0.4048314095
+sk_end_loss: 0
+BTC: 0.4048314094543457
+neg_loss: 0.0
+loss: 0.4048314094543457
+sk_end_loss: 0
+BTC: 0.3943992555141449
+neg_loss: 0.0
+loss: 0.3943992555141449
+saving candidate
+Epoch 122/300 took 681.76 seconds. 		Average epoch training error: (-)0.3943992555
+sk_end_loss: 0
+BTC: 0.3943992555141449
+neg_loss: 0.0
+loss: 0.3943992555141449
+sk_end_loss: 0
+BTC: 0.3945649266242981
+neg_loss: 0.0
+loss: 0.3945649266242981
+saving candidate
+Epoch 123/300 took 690.13 seconds. 		Average epoch training error: (-)0.3945649266
+sk_end_loss: 0
+BTC: 0.3945649266242981
+neg_loss: 0.0
+loss: 0.3945649266242981
+sk_end_loss: 0
+BTC: 0.3977283835411072
+neg_loss: 0.0
+loss: 0.3977283835411072
+saving candidate
+Epoch 124/300 took 687.24 seconds. 		Average epoch training error: (-)0.3977283835
+sk_end_loss: 0
+BTC: 0.3977283835411072
+neg_loss: 0.0
+loss: 0.3977283835411072
+sk_end_loss: 0
+BTC: 0.3919769525527954
+neg_loss: 0.0
+loss: 0.3919769525527954
+saving candidate
+saved
+Epoch 125/300 took 680.55 seconds. 		Average epoch training error: (+)0.3919769526
+sk_end_loss: 0
+BTC: 0.3919769525527954
+neg_loss: 0.0
+loss: 0.3919769525527954
+sk_end_loss: 0
+BTC: 0.40490907430648804
+neg_loss: 0.0
+loss: 0.40490907430648804
+saving candidate
+Epoch 126/300 took 679.22 seconds. 		Average epoch training error: (-)0.4049090743
+sk_end_loss: 0
+BTC: 0.40490907430648804
+neg_loss: 0.0
+loss: 0.40490907430648804
+sk_end_loss: 0
+BTC: 0.40186166763305664
+neg_loss: 0.0
+loss: 0.40186166763305664
+saving candidate
+Epoch 127/300 took 683.43 seconds. 		Average epoch training error: (-)0.4018616676
+sk_end_loss: 0
+BTC: 0.40186166763305664
+neg_loss: 0.0
+loss: 0.40186166763305664
+sk_end_loss: 0
+BTC: 0.39210328459739685
+neg_loss: 0.0
+loss: 0.39210328459739685
+saving candidate
+Epoch 128/300 took 692.75 seconds. 		Average epoch training error: (-)0.3921032846
+sk_end_loss: 0
+BTC: 0.39210328459739685
+neg_loss: 0.0
+loss: 0.39210328459739685
+sk_end_loss: 0
+BTC: 0.40691590309143066
+neg_loss: 0.0
+loss: 0.40691590309143066
+saving candidate
+Epoch 129/300 took 682.25 seconds. 		Average epoch training error: (-)0.4069159031
+sk_end_loss: 0
+BTC: 0.40691590309143066
+neg_loss: 0.0
+loss: 0.40691590309143066
+sk_end_loss: 0
+BTC: 0.4010327458381653
+neg_loss: 0.0
+loss: 0.4010327458381653
+saving candidate
+Epoch 130/300 took 680.04 seconds. 		Average epoch training error: (-)0.4010327458
+sk_end_loss: 0
+BTC: 0.4010327458381653
+neg_loss: 0.0
+loss: 0.4010327458381653
+sk_end_loss: 0
+BTC: 0.39282727241516113
+neg_loss: 0.0
+loss: 0.39282727241516113
+saving candidate
+Epoch 131/300 took 678.92 seconds. 		Average epoch training error: (-)0.3928272724
+sk_end_loss: 0
+BTC: 0.39282727241516113
+neg_loss: 0.0
+loss: 0.39282727241516113
+sk_end_loss: 0
+BTC: 0.4210807681083679
+neg_loss: 0.0
+loss: 0.4210807681083679
+saving candidate
+Epoch 132/300 took 685.36 seconds. 		Average epoch training error: (-)0.4210807681
+sk_end_loss: 0
+BTC: 0.4210807681083679
+neg_loss: 0.0
+loss: 0.4210807681083679
+sk_end_loss: 0
+BTC: 0.40153956413269043
+neg_loss: 0.0
+loss: 0.40153956413269043
+saving candidate
+Epoch 133/300 took 691.13 seconds. 		Average epoch training error: (-)0.4015395641
+sk_end_loss: 0
+BTC: 0.40153956413269043
+neg_loss: 0.0
+loss: 0.40153956413269043
+sk_end_loss: 0
+BTC: 0.39389389753341675
+neg_loss: 0.0
+loss: 0.39389389753341675
+saving candidate
+Epoch 134/300 took 685.32 seconds. 		Average epoch training error: (-)0.3938938975
+sk_end_loss: 0
+BTC: 0.39389389753341675
+neg_loss: 0.0
+loss: 0.39389389753341675
+sk_end_loss: 0
+BTC: 0.4008522629737854
+neg_loss: 0.0
+loss: 0.4008522629737854
+saving candidate
+Epoch 135/300 took 678.88 seconds. 		Average epoch training error: (-)0.400852263 
+sk_end_loss: 0
+BTC: 0.4008522629737854
+neg_loss: 0.0
+loss: 0.4008522629737854
+sk_end_loss: 0
+BTC: 0.3923566937446594
+neg_loss: 0.0
+loss: 0.3923566937446594
+saving candidate
+Epoch 136/300 took 681.93 seconds. 		Average epoch training error: (-)0.3923566937
+sk_end_loss: 0
+BTC: 0.3923566937446594
+neg_loss: 0.0
+loss: 0.3923566937446594
+sk_end_loss: 0
+BTC: 0.39810022711753845
+neg_loss: 0.0
+loss: 0.39810022711753845
+saving candidate
+Epoch 137/300 took 695.93 seconds. 		Average epoch training error: (-)0.3981002271
+sk_end_loss: 0
+BTC: 0.39810022711753845
+neg_loss: 0.0
+loss: 0.39810022711753845
+sk_end_loss: 0
+BTC: 0.39272671937942505
+neg_loss: 0.0
+loss: 0.39272671937942505
+saving candidate
+Epoch 138/300 took 643.06 seconds. 		Average epoch training error: (-)0.3927267194
+sk_end_loss: 0
+BTC: 0.39272671937942505
+neg_loss: 0.0
+loss: 0.39272671937942505
+sk_end_loss: 0
+BTC: 0.3923887014389038
+neg_loss: 0.0
+loss: 0.3923887014389038
+saving candidate
+Epoch 139/300 took 623.63 seconds. 		Average epoch training error: (-)0.3923887014
+sk_end_loss: 0
+BTC: 0.3923887014389038
+neg_loss: 0.0
+loss: 0.3923887014389038
+sk_end_loss: 0
+BTC: 0.3920273184776306
+neg_loss: 0.0
+loss: 0.3920273184776306
+saving candidate
+Epoch 140/300 took 621.9 seconds. 		Average epoch training error: (-)0.3920273185
+sk_end_loss: 0
+BTC: 0.3920273184776306
+neg_loss: 0.0
+loss: 0.3920273184776306
+sk_end_loss: 0
+BTC: 0.3916446566581726
+neg_loss: 0.0
+loss: 0.3916446566581726
+saving candidate
+saved
+Epoch 141/300 took 636.58 seconds. 		Average epoch training error: (+)0.3916446567
+sk_end_loss: 0
+BTC: 0.3916446566581726
+neg_loss: 0.0
+loss: 0.3916446566581726
+sk_end_loss: 0
+BTC: 0.39411264657974243
+neg_loss: 0.0
+loss: 0.39411264657974243
+saving candidate
+Epoch 142/300 took 641.72 seconds. 		Average epoch training error: (-)0.3941126466
+sk_end_loss: 0
+BTC: 0.39411264657974243
+neg_loss: 0.0
+loss: 0.39411264657974243
+sk_end_loss: 0
+BTC: 0.39196670055389404
+neg_loss: 0.0
+loss: 0.39196670055389404
+saving candidate
+Epoch 143/300 took 619.09 seconds. 		Average epoch training error: (-)0.3919667006
+sk_end_loss: 0
+BTC: 0.39196670055389404
+neg_loss: 0.0
+loss: 0.39196670055389404
+sk_end_loss: 0
+BTC: 0.4014057517051697
+neg_loss: 0.0
+loss: 0.4014057517051697
+saving candidate
+Epoch 144/300 took 639.31 seconds. 		Average epoch training error: (-)0.4014057517
+sk_end_loss: 0
+BTC: 0.4014057517051697
+neg_loss: 0.0
+loss: 0.4014057517051697
+sk_end_loss: 0
+BTC: 0.3947485387325287
+neg_loss: 0.0
+loss: 0.3947485387325287
+saving candidate
+Epoch 145/300 took 621.06 seconds. 		Average epoch training error: (-)0.3947485387
+sk_end_loss: 0
+BTC: 0.3947485387325287
+neg_loss: 0.0
+loss: 0.3947485387325287
+sk_end_loss: 0
+BTC: 0.391380250453949
+neg_loss: 0.0
+loss: 0.391380250453949
+saving candidate
+saved
+Epoch 146/300 took 624.61 seconds. 		Average epoch training error: (+)0.3913802505
+sk_end_loss: 0
+BTC: 0.391380250453949
+neg_loss: 0.0
+loss: 0.391380250453949
+sk_end_loss: 0
+BTC: 0.3907667100429535
+neg_loss: 0.0
+loss: 0.3907667100429535
+saving candidate
+saved
+Epoch 147/300 took 624.82 seconds. 		Average epoch training error: (+)0.39076671  
+sk_end_loss: 0
+BTC: 0.3907667100429535
+neg_loss: 0.0
+loss: 0.3907667100429535
+sk_end_loss: 0
+BTC: 0.3906324505805969
+neg_loss: 0.0
+loss: 0.3906324505805969
+saving candidate
+saved
+Epoch 148/300 took 624.96 seconds. 		Average epoch training error: (+)0.3906324506
+sk_end_loss: 0
+BTC: 0.3906324505805969
+neg_loss: 0.0
+loss: 0.3906324505805969
+sk_end_loss: 0
+BTC: 0.390983521938324
+neg_loss: 0.0
+loss: 0.390983521938324
+saving candidate
+Epoch 149/300 took 620.49 seconds. 		Average epoch training error: (-)0.3909835219
+sk_end_loss: 0
+BTC: 0.390983521938324
+neg_loss: 0.0
+loss: 0.390983521938324
+sk_end_loss: 0
+BTC: 0.39272448420524597
+neg_loss: 0.0
+loss: 0.39272448420524597
+saving candidate
+Epoch 150/300 took 619.31 seconds. 		Average epoch training error: (-)0.3927244842
+sk_end_loss: 0
+BTC: 0.39272448420524597
+neg_loss: 0.0
+loss: 0.39272448420524597
+sk_end_loss: 0
+BTC: 0.3942466676235199
+neg_loss: 0.0
+loss: 0.3942466676235199
+saving candidate
+Epoch 151/300 took 625.24 seconds. 		Average epoch training error: (-)0.3942466676
+sk_end_loss: 0
+BTC: 0.3942466676235199
+neg_loss: 0.0
+loss: 0.3942466676235199
+sk_end_loss: 0
+BTC: 0.3913261294364929
+neg_loss: 0.0
+loss: 0.3913261294364929
+saving candidate
+Epoch 152/300 took 618.54 seconds. 		Average epoch training error: (-)0.3913261294
+sk_end_loss: 0
+BTC: 0.3913261294364929
+neg_loss: 0.0
+loss: 0.3913261294364929
+sk_end_loss: 0
+BTC: 0.40420928597450256
+neg_loss: 0.0
+loss: 0.40420928597450256
+saving candidate
+Epoch 153/300 took 618.46 seconds. 		Average epoch training error: (-)0.404209286 
+sk_end_loss: 0
+BTC: 0.40420928597450256
+neg_loss: 0.0
+loss: 0.40420928597450256
+sk_end_loss: 0
+BTC: 0.39151281118392944
+neg_loss: 0.0
+loss: 0.39151281118392944
+saving candidate
+Epoch 154/300 took 621.29 seconds. 		Average epoch training error: (-)0.3915128112
+sk_end_loss: 0
+BTC: 0.39151281118392944
+neg_loss: 0.0
+loss: 0.39151281118392944
+sk_end_loss: 0
+BTC: 0.40284520387649536
+neg_loss: 0.0
+loss: 0.40284520387649536
+saving candidate
+Epoch 155/300 took 619.04 seconds. 		Average epoch training error: (-)0.4028452039
+sk_end_loss: 0
+BTC: 0.40284520387649536
+neg_loss: 0.0
+loss: 0.40284520387649536
+sk_end_loss: 0
+BTC: 0.4181598722934723
+neg_loss: 0.0
+loss: 0.4181598722934723
+saving candidate
+Epoch 156/300 took 621.97 seconds. 		Average epoch training error: (-)0.4181598723
+sk_end_loss: 0
+BTC: 0.4181598722934723
+neg_loss: 0.0
+loss: 0.4181598722934723
+sk_end_loss: 0
+BTC: 0.39140719175338745
+neg_loss: 0.0
+loss: 0.39140719175338745
+saving candidate
+Epoch 157/300 took 636.24 seconds. 		Average epoch training error: (-)0.3914071918
+sk_end_loss: 0
+BTC: 0.39140719175338745
+neg_loss: 0.0
+loss: 0.39140719175338745
+sk_end_loss: 0
+BTC: 0.4018734395503998
+neg_loss: 0.0
+loss: 0.4018734395503998
+saving candidate
+Epoch 158/300 took 621.69 seconds. 		Average epoch training error: (-)0.4018734396
+sk_end_loss: 0
+BTC: 0.4018734395503998
+neg_loss: 0.0
+loss: 0.4018734395503998
+sk_end_loss: 0
+BTC: 0.39855656027793884
+neg_loss: 0.0
+loss: 0.39855656027793884
+saving candidate
+Epoch 159/300 took 642.45 seconds. 		Average epoch training error: (-)0.3985565603
+sk_end_loss: 0
+BTC: 0.39855656027793884
+neg_loss: 0.0
+loss: 0.39855656027793884
+sk_end_loss: 0
+BTC: 0.39142170548439026
+neg_loss: 0.0
+loss: 0.39142170548439026
+saving candidate
+Epoch 160/300 took 617.69 seconds. 		Average epoch training error: (-)0.3914217055
+sk_end_loss: 0
+BTC: 0.39142170548439026
+neg_loss: 0.0
+loss: 0.39142170548439026
+sk_end_loss: 0
+BTC: 0.42006397247314453
+neg_loss: 0.0
+loss: 0.42006397247314453
+saving candidate
+Epoch 161/300 took 623.59 seconds. 		Average epoch training error: (-)0.4200639725
+sk_end_loss: 0
+BTC: 0.42006397247314453
+neg_loss: 0.0
+loss: 0.42006397247314453
+sk_end_loss: 0
+BTC: 0.3985532820224762
+neg_loss: 0.0
+loss: 0.3985532820224762
+saving candidate
+Epoch 162/300 took 615.33 seconds. 		Average epoch training error: (-)0.398553282 
+sk_end_loss: 0
+BTC: 0.3985532820224762
+neg_loss: 0.0
+loss: 0.3985532820224762
+sk_end_loss: 0
+BTC: 0.39751896262168884
+neg_loss: 0.0
+loss: 0.39751896262168884
+saving candidate
+Epoch 163/300 took 624.99 seconds. 		Average epoch training error: (-)0.3975189626
+sk_end_loss: 0
+BTC: 0.39751896262168884
+neg_loss: 0.0
+loss: 0.39751896262168884
+sk_end_loss: 0
+BTC: 0.40542173385620117
+neg_loss: 0.0
+loss: 0.40542173385620117
+saving candidate
+Epoch 164/300 took 632.57 seconds. 		Average epoch training error: (-)0.4054217339
+sk_end_loss: 0
+BTC: 0.40542173385620117
+neg_loss: 0.0
+loss: 0.40542173385620117
+sk_end_loss: 0
+BTC: 0.3910406827926636
+neg_loss: 0.0
+loss: 0.3910406827926636
+saving candidate
+Epoch 165/300 took 619.27 seconds. 		Average epoch training error: (-)0.3910406828
+sk_end_loss: 0
+BTC: 0.3910406827926636
+neg_loss: 0.0
+loss: 0.3910406827926636
+sk_end_loss: 0
+BTC: 0.3938404321670532
+neg_loss: 0.0
+loss: 0.3938404321670532
+saving candidate
+Epoch 166/300 took 620.46 seconds. 		Average epoch training error: (-)0.3938404322
+sk_end_loss: 0
+BTC: 0.3938404321670532
+neg_loss: 0.0
+loss: 0.3938404321670532
+sk_end_loss: 0
+BTC: 0.3916205167770386
+neg_loss: 0.0
+loss: 0.3916205167770386
+saving candidate
+Epoch 167/300 took 621.08 seconds. 		Average epoch training error: (-)0.3916205168
+sk_end_loss: 0
+BTC: 0.3916205167770386
+neg_loss: 0.0
+loss: 0.3916205167770386
+sk_end_loss: 0
+BTC: 0.39135730266571045
+neg_loss: 0.0
+loss: 0.39135730266571045
+saving candidate
+Epoch 168/300 took 620.18 seconds. 		Average epoch training error: (-)0.3913573027
+sk_end_loss: 0
+BTC: 0.39135730266571045
+neg_loss: 0.0
+loss: 0.39135730266571045
+sk_end_loss: 0
+BTC: 0.3910612463951111
+neg_loss: 0.0
+loss: 0.3910612463951111
+saving candidate
+Epoch 169/300 took 635.13 seconds. 		Average epoch training error: (-)0.3910612464
+sk_end_loss: 0
+BTC: 0.3910612463951111
+neg_loss: 0.0
+loss: 0.3910612463951111
+sk_end_loss: 0
+BTC: 0.3907354772090912
+neg_loss: 0.0
+loss: 0.3907354772090912
+saving candidate
+Epoch 170/300 took 620.53 seconds. 		Average epoch training error: (-)0.3907354772
+sk_end_loss: 0
+BTC: 0.3907354772090912
+neg_loss: 0.0
+loss: 0.3907354772090912
+sk_end_loss: 0
+BTC: 0.3975905179977417
+neg_loss: 0.0
+loss: 0.3975905179977417
+saving candidate
+Epoch 171/300 took 631.12 seconds. 		Average epoch training error: (-)0.397590518 
+sk_end_loss: 0
+BTC: 0.3975905179977417
+neg_loss: 0.0
+loss: 0.3975905179977417
+sk_end_loss: 0
+BTC: 0.39124786853790283
+neg_loss: 0.0
+loss: 0.39124786853790283
+saving candidate
+Epoch 172/300 took 633.19 seconds. 		Average epoch training error: (-)0.3912478685
+sk_end_loss: 0
+BTC: 0.39124786853790283
+neg_loss: 0.0
+loss: 0.39124786853790283
+sk_end_loss: 0
+BTC: 0.39955252408981323
+neg_loss: 0.0
+loss: 0.39955252408981323
+saving candidate
+Epoch 173/300 took 633.17 seconds. 		Average epoch training error: (-)0.3995525241
+sk_end_loss: 0
+BTC: 0.39955252408981323
+neg_loss: 0.0
+loss: 0.39955252408981323
+sk_end_loss: 0
+BTC: 0.39339226484298706
+neg_loss: 0.0
+loss: 0.39339226484298706
+saving candidate
+Epoch 174/300 took 617.54 seconds. 		Average epoch training error: (-)0.3933922648
+sk_end_loss: 0
+BTC: 0.39339226484298706
+neg_loss: 0.0
+loss: 0.39339226484298706
+sk_end_loss: 0
+BTC: 0.39245256781578064
+neg_loss: 0.0
+loss: 0.39245256781578064
+saving candidate
+Epoch 175/300 took 618.12 seconds. 		Average epoch training error: (-)0.3924525678
+sk_end_loss: 0
+BTC: 0.39245256781578064
+neg_loss: 0.0
+loss: 0.39245256781578064
+sk_end_loss: 0
+BTC: 0.3908197283744812
+neg_loss: 0.0
+loss: 0.3908197283744812
+saving candidate
+Epoch 176/300 took 624.56 seconds. 		Average epoch training error: (-)0.3908197284
+sk_end_loss: 0
+BTC: 0.3908197283744812
+neg_loss: 0.0
+loss: 0.3908197283744812
+sk_end_loss: 0
+BTC: 0.39083826541900635
+neg_loss: 0.0
+loss: 0.39083826541900635
+saving candidate
+Epoch 177/300 took 620.7 seconds. 		Average epoch training error: (-)0.3908382654
+sk_end_loss: 0
+BTC: 0.39083826541900635
+neg_loss: 0.0
+loss: 0.39083826541900635
+sk_end_loss: 0
+BTC: 0.39080601930618286
+neg_loss: 0.0
+loss: 0.39080601930618286
+saving candidate
+Epoch 178/300 took 622.51 seconds. 		Average epoch training error: (-)0.3908060193
+sk_end_loss: 0
+BTC: 0.39080601930618286
+neg_loss: 0.0
+loss: 0.39080601930618286
+sk_end_loss: 0
+BTC: 0.390727698802948
+neg_loss: 0.0
+loss: 0.390727698802948
+saving candidate
+Epoch 179/300 took 620.97 seconds. 		Average epoch training error: (-)0.3907276988
+sk_end_loss: 0
+BTC: 0.390727698802948
+neg_loss: 0.0
+loss: 0.390727698802948
+sk_end_loss: 0
+BTC: 0.39081957936286926
+neg_loss: 0.0
+loss: 0.39081957936286926
+saving candidate
+Epoch 180/300 took 624.18 seconds. 		Average epoch training error: (-)0.3908195794
+sk_end_loss: 0
+BTC: 0.39081957936286926
+neg_loss: 0.0
+loss: 0.39081957936286926
+sk_end_loss: 0
+BTC: 0.3908451199531555
+neg_loss: 0.0
+loss: 0.3908451199531555
+saving candidate
+Epoch 181/300 took 620.52 seconds. 		Average epoch training error: (-)0.39084512  
+sk_end_loss: 0
+BTC: 0.3908451199531555
+neg_loss: 0.0
+loss: 0.3908451199531555
+sk_end_loss: 0
+BTC: 0.3908081650733948
+neg_loss: 0.0
+loss: 0.3908081650733948
+saving candidate
+Epoch 182/300 took 622.0 seconds. 		Average epoch training error: (-)0.3908081651
+sk_end_loss: 0
+BTC: 0.3908081650733948
+neg_loss: 0.0
+loss: 0.3908081650733948
+sk_end_loss: 0
+BTC: 0.39071470499038696
+neg_loss: 0.0
+loss: 0.39071470499038696
+saving candidate
+Epoch 183/300 took 617.45 seconds. 		Average epoch training error: (-)0.390714705 
+sk_end_loss: 0
+BTC: 0.39071470499038696
+neg_loss: 0.0
+loss: 0.39071470499038696
+sk_end_loss: 0
+BTC: 0.39428040385246277
+neg_loss: 0.0
+loss: 0.39428040385246277
+saving candidate
+Epoch 184/300 took 619.01 seconds. 		Average epoch training error: (-)0.3942804039
+sk_end_loss: 0
+BTC: 0.39428040385246277
+neg_loss: 0.0
+loss: 0.39428040385246277
+sk_end_loss: 0
+BTC: 0.3915702998638153
+neg_loss: 0.0
+loss: 0.3915702998638153
+saving candidate
+Epoch 185/300 took 637.16 seconds. 		Average epoch training error: (-)0.3915702999
+sk_end_loss: 0
+BTC: 0.3915702998638153
+neg_loss: 0.0
+loss: 0.3915702998638153
+sk_end_loss: 0
+BTC: 0.40888500213623047
+neg_loss: 0.0
+loss: 0.40888500213623047
+saving candidate
+Epoch 186/300 took 609.95 seconds. 		Average epoch training error: (-)0.4088850021
+sk_end_loss: 0
+BTC: 0.40888500213623047
+neg_loss: 0.0
+loss: 0.40888500213623047
+sk_end_loss: 0
+BTC: 0.4050367474555969
+neg_loss: 0.0
+loss: 0.4050367474555969
+saving candidate
+Epoch 187/300 took 638.4 seconds. 		Average epoch training error: (-)0.4050367475
+sk_end_loss: 0
+BTC: 0.4050367474555969
+neg_loss: 0.0
+loss: 0.4050367474555969
+sk_end_loss: 0
+BTC: 0.39100492000579834
+neg_loss: 0.0
+loss: 0.39100492000579834
+saving candidate
+Epoch 188/300 took 625.88 seconds. 		Average epoch training error: (-)0.39100492  
+sk_end_loss: 0
+BTC: 0.39100492000579834
+neg_loss: 0.0
+loss: 0.39100492000579834
+sk_end_loss: 0
+BTC: 0.405893474817276
+neg_loss: 0.0
+loss: 0.405893474817276
+saving candidate
+Epoch 189/300 took 615.61 seconds. 		Average epoch training error: (-)0.4058934748
+sk_end_loss: 0
+BTC: 0.405893474817276
+neg_loss: 0.0
+loss: 0.405893474817276
+sk_end_loss: 0
+BTC: 0.39904338121414185
+neg_loss: 0.0
+loss: 0.39904338121414185
+saving candidate
+Epoch 190/300 took 614.36 seconds. 		Average epoch training error: (-)0.3990433812
+sk_end_loss: 0
+BTC: 0.39904338121414185
+neg_loss: 0.0
+loss: 0.39904338121414185
+sk_end_loss: 0
+BTC: 0.3930785655975342
+neg_loss: 0.0
+loss: 0.3930785655975342
+saving candidate
+Epoch 191/300 took 623.83 seconds. 		Average epoch training error: (-)0.3930785656
+sk_end_loss: 0
+BTC: 0.3930785655975342
+neg_loss: 0.0
+loss: 0.3930785655975342
+sk_end_loss: 0
+BTC: 0.39994215965270996
+neg_loss: 0.0
+loss: 0.39994215965270996
+saving candidate
+Epoch 192/300 took 612.84 seconds. 		Average epoch training error: (-)0.3999421597
+sk_end_loss: 0
+BTC: 0.39994215965270996
+neg_loss: 0.0
+loss: 0.39994215965270996
+sk_end_loss: 0
+BTC: 0.39132195711135864
+neg_loss: 0.0
+loss: 0.39132195711135864
+saving candidate
+Epoch 193/300 took 611.81 seconds. 		Average epoch training error: (-)0.3913219571
+sk_end_loss: 0
+BTC: 0.39132195711135864
+neg_loss: 0.0
+loss: 0.39132195711135864
+sk_end_loss: 0
+BTC: 0.39112257957458496
+neg_loss: 0.0
+loss: 0.39112257957458496
+saving candidate
+Epoch 194/300 took 614.59 seconds. 		Average epoch training error: (-)0.3911225796
+sk_end_loss: 0
+BTC: 0.39112257957458496
+neg_loss: 0.0
+loss: 0.39112257957458496
+sk_end_loss: 0
+BTC: 0.4057062566280365
+neg_loss: 0.0
+loss: 0.4057062566280365
+saving candidate
+Epoch 195/300 took 611.08 seconds. 		Average epoch training error: (-)0.4057062566
+sk_end_loss: 0
+BTC: 0.4057062566280365
+neg_loss: 0.0
+loss: 0.4057062566280365
+sk_end_loss: 0
+BTC: 0.3910468518733978
+neg_loss: 0.0
+loss: 0.3910468518733978
+saving candidate
+Epoch 196/300 took 613.3 seconds. 		Average epoch training error: (-)0.3910468519
+sk_end_loss: 0
+BTC: 0.3910468518733978
+neg_loss: 0.0
+loss: 0.3910468518733978
+sk_end_loss: 0
+BTC: 0.391135036945343
+neg_loss: 0.0
+loss: 0.391135036945343
+saving candidate
+Epoch 197/300 took 633.65 seconds. 		Average epoch training error: (-)0.3911350369
+sk_end_loss: 0
+BTC: 0.391135036945343
+neg_loss: 0.0
+loss: 0.391135036945343
+sk_end_loss: 0
+BTC: 0.3954220414161682
+neg_loss: 0.0
+loss: 0.3954220414161682
+saving candidate
+Epoch 198/300 took 615.83 seconds. 		Average epoch training error: (-)0.3954220414
+sk_end_loss: 0
+BTC: 0.3954220414161682
+neg_loss: 0.0
+loss: 0.3954220414161682
+sk_end_loss: 0
+BTC: 0.3912384510040283
+neg_loss: 0.0
+loss: 0.3912384510040283
+saving candidate
+Epoch 199/300 took 612.06 seconds. 		Average epoch training error: (-)0.391238451 
+sk_end_loss: 0
+BTC: 0.3912384510040283
+neg_loss: 0.0
+loss: 0.3912384510040283
+sk_end_loss: 0
+BTC: 0.39076969027519226
+neg_loss: 0.0
+loss: 0.39076969027519226
+saving candidate
+Epoch 200/300 took 607.98 seconds. 		Average epoch training error: (-)0.3907696903
+sk_end_loss: 0
+BTC: 0.39076969027519226
+neg_loss: 0.0
+loss: 0.39076969027519226
+sk_end_loss: 0
+BTC: 0.39944279193878174
+neg_loss: 0.0
+loss: 0.39944279193878174
+saving candidate
+Epoch 201/300 took 611.43 seconds. 		Average epoch training error: (-)0.3994427919
+sk_end_loss: 0
+BTC: 0.39944279193878174
+neg_loss: 0.0
+loss: 0.39944279193878174
+sk_end_loss: 0
+BTC: 0.3910715878009796
+neg_loss: 0.0
+loss: 0.3910715878009796
+saving candidate
+Epoch 202/300 took 623.68 seconds. 		Average epoch training error: (-)0.3910715878
+sk_end_loss: 0
+BTC: 0.3910715878009796
+neg_loss: 0.0
+loss: 0.3910715878009796
+sk_end_loss: 0
+BTC: 0.3920193314552307
+neg_loss: 0.0
+loss: 0.3920193314552307
+saving candidate
+Epoch 203/300 took 622.72 seconds. 		Average epoch training error: (-)0.3920193315
+sk_end_loss: 0
+BTC: 0.3920193314552307
+neg_loss: 0.0
+loss: 0.3920193314552307
+sk_end_loss: 0
+BTC: 0.39130833745002747
+neg_loss: 0.0
+loss: 0.39130833745002747
+saving candidate
+Epoch 204/300 took 615.12 seconds. 		Average epoch training error: (-)0.3913083375
+sk_end_loss: 0
+BTC: 0.39130833745002747
+neg_loss: 0.0
+loss: 0.39130833745002747
+sk_end_loss: 0
+BTC: 0.3908771872520447
+neg_loss: 0.0
+loss: 0.3908771872520447
+saving candidate
+Epoch 205/300 took 612.75 seconds. 		Average epoch training error: (-)0.3908771873
+sk_end_loss: 0
+BTC: 0.3908771872520447
+neg_loss: 0.0
+loss: 0.3908771872520447
+sk_end_loss: 0
+BTC: 0.39552420377731323
+neg_loss: 0.0
+loss: 0.39552420377731323
+saving candidate
+Epoch 206/300 took 624.76 seconds. 		Average epoch training error: (-)0.3955242038
+sk_end_loss: 0
+BTC: 0.39552420377731323
+neg_loss: 0.0
+loss: 0.39552420377731323
+sk_end_loss: 0
+BTC: 0.3912486433982849
+neg_loss: 0.0
+loss: 0.3912486433982849
+saving candidate
+Epoch 207/300 took 612.28 seconds. 		Average epoch training error: (-)0.3912486434
+sk_end_loss: 0
+BTC: 0.3912486433982849
+neg_loss: 0.0
+loss: 0.3912486433982849
+sk_end_loss: 0
+BTC: 0.3988334834575653
+neg_loss: 0.0
+loss: 0.3988334834575653
+saving candidate
+Epoch 208/300 took 610.88 seconds. 		Average epoch training error: (-)0.3988334835
+sk_end_loss: 0
+BTC: 0.3988334834575653
+neg_loss: 0.0
+loss: 0.3988334834575653
+sk_end_loss: 0
+BTC: 0.3915410339832306
+neg_loss: 0.0
+loss: 0.3915410339832306
+saving candidate
+Epoch 209/300 took 614.3 seconds. 		Average epoch training error: (-)0.391541034 
+sk_end_loss: 0
+BTC: 0.3915410339832306
+neg_loss: 0.0
+loss: 0.3915410339832306
+sk_end_loss: 0
+BTC: 0.3911307454109192
+neg_loss: 0.0
+loss: 0.3911307454109192
+saving candidate
+Epoch 210/300 took 623.34 seconds. 		Average epoch training error: (-)0.3911307454
+sk_end_loss: 0
+BTC: 0.3911307454109192
+neg_loss: 0.0
+loss: 0.3911307454109192
+sk_end_loss: 0
+BTC: 0.3909629285335541
+neg_loss: 0.0
+loss: 0.3909629285335541
+saving candidate
+Epoch 211/300 took 625.73 seconds. 		Average epoch training error: (-)0.3909629285
+sk_end_loss: 0
+BTC: 0.3909629285335541
+neg_loss: 0.0
+loss: 0.3909629285335541
+sk_end_loss: 0
+BTC: 0.39219939708709717
+neg_loss: 0.0
+loss: 0.39219939708709717
+saving candidate
+Epoch 212/300 took 608.31 seconds. 		Average epoch training error: (-)0.3921993971
+sk_end_loss: 0
+BTC: 0.39219939708709717
+neg_loss: 0.0
+loss: 0.39219939708709717
+sk_end_loss: 0
+BTC: 0.39122408628463745
+neg_loss: 0.0
+loss: 0.39122408628463745
+saving candidate
+Epoch 213/300 took 611.22 seconds. 		Average epoch training error: (-)0.3912240863
+sk_end_loss: 0
+BTC: 0.39122408628463745
+neg_loss: 0.0
+loss: 0.39122408628463745
+sk_end_loss: 0
+BTC: 0.4048077464103699
+neg_loss: 0.0
+loss: 0.4048077464103699
+saving candidate
+Epoch 214/300 took 636.62 seconds. 		Average epoch training error: (-)0.4048077464
+sk_end_loss: 0
+BTC: 0.4048077464103699
+neg_loss: 0.0
+loss: 0.4048077464103699
+sk_end_loss: 0
+BTC: 0.397980660200119
+neg_loss: 0.0
+loss: 0.397980660200119
+saving candidate
+Epoch 215/300 took 611.49 seconds. 		Average epoch training error: (-)0.3979806602
+sk_end_loss: 0
+BTC: 0.397980660200119
+neg_loss: 0.0
+loss: 0.397980660200119
+sk_end_loss: 0
+BTC: 0.3911117911338806
+neg_loss: 0.0
+loss: 0.3911117911338806
+saving candidate
+Epoch 216/300 took 624.61 seconds. 		Average epoch training error: (-)0.3911117911
+sk_end_loss: 0
+BTC: 0.3911117911338806
+neg_loss: 0.0
+loss: 0.3911117911338806
+sk_end_loss: 0
+BTC: 0.4354177415370941
+neg_loss: 0.0
+loss: 0.4354177415370941
+saving candidate
+Epoch 217/300 took 617.13 seconds. 		Average epoch training error: (-)0.4354177415
+sk_end_loss: 0
+BTC: 0.4354177415370941
+neg_loss: 0.0
+loss: 0.4354177415370941
+sk_end_loss: 0
+BTC: 0.4301055371761322
+neg_loss: 1.1170780622672856e-15
+loss: 0.4301055371761322
+Epoch 218/300 took 610.51 seconds. 		Average epoch training error: (-)0.4301055372
+sk_end_loss: 0
+BTC: 0.4301055371761322
+neg_loss: 1.1170780622672856e-15
+loss: 0.4301055371761322
+sk_end_loss: 0
+BTC: 0.5034167170524597
+neg_loss: 2.5182899321407604e-08
+loss: 0.50593501329422
+Epoch 219/300 took 611.98 seconds. 		Average epoch training error: (-)0.5059350133
+sk_end_loss: 0
+BTC: 0.5034167170524597
+neg_loss: 2.5182899321407604e-08
+loss: 0.50593501329422
+sk_end_loss: 0
+BTC: 0.418948233127594
+neg_loss: 0.0
+loss: 0.418948233127594
+saving candidate
+Epoch 220/300 took 610.73 seconds. 		Average epoch training error: (-)0.4189482331
+sk_end_loss: 0
+BTC: 0.418948233127594
+neg_loss: 0.0
+loss: 0.418948233127594
+sk_end_loss: 0
+BTC: 0.4333781599998474
+neg_loss: 0.0
+loss: 0.4333781599998474
+saving candidate
+Epoch 221/300 took 613.26 seconds. 		Average epoch training error: (-)0.43337816  
+sk_end_loss: 0
+BTC: 0.4333781599998474
+neg_loss: 0.0
+loss: 0.4333781599998474
+sk_end_loss: 0
+BTC: 0.39138010144233704
+neg_loss: 0.0
+loss: 0.39138010144233704
+saving candidate
+Epoch 222/300 took 626.1 seconds. 		Average epoch training error: (-)0.3913801014
+sk_end_loss: 0
+BTC: 0.39138010144233704
+neg_loss: 0.0
+loss: 0.39138010144233704
+sk_end_loss: 0
+BTC: 0.40663498640060425
+neg_loss: 0.0
+loss: 0.40663498640060425
+saving candidate
+Epoch 223/300 took 610.44 seconds. 		Average epoch training error: (-)0.4066349864
+sk_end_loss: 0
+BTC: 0.40663498640060425
+neg_loss: 0.0
+loss: 0.40663498640060425
+sk_end_loss: 0
+BTC: 0.4149762988090515
+neg_loss: 0.0
+loss: 0.4149762988090515
+saving candidate
+Epoch 224/300 took 624.6 seconds. 		Average epoch training error: (-)0.4149762988
+sk_end_loss: 0
+BTC: 0.4149762988090515
+neg_loss: 0.0
+loss: 0.4149762988090515
+sk_end_loss: 0
+BTC: 0.3914276361465454
+neg_loss: 0.0
+loss: 0.3914276361465454
+saving candidate
+Epoch 225/300 took 612.86 seconds. 		Average epoch training error: (-)0.3914276361
+sk_end_loss: 0
+BTC: 0.3914276361465454
+neg_loss: 0.0
+loss: 0.3914276361465454
+sk_end_loss: 0
+BTC: 0.41238680481910706
+neg_loss: 0.0
+loss: 0.41238680481910706
+saving candidate
+Epoch 226/300 took 633.62 seconds. 		Average epoch training error: (-)0.4123868048
+sk_end_loss: 0
+BTC: 0.41238680481910706
+neg_loss: 0.0
+loss: 0.41238680481910706
+sk_end_loss: 0
+BTC: 0.4146338403224945
+neg_loss: 0.0
+loss: 0.4146338403224945
+saving candidate
+Epoch 227/300 took 623.27 seconds. 		Average epoch training error: (-)0.4146338403
+sk_end_loss: 0
+BTC: 0.4146338403224945
+neg_loss: 0.0
+loss: 0.4146338403224945
+sk_end_loss: 0
+BTC: 0.4049530625343323
+neg_loss: 0.0
+loss: 0.4049530625343323
+saving candidate
+Epoch 228/300 took 614.65 seconds. 		Average epoch training error: (-)0.4049530625
+sk_end_loss: 0
+BTC: 0.4049530625343323
+neg_loss: 0.0
+loss: 0.4049530625343323
+sk_end_loss: 0
+BTC: 0.4650317132472992
+neg_loss: 2.499249696086281e-09
+loss: 0.4652816355228424
+Epoch 229/300 took 609.48 seconds. 		Average epoch training error: (-)0.4652816355
+sk_end_loss: 0
+BTC: 0.4650317132472992
+neg_loss: 2.499249696086281e-09
+loss: 0.4652816355228424
+sk_end_loss: 0
+BTC: 0.41002702713012695
+neg_loss: 0.0
+loss: 0.41002702713012695
+saving candidate
+Epoch 230/300 took 617.82 seconds. 		Average epoch training error: (-)0.4100270271
+sk_end_loss: 0
+BTC: 0.41002702713012695
+neg_loss: 0.0
+loss: 0.41002702713012695
+sk_end_loss: 0
+BTC: 0.411003977060318
+neg_loss: 0.0
+loss: 0.411003977060318
+saving candidate
+Epoch 231/300 took 630.31 seconds. 		Average epoch training error: (-)0.4110039771
+sk_end_loss: 0
+BTC: 0.411003977060318
+neg_loss: 0.0
+loss: 0.411003977060318
+sk_end_loss: 0
+BTC: 0.5266563892364502
+neg_loss: 0.0
+loss: 0.5266563892364502
+saving candidate
+Epoch 232/300 took 624.69 seconds. 		Average epoch training error: (-)0.5266563892
+sk_end_loss: 0
+BTC: 0.5266563892364502
+neg_loss: 0.0
+loss: 0.5266563892364502
+sk_end_loss: 0
+BTC: 0.3911272883415222
+neg_loss: 0.0
+loss: 0.3911272883415222
+saving candidate
+Epoch 233/300 took 618.06 seconds. 		Average epoch training error: (-)0.3911272883
+sk_end_loss: 0
+BTC: 0.3911272883415222
+neg_loss: 0.0
+loss: 0.3911272883415222
+sk_end_loss: 0
+BTC: 0.4743119776248932
+neg_loss: 5.01692776211371e-09
+loss: 0.47481366991996765
+Epoch 234/300 took 619.35 seconds. 		Average epoch training error: (-)0.4748136699
+sk_end_loss: 0
+BTC: 0.4743119776248932
+neg_loss: 5.01692776211371e-09
+loss: 0.47481366991996765
+sk_end_loss: 0
+BTC: 0.4706609845161438
+neg_loss: 3.7853817858035654e-09
+loss: 0.4710395336151123
+Epoch 235/300 took 629.59 seconds. 		Average epoch training error: (-)0.4710395336
+sk_end_loss: 0
+BTC: 0.4706609845161438
+neg_loss: 3.7853817858035654e-09
+loss: 0.4710395336151123
+sk_end_loss: 0
+BTC: 0.3912719190120697
+neg_loss: 0.0
+loss: 0.3912719190120697
+saving candidate
+Epoch 236/300 took 645.6 seconds. 		Average epoch training error: (-)0.391271919 
+sk_end_loss: 0
+BTC: 0.3912719190120697
+neg_loss: 0.0
+loss: 0.3912719190120697
+sk_end_loss: 0
+BTC: 0.4360298216342926
+neg_loss: 0.0
+loss: 0.4360298216342926
+saving candidate
+Epoch 237/300 took 622.83 seconds. 		Average epoch training error: (-)0.4360298216
+sk_end_loss: 0
+BTC: 0.4360298216342926
+neg_loss: 0.0
+loss: 0.4360298216342926
+sk_end_loss: 0
+BTC: 0.3911505937576294
+neg_loss: 0.0
+loss: 0.3911505937576294
+saving candidate
+Epoch 238/300 took 621.31 seconds. 		Average epoch training error: (-)0.3911505938
+sk_end_loss: 0
+BTC: 0.3911505937576294
+neg_loss: 0.0
+loss: 0.3911505937576294
+sk_end_loss: 0
+BTC: 0.42722636461257935
+neg_loss: 0.0
+loss: 0.42722636461257935
+saving candidate
+Epoch 239/300 took 615.67 seconds. 		Average epoch training error: (-)0.4272263646
+sk_end_loss: 0
+BTC: 0.42722636461257935
+neg_loss: 0.0
+loss: 0.42722636461257935
+sk_end_loss: 0
+BTC: 0.42802923917770386
+neg_loss: 0.0
+loss: 0.42802923917770386
+saving candidate
+Epoch 240/300 took 617.01 seconds. 		Average epoch training error: (-)0.4280292392
+sk_end_loss: 0
+BTC: 0.42802923917770386
+neg_loss: 0.0
+loss: 0.42802923917770386
+sk_end_loss: 0
+BTC: 0.39130154252052307
+neg_loss: 0.0
+loss: 0.39130154252052307
+saving candidate
+Epoch 241/300 took 620.67 seconds. 		Average epoch training error: (-)0.3913015425
+sk_end_loss: 0
+BTC: 0.39130154252052307
+neg_loss: 0.0
+loss: 0.39130154252052307
+sk_end_loss: 0
+BTC: 0.3986738324165344
+neg_loss: 0.0
+loss: 0.3986738324165344
+saving candidate
+Epoch 242/300 took 636.52 seconds. 		Average epoch training error: (-)0.3986738324
+sk_end_loss: 0
+BTC: 0.3986738324165344
+neg_loss: 0.0
+loss: 0.3986738324165344
+sk_end_loss: 0
+BTC: 0.40422946214675903
+neg_loss: 0.0
+loss: 0.40422946214675903
+saving candidate
+Epoch 243/300 took 624.18 seconds. 		Average epoch training error: (-)0.4042294621
+sk_end_loss: 0
+BTC: 0.40422946214675903
+neg_loss: 0.0
+loss: 0.40422946214675903
+sk_end_loss: 0
+BTC: 0.39097368717193604
+neg_loss: 0.0
+loss: 0.39097368717193604
+saving candidate
+Epoch 244/300 took 622.55 seconds. 		Average epoch training error: (-)0.3909736872
+sk_end_loss: 0
+BTC: 0.39097368717193604
+neg_loss: 0.0
+loss: 0.39097368717193604
+sk_end_loss: 0
+BTC: 0.3912564516067505
+neg_loss: 0.0
+loss: 0.3912564516067505
+saving candidate
+Epoch 245/300 took 636.93 seconds. 		Average epoch training error: (-)0.3912564516
+sk_end_loss: 0
+BTC: 0.3912564516067505
+neg_loss: 0.0
+loss: 0.3912564516067505
+sk_end_loss: 0
+BTC: 0.3986705541610718
+neg_loss: 0.0
+loss: 0.3986705541610718
+saving candidate
+Epoch 246/300 took 622.55 seconds. 		Average epoch training error: (-)0.3986705542
+sk_end_loss: 0
+BTC: 0.3986705541610718
+neg_loss: 0.0
+loss: 0.3986705541610718
+sk_end_loss: 0
+BTC: 0.3932286500930786
+neg_loss: 0.0
+loss: 0.3932286500930786
+saving candidate
+Epoch 247/300 took 623.75 seconds. 		Average epoch training error: (-)0.3932286501
+sk_end_loss: 0
+BTC: 0.3932286500930786
+neg_loss: 0.0
+loss: 0.3932286500930786
+sk_end_loss: 0
+BTC: 0.3908303380012512
+neg_loss: 0.0
+loss: 0.3908303380012512
+saving candidate
+Epoch 248/300 took 617.04 seconds. 		Average epoch training error: (-)0.390830338 
+sk_end_loss: 0
+BTC: 0.3908303380012512
+neg_loss: 0.0
+loss: 0.3908303380012512
+sk_end_loss: 0
+BTC: 0.4076694846153259
+neg_loss: 0.0
+loss: 0.4076694846153259
+saving candidate
+Epoch 249/300 took 631.73 seconds. 		Average epoch training error: (-)0.4076694846
+sk_end_loss: 0
+BTC: 0.4076694846153259
+neg_loss: 0.0
+loss: 0.4076694846153259
+sk_end_loss: 0
+BTC: 0.4046456217765808
+neg_loss: 0.0
+loss: 0.4046456217765808
+saving candidate
+Epoch 250/300 took 634.63 seconds. 		Average epoch training error: (-)0.4046456218
+sk_end_loss: 0
+BTC: 0.4046456217765808
+neg_loss: 0.0
+loss: 0.4046456217765808
+sk_end_loss: 0
+BTC: 0.3910260796546936
+neg_loss: 0.0
+loss: 0.3910260796546936
+saving candidate
+Epoch 251/300 took 621.99 seconds. 		Average epoch training error: (-)0.3910260797
+sk_end_loss: 0
+BTC: 0.3910260796546936
+neg_loss: 0.0
+loss: 0.3910260796546936
+sk_end_loss: 0
+BTC: 0.39585816860198975
+neg_loss: 0.0
+loss: 0.39585816860198975
+saving candidate
+Epoch 252/300 took 622.63 seconds. 		Average epoch training error: (-)0.3958581686
+sk_end_loss: 0
+BTC: 0.39585816860198975
+neg_loss: 0.0
+loss: 0.39585816860198975
+sk_end_loss: 0
+BTC: 0.39685630798339844
+neg_loss: 0.0
+loss: 0.39685630798339844
+saving candidate
+Epoch 253/300 took 616.04 seconds. 		Average epoch training error: (-)0.396856308 
+sk_end_loss: 0
+BTC: 0.39685630798339844
+neg_loss: 0.0
+loss: 0.39685630798339844
+sk_end_loss: 0
+BTC: 0.39130526781082153
+neg_loss: 0.0
+loss: 0.39130526781082153
+saving candidate
+Epoch 254/300 took 628.05 seconds. 		Average epoch training error: (-)0.3913052678
+sk_end_loss: 0
+BTC: 0.39130526781082153
+neg_loss: 0.0
+loss: 0.39130526781082153
+sk_end_loss: 0
+BTC: 0.39069533348083496
+neg_loss: 0.0
+loss: 0.39069533348083496
+saving candidate
+Epoch 255/300 took 623.18 seconds. 		Average epoch training error: (-)0.3906953335
+sk_end_loss: 0
+BTC: 0.39069533348083496
+neg_loss: 0.0
+loss: 0.39069533348083496
+sk_end_loss: 0
+BTC: 0.4051724374294281
+neg_loss: 0.0
+loss: 0.4051724374294281
+saving candidate
+Epoch 256/300 took 622.52 seconds. 		Average epoch training error: (-)0.4051724374
+sk_end_loss: 0
+BTC: 0.4051724374294281
+neg_loss: 0.0
+loss: 0.4051724374294281
+sk_end_loss: 0
+BTC: 0.39656689763069153
+neg_loss: 0.0
+loss: 0.39656689763069153
+saving candidate
+Epoch 257/300 took 624.24 seconds. 		Average epoch training error: (-)0.3965668976
+sk_end_loss: 0
+BTC: 0.39656689763069153
+neg_loss: 0.0
+loss: 0.39656689763069153
+sk_end_loss: 0
+BTC: 0.39149415493011475
+neg_loss: 0.0
+loss: 0.39149415493011475
+saving candidate
+Epoch 258/300 took 622.35 seconds. 		Average epoch training error: (-)0.3914941549
+sk_end_loss: 0
+BTC: 0.39149415493011475
+neg_loss: 0.0
+loss: 0.39149415493011475
+sk_end_loss: 0
+BTC: 0.40922218561172485
+neg_loss: 0.0
+loss: 0.40922218561172485
+saving candidate
+Epoch 259/300 took 623.36 seconds. 		Average epoch training error: (-)0.4092221856
+sk_end_loss: 0
+BTC: 0.40922218561172485
+neg_loss: 0.0
+loss: 0.40922218561172485
+sk_end_loss: 0
+BTC: 0.41682133078575134
+neg_loss: 0.0
+loss: 0.41682133078575134
+saving candidate
+Epoch 260/300 took 621.82 seconds. 		Average epoch training error: (-)0.4168213308
+sk_end_loss: 0
+BTC: 0.41682133078575134
+neg_loss: 0.0
+loss: 0.41682133078575134
+sk_end_loss: 0
+BTC: 0.3915528357028961
+neg_loss: 0.0
+loss: 0.3915528357028961
+saving candidate
+Epoch 261/300 took 622.2 seconds. 		Average epoch training error: (-)0.3915528357
+sk_end_loss: 0
+BTC: 0.3915528357028961
+neg_loss: 0.0
+loss: 0.3915528357028961
+sk_end_loss: 0
+BTC: 0.39063072204589844
+neg_loss: 0.0
+loss: 0.39063072204589844
+saving candidate
+saved
+Epoch 262/300 took 624.83 seconds. 		Average epoch training error: (+)0.390630722 
+sk_end_loss: 0
+BTC: 0.39063072204589844
+neg_loss: 0.0
+loss: 0.39063072204589844
+sk_end_loss: 0
+BTC: 0.41511091589927673
+neg_loss: 0.0
+loss: 0.41511091589927673
+saving candidate
+Epoch 263/300 took 621.57 seconds. 		Average epoch training error: (-)0.4151109159
+sk_end_loss: 0
+BTC: 0.41511091589927673
+neg_loss: 0.0
+loss: 0.41511091589927673
+sk_end_loss: 0
+BTC: 0.39075523614883423
+neg_loss: 0.0
+loss: 0.39075523614883423
+saving candidate
+Epoch 264/300 took 621.09 seconds. 		Average epoch training error: (-)0.3907552361
+sk_end_loss: 0
+BTC: 0.39075523614883423
+neg_loss: 0.0
+loss: 0.39075523614883423
+sk_end_loss: 0
+BTC: 0.3934186100959778
+neg_loss: 0.0
+loss: 0.3934186100959778
+saving candidate
+Epoch 265/300 took 619.9 seconds. 		Average epoch training error: (-)0.3934186101
+sk_end_loss: 0
+BTC: 0.3934186100959778
+neg_loss: 0.0
+loss: 0.3934186100959778
+sk_end_loss: 0
+BTC: 0.3974774479866028
+neg_loss: 0.0
+loss: 0.3974774479866028
+saving candidate
+Epoch 266/300 took 620.75 seconds. 		Average epoch training error: (-)0.397477448 
+sk_end_loss: 0
+BTC: 0.3974774479866028
+neg_loss: 0.0
+loss: 0.3974774479866028
+sk_end_loss: 0
+BTC: 0.39128047227859497
+neg_loss: 0.0
+loss: 0.39128047227859497
+saving candidate
+Epoch 267/300 took 622.86 seconds. 		Average epoch training error: (-)0.3912804723
+sk_end_loss: 0
+BTC: 0.39128047227859497
+neg_loss: 0.0
+loss: 0.39128047227859497
+sk_end_loss: 0
+BTC: 0.39095228910446167
+neg_loss: 0.0
+loss: 0.39095228910446167
+saving candidate
+Epoch 268/300 took 624.32 seconds. 		Average epoch training error: (-)0.3909522891
+sk_end_loss: 0
+BTC: 0.39095228910446167
+neg_loss: 0.0
+loss: 0.39095228910446167
+sk_end_loss: 0
+BTC: 0.3919503688812256
+neg_loss: 0.0
+loss: 0.3919503688812256
+saving candidate
+Epoch 269/300 took 624.29 seconds. 		Average epoch training error: (-)0.3919503689
+sk_end_loss: 0
+BTC: 0.3919503688812256
+neg_loss: 0.0
+loss: 0.3919503688812256
+sk_end_loss: 0
+BTC: 0.390960156917572
+neg_loss: 0.0
+loss: 0.390960156917572
+saving candidate
+Epoch 270/300 took 622.55 seconds. 		Average epoch training error: (-)0.3909601569
+sk_end_loss: 0
+BTC: 0.390960156917572
+neg_loss: 0.0
+loss: 0.390960156917572
+sk_end_loss: 0
+BTC: 0.3911241888999939
+neg_loss: 0.0
+loss: 0.3911241888999939
+saving candidate
+Epoch 271/300 took 623.99 seconds. 		Average epoch training error: (-)0.3911241889
+sk_end_loss: 0
+BTC: 0.3911241888999939
+neg_loss: 0.0
+loss: 0.3911241888999939
+sk_end_loss: 0
+BTC: 0.3914218842983246
+neg_loss: 0.0
+loss: 0.3914218842983246
+saving candidate
+Epoch 272/300 took 620.27 seconds. 		Average epoch training error: (-)0.3914218843
+sk_end_loss: 0
+BTC: 0.3914218842983246
+neg_loss: 0.0
+loss: 0.3914218842983246
+sk_end_loss: 0
+BTC: 0.39526283740997314
+neg_loss: 0.0
+loss: 0.39526283740997314
+saving candidate
+Epoch 273/300 took 624.46 seconds. 		Average epoch training error: (-)0.3952628374
+sk_end_loss: 0
+BTC: 0.39526283740997314
+neg_loss: 0.0
+loss: 0.39526283740997314
+sk_end_loss: 0
+BTC: 0.3912028670310974
+neg_loss: 0.0
+loss: 0.3912028670310974
+saving candidate
+Epoch 274/300 took 637.45 seconds. 		Average epoch training error: (-)0.391202867 
+sk_end_loss: 0
+BTC: 0.3912028670310974
+neg_loss: 0.0
+loss: 0.3912028670310974
+sk_end_loss: 0
+BTC: 0.39099210500717163
+neg_loss: 0.0
+loss: 0.39099210500717163
+saving candidate
+Epoch 275/300 took 623.18 seconds. 		Average epoch training error: (-)0.390992105 
+sk_end_loss: 0
+BTC: 0.39099210500717163
+neg_loss: 0.0
+loss: 0.39099210500717163
+sk_end_loss: 0
+BTC: 0.39088064432144165
+neg_loss: 0.0
+loss: 0.39088064432144165
+saving candidate
+Epoch 276/300 took 625.49 seconds. 		Average epoch training error: (-)0.3908806443
+sk_end_loss: 0
+BTC: 0.39088064432144165
+neg_loss: 0.0
+loss: 0.39088064432144165
+sk_end_loss: 0
+BTC: 0.39984068274497986
+neg_loss: 0.0
+loss: 0.39984068274497986
+saving candidate
+Epoch 277/300 took 631.08 seconds. 		Average epoch training error: (-)0.3998406827
+sk_end_loss: 0
+BTC: 0.39984068274497986
+neg_loss: 0.0
+loss: 0.39984068274497986
+sk_end_loss: 0
+BTC: 0.39078643918037415
+neg_loss: 0.0
+loss: 0.39078643918037415
+saving candidate
+Epoch 278/300 took 625.91 seconds. 		Average epoch training error: (-)0.3907864392
+sk_end_loss: 0
+BTC: 0.39078643918037415
+neg_loss: 0.0
+loss: 0.39078643918037415
+sk_end_loss: 0
+BTC: 0.3910526633262634
+neg_loss: 0.0
+loss: 0.3910526633262634
+saving candidate
+Epoch 279/300 took 621.47 seconds. 		Average epoch training error: (-)0.3910526633
+sk_end_loss: 0
+BTC: 0.3910526633262634
+neg_loss: 0.0
+loss: 0.3910526633262634
+sk_end_loss: 0
+BTC: 0.39143168926239014
+neg_loss: 0.0
+loss: 0.39143168926239014
+saving candidate
+Epoch 280/300 took 619.93 seconds. 		Average epoch training error: (-)0.3914316893
+sk_end_loss: 0
+BTC: 0.39143168926239014
+neg_loss: 0.0
+loss: 0.39143168926239014
+sk_end_loss: 0
+BTC: 0.3933846354484558
+neg_loss: 0.0
+loss: 0.3933846354484558
+saving candidate
+Epoch 281/300 took 619.38 seconds. 		Average epoch training error: (-)0.3933846354
+sk_end_loss: 0
+BTC: 0.3933846354484558
+neg_loss: 0.0
+loss: 0.3933846354484558
+sk_end_loss: 0
+BTC: 0.39135828614234924
+neg_loss: 0.0
+loss: 0.39135828614234924
+saving candidate
+Epoch 282/300 took 623.08 seconds. 		Average epoch training error: (-)0.3913582861
+sk_end_loss: 0
+BTC: 0.39135828614234924
+neg_loss: 0.0
+loss: 0.39135828614234924
+sk_end_loss: 0
+BTC: 0.39098072052001953
+neg_loss: 0.0
+loss: 0.39098072052001953
+saving candidate
+Epoch 283/300 took 619.58 seconds. 		Average epoch training error: (-)0.3909807205
+sk_end_loss: 0
+BTC: 0.39098072052001953
+neg_loss: 0.0
+loss: 0.39098072052001953
+sk_end_loss: 0
+BTC: 0.39059317111968994
+neg_loss: 0.0
+loss: 0.39059317111968994
+saving candidate
+saved
+Epoch 284/300 took 625.49 seconds. 		Average epoch training error: (+)0.3905931711
+sk_end_loss: 0
+BTC: 0.39059317111968994
+neg_loss: 0.0
+loss: 0.39059317111968994
+sk_end_loss: 0
+BTC: 0.3994939923286438
+neg_loss: 0.0
+loss: 0.3994939923286438
+saving candidate
+Epoch 285/300 took 619.09 seconds. 		Average epoch training error: (-)0.3994939923
+sk_end_loss: 0
+BTC: 0.3994939923286438
+neg_loss: 0.0
+loss: 0.3994939923286438
+sk_end_loss: 0
+BTC: 0.3907269537448883
+neg_loss: 0.0
+loss: 0.3907269537448883
+saving candidate
+Epoch 286/300 took 622.73 seconds. 		Average epoch training error: (-)0.3907269537
+sk_end_loss: 0
+BTC: 0.3907269537448883
+neg_loss: 0.0
+loss: 0.3907269537448883
+sk_end_loss: 0
+BTC: 0.39101701974868774
+neg_loss: 0.0
+loss: 0.39101701974868774
+saving candidate
+Epoch 287/300 took 621.81 seconds. 		Average epoch training error: (-)0.3910170197
+sk_end_loss: 0
+BTC: 0.39101701974868774
+neg_loss: 0.0
+loss: 0.39101701974868774
+sk_end_loss: 0
+BTC: 0.3913308084011078
+neg_loss: 0.0
+loss: 0.3913308084011078
+saving candidate
+Epoch 288/300 took 616.69 seconds. 		Average epoch training error: (-)0.3913308084
+sk_end_loss: 0
+BTC: 0.3913308084011078
+neg_loss: 0.0
+loss: 0.3913308084011078
+sk_end_loss: 0
+BTC: 0.39295709133148193
+neg_loss: 0.0
+loss: 0.39295709133148193
+saving candidate
+Epoch 289/300 took 622.36 seconds. 		Average epoch training error: (-)0.3929570913
+sk_end_loss: 0
+BTC: 0.39295709133148193
+neg_loss: 0.0
+loss: 0.39295709133148193
+sk_end_loss: 0
+BTC: 0.3911469876766205
+neg_loss: 0.0
+loss: 0.3911469876766205
+saving candidate
+Epoch 290/300 took 622.96 seconds. 		Average epoch training error: (-)0.3911469877
+sk_end_loss: 0
+BTC: 0.3911469876766205
+neg_loss: 0.0
+loss: 0.3911469876766205
+sk_end_loss: 0
+BTC: 0.3910002112388611
+neg_loss: 0.0
+loss: 0.3910002112388611
+saving candidate
+Epoch 291/300 took 621.69 seconds. 		Average epoch training error: (-)0.3910002112
+sk_end_loss: 0
+BTC: 0.3910002112388611
+neg_loss: 0.0
+loss: 0.3910002112388611
+sk_end_loss: 0
+BTC: 0.3909252882003784
+neg_loss: 0.0
+loss: 0.3909252882003784
+saving candidate
+Epoch 292/300 took 618.85 seconds. 		Average epoch training error: (-)0.3909252882
+sk_end_loss: 0
+BTC: 0.3909252882003784
+neg_loss: 0.0
+loss: 0.3909252882003784
+sk_end_loss: 0
+BTC: 0.39884498715400696
+neg_loss: 0.0
+loss: 0.39884498715400696
+saving candidate
+Epoch 293/300 took 615.65 seconds. 		Average epoch training error: (-)0.3988449872
+sk_end_loss: 0
+BTC: 0.39884498715400696
+neg_loss: 0.0
+loss: 0.39884498715400696
+sk_end_loss: 0
+BTC: 0.3908887803554535
+neg_loss: 0.0
+loss: 0.3908887803554535
+saving candidate
+Epoch 294/300 took 633.11 seconds. 		Average epoch training error: (-)0.3908887804
+sk_end_loss: 0
+BTC: 0.3908887803554535
+neg_loss: 0.0
+loss: 0.3908887803554535
+sk_end_loss: 0
+BTC: 0.39106330275535583
+neg_loss: 0.0
+loss: 0.39106330275535583
+saving candidate
+Epoch 295/300 took 621.89 seconds. 		Average epoch training error: (-)0.3910633028
+sk_end_loss: 0
+BTC: 0.39106330275535583
+neg_loss: 0.0
+loss: 0.39106330275535583
+sk_end_loss: 0
+BTC: 0.39145082235336304
+neg_loss: 0.0
+loss: 0.39145082235336304
+saving candidate
+Epoch 296/300 took 610.69 seconds. 		Average epoch training error: (-)0.3914508224
+sk_end_loss: 0
+BTC: 0.39145082235336304
+neg_loss: 0.0
+loss: 0.39145082235336304
+sk_end_loss: 0
+BTC: 0.3959926664829254
+neg_loss: 0.0
+loss: 0.3959926664829254
+saving candidate
+Epoch 297/300 took 614.26 seconds. 		Average epoch training error: (-)0.3959926665
+sk_end_loss: 0
+BTC: 0.3959926664829254
+neg_loss: 0.0
+loss: 0.3959926664829254
+sk_end_loss: 0
+BTC: 0.3913923501968384
+neg_loss: 0.0
+loss: 0.3913923501968384
+saving candidate
+Epoch 298/300 took 615.98 seconds. 		Average epoch training error: (-)0.3913923502
+sk_end_loss: 0
+BTC: 0.3913923501968384
+neg_loss: 0.0
+loss: 0.3913923501968384
+sk_end_loss: 0
+BTC: 0.3910207450389862
+neg_loss: 0.0
+loss: 0.3910207450389862
+saving candidate
+Epoch 299/300 took 618.39 seconds. 		Average epoch training error: (-)0.391020745 
+sk_end_loss: 0
+BTC: 0.3910207450389862
+neg_loss: 0.0
+loss: 0.3910207450389862
+sk_end_loss: 0
+BTC: 0.3907988667488098
+neg_loss: 0.0
+loss: 0.3907988667488098
+saving candidate
+Epoch 300/300 took 654.61 seconds. 		Average epoch training error: (-)0.3907988667
+
+Training took 199192.29 seconds.
+
+
+{'training': True, '_parameters': OrderedDict([('f_fac', Parameter containing:
+tensor([0.0092], dtype=torch.float64, requires_grad=True)), ('ret_fac', Parameter containing:
+tensor([1.1670], dtype=torch.float64, requires_grad=True)), ('g_fac', Parameter containing:
+tensor([-0.0003], dtype=torch.float64, requires_grad=True))]), '_buffers': OrderedDict(), '_non_persistent_buffers_set': set(), '_backward_hooks': OrderedDict(), '_is_full_backward_hook': None, '_forward_hooks': OrderedDict(), '_forward_pre_hooks': OrderedDict(), '_state_dict_hooks': OrderedDict(), '_load_state_dict_pre_hooks': OrderedDict(), '_load_state_dict_post_hooks': OrderedDict(), '_modules': OrderedDict([('func_f', Sequential(
+  (0): Linear(in_features=1, out_features=10, bias=True)
+  (1): Tanh()
+  (2): Linear(in_features=10, out_features=20, bias=True)
+  (3): Tanh()
+  (4): Linear(in_features=20, out_features=10, bias=True)
+  (5): Tanh()
+  (6): Linear(in_features=10, out_features=1, bias=True)
+  (7): Sigmoid()
+)), ('func_r', Sequential(
+  (0): Linear(in_features=1, out_features=10, bias=True)
+  (1): Tanh()
+  (2): Linear(in_features=10, out_features=20, bias=True)
+  (3): Tanh()
+  (4): Linear(in_features=20, out_features=10, bias=True)
+  (5): Tanh()
+  (6): Linear(in_features=10, out_features=1, bias=True)
+  (7): Sigmoid()
+)), ('func_g', Sequential(
+  (0): Linear(in_features=1, out_features=10, bias=True)
+  (1): Tanh()
+  (2): Linear(in_features=10, out_features=20, bias=True)
+  (3): Tanh()
+  (4): Linear(in_features=20, out_features=10, bias=True)
+  (5): Tanh()
+  (6): Linear(in_features=10, out_features=1, bias=True)
+  (7): Sigmoid()
+))]), 'device': device(type='cpu'), 'Nx': 28, 'BC': tensor([0., 0.], dtype=torch.float64), 'layer_sizes': [1, 10, 20, 10, 1], 'mode': 'train', 'cfg': None, 'bias': True, 'sigmoid': True, 'D': tensor(715.3000, dtype=torch.float64), 'stencil': tensor([-1.,  1.], dtype=torch.float64), 'f': tensor(0.9300, dtype=torch.float64), 'k_d': tensor(4.5000, dtype=torch.float64), 'v_e': tensor(79.2000, dtype=torch.float64), 'beta': tensor(0.9800, dtype=torch.float64), 'alpha': tensor(0.0050, dtype=torch.float64), 'dx': 2.037037037037037, 'rho_s': tensor(1.5800, dtype=torch.float64), 'n_e': tensor(0.4000, dtype=torch.float64), 'learn_f_hyd': True, 'learn_g_hyd': True, 'learn_r_hyd': True, 'learn_f': False, 'learn_alpha': False, 'learn_k_d': False, 'learn_beta': False, 'learn_sk': False, 'sand': True, 'D_sand': tensor(510.9500, dtype=torch.float64), 'n_e_sand': tensor(0.3100, dtype=torch.float64), 'x_start': tensor(4, dtype=torch.int32), 'x_stop': tensor(24, dtype=torch.int32), 'x_steps_soil': tensor(28, dtype=torch.int32), 'alpha_l_sand': tensor(5., dtype=torch.float64), 'v_e_sand': tensor(102.1900, dtype=torch.float64), 't_steps': 38000, 'neg_loss': tensor(0., grad_fn=<MseLossBackward0>)}
+Done.

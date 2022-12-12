@@ -1,0 +1,14 @@
+{
+    "init_conc": 0.032,
+    "kin_sorb": 0.0053,
+    "v_e":26.46,
+    "alpha_l": 9,
+    "D_e": 2.5,
+    "v_e_sand": 35,
+    "alpha_l_sand": 5,
+    "kin_sorb_end": 0.0024,
+    "T_MAX": 160,
+    "T_STEPS": 50000,
+    "rho_s": 1.44,
+    "n_e": 0.41
+}

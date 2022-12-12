@@ -1,0 +1,1272 @@
+Model name: diff-ad2ss_40
+/projects/matthias_g/ws_3/data/diffusion_ad2ss/data_exp
+Trainable model parameters: 1
+{'training': True, '_parameters': OrderedDict([('f', Parameter containing:
+tensor(1.0986, dtype=torch.float64, requires_grad=True))]), '_buffers': OrderedDict(), '_non_persistent_buffers_set': set(), '_backward_hooks': OrderedDict(), '_is_full_backward_hook': None, '_forward_hooks': OrderedDict(), '_forward_pre_hooks': OrderedDict(), '_state_dict_hooks': OrderedDict(), '_load_state_dict_pre_hooks': OrderedDict(), '_load_state_dict_post_hooks': OrderedDict(), '_modules': OrderedDict(), 'device': device(type='cpu'), 'Nx': 28, 'BC': tensor([0., 0.], dtype=torch.float64), 'layer_sizes': [2, 100, 1000, 100, 1], 'mode': 'train', 'cfg': None, 'bias': True, 'sigmoid': True, 'D': tensor(709.9000, dtype=torch.float64), 'stencil': tensor([-1.,  1.], dtype=torch.float64), 'k_d': tensor(4.5000, dtype=torch.float64), 'v_e': tensor(78.6000, dtype=torch.float64), 'beta': tensor(0.9800, dtype=torch.float64), 'alpha': tensor(0.0050, dtype=torch.float64), 'dx': 2.037037037037037, 'rho_s': tensor(1.5800, dtype=torch.float64), 'n_e': tensor(0.4000, dtype=torch.float64), 'learn_f_hyd': False, 'learn_g_hyd': False, 'learn_r_hyd': False, 'learn_f': True, 'learn_alpha': False, 'learn_k_d': False, 'learn_beta': False, 'learn_sk': False, 'sand': True, 'D_sand': tensor(507.1000, dtype=torch.float64), 'n_e_sand': tensor(0.3100, dtype=torch.float64), 'x_start': tensor(4, dtype=torch.int32), 'x_stop': tensor(24, dtype=torch.int32), 'x_steps_soil': tensor(28, dtype=torch.int32), 'alpha_l_sand': tensor(5., dtype=torch.float64), 'v_e_sand': tensor(101.4200, dtype=torch.float64), 't_steps': 38000}
+sk: tensor([[0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.]], grad_fn=<SelectBackward0>)
+c: tensor([[-0., -0., -0.,  ..., 0., 0., 0.],
+        [-0., -0., -0.,  ..., 0., 0., 0.],
+        [-0., -0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [-0., -0., 0.,  ..., 0., 0., 0.],
+        [-0., -0., -0.,  ..., 0., 0., 0.],
+        [-0., -0., -0.,  ..., 0., 0., 0.]], grad_fn=<SelectBackward0>)
+neg_loss: 0.0
+f: 0.75
+u_calc: 0.0
+u_exp: 0.0
+u_calc: 0.03144783899188042
+u_exp: 0.029999999329447746
+u_calc: 0.02253594622015953
+u_exp: 0.023000000044703484
+u_calc: 0.01176131796091795
+u_exp: 0.00989999994635582
+u_calc: 0.0049776341766119
+u_exp: 0.005100000184029341
+u_calc: 0.0020689130760729313
+u_exp: 0.0017000000225380063
+u_calc: 0.0009093486005440354
+u_exp: 0.000539999979082495
+u_calc: 0.00042602114262990654
+u_exp: 0.0007300000288523734
+u_calc: 0.0002129766799043864
+u_exp: 0.0005099999834783375
+u_calc: 0.00012082583270967007
+u_exp: 0.0003499999875202775
+u_calc: 7.993583130883053e-05
+u_exp: 0.0002500000118743628
+u_calc: 6.152395508252084e-05
+u_exp: 0.0001900000061141327
+u_calc: 5.290527406032197e-05
+u_exp: 0.0001500000071246177
+u_calc: 4.8269317630911246e-05
+u_exp: 0.00011000000085914508
+u_calc: 4.6135370212141424e-05
+u_exp: 9.300000237999484e-05
+u_calc: 4.4769385567633435e-05
+u_exp: 6.0999998822808266e-05
+u_calc: 4.373797492007725e-05
+u_exp: 6.800000119255856e-05
+u_calc: 4.175092908553779e-05
+u_exp: 5.199999941396527e-05
+u_calc: 3.892536187777296e-05
+u_exp: 3.9999998989515007e-05
+u_calc: 3.628843478509225e-05
+u_exp: 2.9000000722589903e-05
+u_calc: 3.1348419724963605e-05
+u_exp: 3.099999958067201e-05
+mse_btc: 3.027904824648431e-07
+sk_end_loss: 0
+loss: 3.027904824648431e-07
+{'training': True, '_parameters': OrderedDict([('f', Parameter containing:
+tensor(1.0887, dtype=torch.float64, requires_grad=True))]), '_buffers': OrderedDict(), '_non_persistent_buffers_set': set(), '_backward_hooks': OrderedDict(), '_is_full_backward_hook': None, '_forward_hooks': OrderedDict(), '_forward_pre_hooks': OrderedDict(), '_state_dict_hooks': OrderedDict(), '_load_state_dict_pre_hooks': OrderedDict(), '_load_state_dict_post_hooks': OrderedDict(), '_modules': OrderedDict(), 'device': device(type='cpu'), 'Nx': 28, 'BC': tensor([0., 0.], dtype=torch.float64), 'layer_sizes': [2, 100, 1000, 100, 1], 'mode': 'train', 'cfg': None, 'bias': True, 'sigmoid': True, 'D': tensor(709.9000, dtype=torch.float64), 'stencil': tensor([-1.,  1.], dtype=torch.float64), 'k_d': tensor(4.5000, dtype=torch.float64), 'v_e': tensor(78.6000, dtype=torch.float64), 'beta': tensor(0.9800, dtype=torch.float64), 'alpha': tensor(0.0050, dtype=torch.float64), 'dx': 2.037037037037037, 'rho_s': tensor(1.5800, dtype=torch.float64), 'n_e': tensor(0.4000, dtype=torch.float64), 'learn_f_hyd': False, 'learn_g_hyd': False, 'learn_r_hyd': False, 'learn_f': True, 'learn_alpha': False, 'learn_k_d': False, 'learn_beta': False, 'learn_sk': False, 'sand': True, 'D_sand': tensor(507.1000, dtype=torch.float64), 'n_e_sand': tensor(0.3100, dtype=torch.float64), 'x_start': tensor(4, dtype=torch.int32), 'x_stop': tensor(24, dtype=torch.int32), 'x_steps_soil': tensor(28, dtype=torch.int32), 'alpha_l_sand': tensor(5., dtype=torch.float64), 'v_e_sand': tensor(101.4200, dtype=torch.float64), 't_steps': 38000}
+sk: tensor([[0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.]], grad_fn=<SelectBackward0>)
+c: tensor([[-0., -0., -0.,  ..., 0., 0., 0.],
+        [-0., -0., -0.,  ..., 0., 0., 0.],
+        [-0., -0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [-0., -0., 0.,  ..., 0., 0., 0.],
+        [-0., -0., -0.,  ..., 0., 0., 0.],
+        [-0., -0., -0.,  ..., 0., 0., 0.]], grad_fn=<SelectBackward0>)
+neg_loss: 0.0
+f: 0.7481462339597067
+u_calc: 0.0
+u_exp: 0.0
+u_calc: 0.03144524618983269
+u_exp: 0.029999999329447746
+u_calc: 0.022491788491606712
+u_exp: 0.023000000044703484
+u_calc: 0.011714039370417595
+u_exp: 0.00989999994635582
+u_calc: 0.004947145003825426
+u_exp: 0.005100000184029341
+u_calc: 0.0020523699931800365
+u_exp: 0.0017000000225380063
+u_calc: 0.0009007267653942108
+u_exp: 0.000539999979082495
+u_calc: 0.000421599397668615
+u_exp: 0.0007300000288523734
+u_calc: 0.00021078235295135528
+u_exp: 0.0005099999834783375
+u_calc: 0.00011975134839303792
+u_exp: 0.0003499999875202775
+u_calc: 7.942242518765852e-05
+u_exp: 0.0002500000118743628
+u_calc: 6.128776294644922e-05
+u_exp: 0.0001900000061141327
+u_calc: 5.280587720335461e-05
+u_exp: 0.0001500000071246177
+u_calc: 4.824210191145539e-05
+u_exp: 0.00011000000085914508
+u_calc: 4.613682540366426e-05
+u_exp: 9.300000237999484e-05
+u_calc: 4.478445407585241e-05
+u_exp: 6.0999998822808266e-05
+u_calc: 4.375945354695432e-05
+u_exp: 6.800000119255856e-05
+u_calc: 4.177659502602182e-05
+u_exp: 5.199999941396527e-05
+u_calc: 3.8950358430156484e-05
+u_exp: 3.9999998989515007e-05
+u_calc: 3.6311932490207255e-05
+u_exp: 2.9000000722589903e-05
+u_calc: 3.136899249511771e-05
+u_exp: 3.099999958067201e-05
+mse_btc: 2.9596171202683763e-07
+sk_end_loss: 0
+loss: 2.9596171202683763e-07
+Epoch 001/100 took 419.34 seconds. 		Average epoch training error: (+)2.96e-07    
+{'training': True, '_parameters': OrderedDict([('f', Parameter containing:
+tensor(1.0887, dtype=torch.float64, requires_grad=True))]), '_buffers': OrderedDict(), '_non_persistent_buffers_set': set(), '_backward_hooks': OrderedDict(), '_is_full_backward_hook': None, '_forward_hooks': OrderedDict(), '_forward_pre_hooks': OrderedDict(), '_state_dict_hooks': OrderedDict(), '_load_state_dict_pre_hooks': OrderedDict(), '_load_state_dict_post_hooks': OrderedDict(), '_modules': OrderedDict(), 'device': device(type='cpu'), 'Nx': 28, 'BC': tensor([0., 0.], dtype=torch.float64), 'layer_sizes': [2, 100, 1000, 100, 1], 'mode': 'train', 'cfg': None, 'bias': True, 'sigmoid': True, 'D': tensor(709.9000, dtype=torch.float64), 'stencil': tensor([-1.,  1.], dtype=torch.float64), 'k_d': tensor(4.5000, dtype=torch.float64), 'v_e': tensor(78.6000, dtype=torch.float64), 'beta': tensor(0.9800, dtype=torch.float64), 'alpha': tensor(0.0050, dtype=torch.float64), 'dx': 2.037037037037037, 'rho_s': tensor(1.5800, dtype=torch.float64), 'n_e': tensor(0.4000, dtype=torch.float64), 'learn_f_hyd': False, 'learn_g_hyd': False, 'learn_r_hyd': False, 'learn_f': True, 'learn_alpha': False, 'learn_k_d': False, 'learn_beta': False, 'learn_sk': False, 'sand': True, 'D_sand': tensor(507.1000, dtype=torch.float64), 'n_e_sand': tensor(0.3100, dtype=torch.float64), 'x_start': tensor(4, dtype=torch.int32), 'x_stop': tensor(24, dtype=torch.int32), 'x_steps_soil': tensor(28, dtype=torch.int32), 'alpha_l_sand': tensor(5., dtype=torch.float64), 'v_e_sand': tensor(101.4200, dtype=torch.float64), 't_steps': 38000}
+sk: tensor([[0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.]], grad_fn=<SelectBackward0>)
+c: tensor([[-0., -0., -0.,  ..., 0., 0., 0.],
+        [-0., -0., -0.,  ..., 0., 0., 0.],
+        [-0., -0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [-0., -0., 0.,  ..., 0., 0., 0.],
+        [-0., -0., -0.,  ..., 0., 0., 0.],
+        [-0., -0., -0.,  ..., 0., 0., 0.]], grad_fn=<SelectBackward0>)
+neg_loss: 0.0
+f: 0.7481462339597067
+u_calc: 0.0
+u_exp: 0.0
+u_calc: 0.03144524618983269
+u_exp: 0.029999999329447746
+u_calc: 0.022491788491606712
+u_exp: 0.023000000044703484
+u_calc: 0.011714039370417595
+u_exp: 0.00989999994635582
+u_calc: 0.004947145003825426
+u_exp: 0.005100000184029341
+u_calc: 0.0020523699931800365
+u_exp: 0.0017000000225380063
+u_calc: 0.0009007267653942108
+u_exp: 0.000539999979082495
+u_calc: 0.000421599397668615
+u_exp: 0.0007300000288523734
+u_calc: 0.00021078235295135528
+u_exp: 0.0005099999834783375
+u_calc: 0.00011975134839303792
+u_exp: 0.0003499999875202775
+u_calc: 7.942242518765852e-05
+u_exp: 0.0002500000118743628
+u_calc: 6.128776294644922e-05
+u_exp: 0.0001900000061141327
+u_calc: 5.280587720335461e-05
+u_exp: 0.0001500000071246177
+u_calc: 4.824210191145539e-05
+u_exp: 0.00011000000085914508
+u_calc: 4.613682540366426e-05
+u_exp: 9.300000237999484e-05
+u_calc: 4.478445407585241e-05
+u_exp: 6.0999998822808266e-05
+u_calc: 4.375945354695432e-05
+u_exp: 6.800000119255856e-05
+u_calc: 4.177659502602182e-05
+u_exp: 5.199999941396527e-05
+u_calc: 3.8950358430156484e-05
+u_exp: 3.9999998989515007e-05
+u_calc: 3.6311932490207255e-05
+u_exp: 2.9000000722589903e-05
+u_calc: 3.136899249511771e-05
+u_exp: 3.099999958067201e-05
+mse_btc: 2.9596171202683763e-07
+sk_end_loss: 0
+loss: 2.9596171202683763e-07
+{'training': True, '_parameters': OrderedDict([('f', Parameter containing:
+tensor(1.0789, dtype=torch.float64, requires_grad=True))]), '_buffers': OrderedDict(), '_non_persistent_buffers_set': set(), '_backward_hooks': OrderedDict(), '_is_full_backward_hook': None, '_forward_hooks': OrderedDict(), '_forward_pre_hooks': OrderedDict(), '_state_dict_hooks': OrderedDict(), '_load_state_dict_pre_hooks': OrderedDict(), '_load_state_dict_post_hooks': OrderedDict(), '_modules': OrderedDict(), 'device': device(type='cpu'), 'Nx': 28, 'BC': tensor([0., 0.], dtype=torch.float64), 'layer_sizes': [2, 100, 1000, 100, 1], 'mode': 'train', 'cfg': None, 'bias': True, 'sigmoid': True, 'D': tensor(709.9000, dtype=torch.float64), 'stencil': tensor([-1.,  1.], dtype=torch.float64), 'k_d': tensor(4.5000, dtype=torch.float64), 'v_e': tensor(78.6000, dtype=torch.float64), 'beta': tensor(0.9800, dtype=torch.float64), 'alpha': tensor(0.0050, dtype=torch.float64), 'dx': 2.037037037037037, 'rho_s': tensor(1.5800, dtype=torch.float64), 'n_e': tensor(0.4000, dtype=torch.float64), 'learn_f_hyd': False, 'learn_g_hyd': False, 'learn_r_hyd': False, 'learn_f': True, 'learn_alpha': False, 'learn_k_d': False, 'learn_beta': False, 'learn_sk': False, 'sand': True, 'D_sand': tensor(507.1000, dtype=torch.float64), 'n_e_sand': tensor(0.3100, dtype=torch.float64), 'x_start': tensor(4, dtype=torch.int32), 'x_stop': tensor(24, dtype=torch.int32), 'x_steps_soil': tensor(28, dtype=torch.int32), 'alpha_l_sand': tensor(5., dtype=torch.float64), 'v_e_sand': tensor(101.4200, dtype=torch.float64), 't_steps': 38000}
+sk: tensor([[0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.]], grad_fn=<SelectBackward0>)
+c: tensor([[-0., -0., -0.,  ..., 0., 0., 0.],
+        [-0., -0., -0.,  ..., 0., 0., 0.],
+        [-0., -0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [-0., -0., 0.,  ..., 0., 0., 0.],
+        [-0., -0., -0.,  ..., 0., 0., 0.],
+        [-0., -0., -0.,  ..., 0., 0., 0.]], grad_fn=<SelectBackward0>)
+neg_loss: 0.0
+f: 0.7462889365241187
+u_calc: 0.0
+u_exp: 0.0
+u_calc: 0.03144261613488197
+u_exp: 0.029999999329447746
+u_calc: 0.022447360679507256
+u_exp: 0.023000000044703484
+u_calc: 0.011666626669466496
+u_exp: 0.00989999994635582
+u_calc: 0.00491664744913578
+u_exp: 0.005100000184029341
+u_calc: 0.002035857643932104
+u_exp: 0.0017000000225380063
+u_calc: 0.0008921377011574805
+u_exp: 0.000539999979082495
+u_calc: 0.00041720244917087257
+u_exp: 0.0007300000288523734
+u_calc: 0.00020860432414337993
+u_exp: 0.0005099999834783375
+u_calc: 0.00011868681031046435
+u_exp: 0.0003499999875202775
+u_calc: 7.891477434895933e-05
+u_exp: 0.0002500000118743628
+u_calc: 6.105477223172784e-05
+u_exp: 0.0001900000061141327
+u_calc: 5.270817200653255e-05
+u_exp: 0.0001500000071246177
+u_calc: 4.8215642891591415e-05
+u_exp: 0.00011000000085914508
+u_calc: 4.6138597099343315e-05
+u_exp: 9.300000237999484e-05
+u_calc: 4.4799606257583946e-05
+u_exp: 6.0999998822808266e-05
+u_calc: 4.378089215606451e-05
+u_exp: 6.800000119255856e-05
+u_calc: 4.180211544735357e-05
+u_exp: 5.199999941396527e-05
+u_calc: 3.89751949114725e-05
+u_exp: 3.9999998989515007e-05
+u_calc: 3.633528103819117e-05
+u_exp: 2.9000000722589903e-05
+u_calc: 3.138943066005595e-05
+u_exp: 3.099999958067201e-05
+mse_btc: 2.896435375987494e-07
+sk_end_loss: 0
+loss: 2.896435375987494e-07
+Epoch 002/100 took 438.24 seconds. 		Average epoch training error: (+)2.896e-07   
+{'training': True, '_parameters': OrderedDict([('f', Parameter containing:
+tensor(1.0789, dtype=torch.float64, requires_grad=True))]), '_buffers': OrderedDict(), '_non_persistent_buffers_set': set(), '_backward_hooks': OrderedDict(), '_is_full_backward_hook': None, '_forward_hooks': OrderedDict(), '_forward_pre_hooks': OrderedDict(), '_state_dict_hooks': OrderedDict(), '_load_state_dict_pre_hooks': OrderedDict(), '_load_state_dict_post_hooks': OrderedDict(), '_modules': OrderedDict(), 'device': device(type='cpu'), 'Nx': 28, 'BC': tensor([0., 0.], dtype=torch.float64), 'layer_sizes': [2, 100, 1000, 100, 1], 'mode': 'train', 'cfg': None, 'bias': True, 'sigmoid': True, 'D': tensor(709.9000, dtype=torch.float64), 'stencil': tensor([-1.,  1.], dtype=torch.float64), 'k_d': tensor(4.5000, dtype=torch.float64), 'v_e': tensor(78.6000, dtype=torch.float64), 'beta': tensor(0.9800, dtype=torch.float64), 'alpha': tensor(0.0050, dtype=torch.float64), 'dx': 2.037037037037037, 'rho_s': tensor(1.5800, dtype=torch.float64), 'n_e': tensor(0.4000, dtype=torch.float64), 'learn_f_hyd': False, 'learn_g_hyd': False, 'learn_r_hyd': False, 'learn_f': True, 'learn_alpha': False, 'learn_k_d': False, 'learn_beta': False, 'learn_sk': False, 'sand': True, 'D_sand': tensor(507.1000, dtype=torch.float64), 'n_e_sand': tensor(0.3100, dtype=torch.float64), 'x_start': tensor(4, dtype=torch.int32), 'x_stop': tensor(24, dtype=torch.int32), 'x_steps_soil': tensor(28, dtype=torch.int32), 'alpha_l_sand': tensor(5., dtype=torch.float64), 'v_e_sand': tensor(101.4200, dtype=torch.float64), 't_steps': 38000}
+sk: tensor([[0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.]], grad_fn=<SelectBackward0>)
+c: tensor([[-0., -0., -0.,  ..., 0., 0., 0.],
+        [-0., -0., -0.,  ..., 0., 0., 0.],
+        [-0., -0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [-0., -0., 0.,  ..., 0., 0., 0.],
+        [-0., -0., -0.,  ..., 0., 0., 0.],
+        [-0., -0., -0.,  ..., 0., 0., 0.]], grad_fn=<SelectBackward0>)
+neg_loss: 0.0
+f: 0.7462889365241187
+u_calc: 0.0
+u_exp: 0.0
+u_calc: 0.03144261613488197
+u_exp: 0.029999999329447746
+u_calc: 0.022447360679507256
+u_exp: 0.023000000044703484
+u_calc: 0.011666626669466496
+u_exp: 0.00989999994635582
+u_calc: 0.00491664744913578
+u_exp: 0.005100000184029341
+u_calc: 0.002035857643932104
+u_exp: 0.0017000000225380063
+u_calc: 0.0008921377011574805
+u_exp: 0.000539999979082495
+u_calc: 0.00041720244917087257
+u_exp: 0.0007300000288523734
+u_calc: 0.00020860432414337993
+u_exp: 0.0005099999834783375
+u_calc: 0.00011868681031046435
+u_exp: 0.0003499999875202775
+u_calc: 7.891477434895933e-05
+u_exp: 0.0002500000118743628
+u_calc: 6.105477223172784e-05
+u_exp: 0.0001900000061141327
+u_calc: 5.270817200653255e-05
+u_exp: 0.0001500000071246177
+u_calc: 4.8215642891591415e-05
+u_exp: 0.00011000000085914508
+u_calc: 4.6138597099343315e-05
+u_exp: 9.300000237999484e-05
+u_calc: 4.4799606257583946e-05
+u_exp: 6.0999998822808266e-05
+u_calc: 4.378089215606451e-05
+u_exp: 6.800000119255856e-05
+u_calc: 4.180211544735357e-05
+u_exp: 5.199999941396527e-05
+u_calc: 3.89751949114725e-05
+u_exp: 3.9999998989515007e-05
+u_calc: 3.633528103819117e-05
+u_exp: 2.9000000722589903e-05
+u_calc: 3.138943066005595e-05
+u_exp: 3.099999958067201e-05
+mse_btc: 2.896435375987494e-07
+sk_end_loss: 0
+loss: 2.896435375987494e-07
+{'training': True, '_parameters': OrderedDict([('f', Parameter containing:
+tensor(1.0691, dtype=torch.float64, requires_grad=True))]), '_buffers': OrderedDict(), '_non_persistent_buffers_set': set(), '_backward_hooks': OrderedDict(), '_is_full_backward_hook': None, '_forward_hooks': OrderedDict(), '_forward_pre_hooks': OrderedDict(), '_state_dict_hooks': OrderedDict(), '_load_state_dict_pre_hooks': OrderedDict(), '_load_state_dict_post_hooks': OrderedDict(), '_modules': OrderedDict(), 'device': device(type='cpu'), 'Nx': 28, 'BC': tensor([0., 0.], dtype=torch.float64), 'layer_sizes': [2, 100, 1000, 100, 1], 'mode': 'train', 'cfg': None, 'bias': True, 'sigmoid': True, 'D': tensor(709.9000, dtype=torch.float64), 'stencil': tensor([-1.,  1.], dtype=torch.float64), 'k_d': tensor(4.5000, dtype=torch.float64), 'v_e': tensor(78.6000, dtype=torch.float64), 'beta': tensor(0.9800, dtype=torch.float64), 'alpha': tensor(0.0050, dtype=torch.float64), 'dx': 2.037037037037037, 'rho_s': tensor(1.5800, dtype=torch.float64), 'n_e': tensor(0.4000, dtype=torch.float64), 'learn_f_hyd': False, 'learn_g_hyd': False, 'learn_r_hyd': False, 'learn_f': True, 'learn_alpha': False, 'learn_k_d': False, 'learn_beta': False, 'learn_sk': False, 'sand': True, 'D_sand': tensor(507.1000, dtype=torch.float64), 'n_e_sand': tensor(0.3100, dtype=torch.float64), 'x_start': tensor(4, dtype=torch.int32), 'x_stop': tensor(24, dtype=torch.int32), 'x_steps_soil': tensor(28, dtype=torch.int32), 'alpha_l_sand': tensor(5., dtype=torch.float64), 'v_e_sand': tensor(101.4200, dtype=torch.float64), 't_steps': 38000}
+sk: tensor([[0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.]], grad_fn=<SelectBackward0>)
+c: tensor([[-0., -0., -0.,  ..., 0., 0., 0.],
+        [-0., -0., -0.,  ..., 0., 0., 0.],
+        [-0., -0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [-0., -0., 0.,  ..., 0., 0., 0.],
+        [-0., -0., -0.,  ..., 0., 0., 0.],
+        [-0., -0., -0.,  ..., 0., 0., 0.]], grad_fn=<SelectBackward0>)
+neg_loss: 0.0
+f: 0.7444321020197564
+u_calc: 0.0
+u_exp: 0.0
+u_calc: 0.03143996000289917
+u_exp: 0.029999999329447746
+u_calc: 0.02240275964140892
+u_exp: 0.023000000044703484
+u_calc: 0.011619183234870434
+u_exp: 0.00989999994635582
+u_calc: 0.004886207636445761
+u_exp: 0.005100000184029341
+u_calc: 0.0020194121170789003
+u_exp: 0.0017000000225380063
+u_calc: 0.0008836000342853367
+u_exp: 0.000539999979082495
+u_calc: 0.0004128398431930691
+u_exp: 0.0007300000288523734
+u_calc: 0.00020644726464524865
+u_exp: 0.0005099999834783375
+u_calc: 0.00011763445945689455
+u_exp: 0.0003499999875202775
+u_calc: 7.841393380658701e-05
+u_exp: 0.0002500000118743628
+u_calc: 6.082545587560162e-05
+u_exp: 0.0001900000061141327
+u_calc: 5.261234400677495e-05
+u_exp: 0.0001500000071246177
+u_calc: 4.818997695110738e-05
+u_exp: 0.00011000000085914508
+u_calc: 4.6140674385242164e-05
+u_exp: 9.300000237999484e-05
+u_calc: 4.481480209506117e-05
+u_exp: 6.0999998822808266e-05
+u_calc: 4.380223617772572e-05
+u_exp: 6.800000119255856e-05
+u_calc: 4.182743214187212e-05
+u_exp: 5.199999941396527e-05
+u_calc: 3.89998203900177e-05
+u_exp: 3.9999998989515007e-05
+u_calc: 3.635842585936189e-05
+u_exp: 2.9000000722589903e-05
+u_calc: 3.140969783999026e-05
+u_exp: 3.099999958067201e-05
+mse_btc: 2.838537511706818e-07
+sk_end_loss: 0
+loss: 2.838537511706818e-07
+Epoch 003/100 took 462.43 seconds. 		Average epoch training error: (+)2.839e-07   
+{'training': True, '_parameters': OrderedDict([('f', Parameter containing:
+tensor(1.0691, dtype=torch.float64, requires_grad=True))]), '_buffers': OrderedDict(), '_non_persistent_buffers_set': set(), '_backward_hooks': OrderedDict(), '_is_full_backward_hook': None, '_forward_hooks': OrderedDict(), '_forward_pre_hooks': OrderedDict(), '_state_dict_hooks': OrderedDict(), '_load_state_dict_pre_hooks': OrderedDict(), '_load_state_dict_post_hooks': OrderedDict(), '_modules': OrderedDict(), 'device': device(type='cpu'), 'Nx': 28, 'BC': tensor([0., 0.], dtype=torch.float64), 'layer_sizes': [2, 100, 1000, 100, 1], 'mode': 'train', 'cfg': None, 'bias': True, 'sigmoid': True, 'D': tensor(709.9000, dtype=torch.float64), 'stencil': tensor([-1.,  1.], dtype=torch.float64), 'k_d': tensor(4.5000, dtype=torch.float64), 'v_e': tensor(78.6000, dtype=torch.float64), 'beta': tensor(0.9800, dtype=torch.float64), 'alpha': tensor(0.0050, dtype=torch.float64), 'dx': 2.037037037037037, 'rho_s': tensor(1.5800, dtype=torch.float64), 'n_e': tensor(0.4000, dtype=torch.float64), 'learn_f_hyd': False, 'learn_g_hyd': False, 'learn_r_hyd': False, 'learn_f': True, 'learn_alpha': False, 'learn_k_d': False, 'learn_beta': False, 'learn_sk': False, 'sand': True, 'D_sand': tensor(507.1000, dtype=torch.float64), 'n_e_sand': tensor(0.3100, dtype=torch.float64), 'x_start': tensor(4, dtype=torch.int32), 'x_stop': tensor(24, dtype=torch.int32), 'x_steps_soil': tensor(28, dtype=torch.int32), 'alpha_l_sand': tensor(5., dtype=torch.float64), 'v_e_sand': tensor(101.4200, dtype=torch.float64), 't_steps': 38000}
+sk: tensor([[0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.]], grad_fn=<SelectBackward0>)
+c: tensor([[-0., -0., -0.,  ..., 0., 0., 0.],
+        [-0., -0., -0.,  ..., 0., 0., 0.],
+        [-0., -0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [-0., -0., 0.,  ..., 0., 0., 0.],
+        [-0., -0., -0.,  ..., 0., 0., 0.],
+        [-0., -0., -0.,  ..., 0., 0., 0.]], grad_fn=<SelectBackward0>)
+neg_loss: 0.0
+f: 0.7444321020197564
+u_calc: 0.0
+u_exp: 0.0
+u_calc: 0.03143996000289917
+u_exp: 0.029999999329447746
+u_calc: 0.02240275964140892
+u_exp: 0.023000000044703484
+u_calc: 0.011619183234870434
+u_exp: 0.00989999994635582
+u_calc: 0.004886207636445761
+u_exp: 0.005100000184029341
+u_calc: 0.0020194121170789003
+u_exp: 0.0017000000225380063
+u_calc: 0.0008836000342853367
+u_exp: 0.000539999979082495
+u_calc: 0.0004128398431930691
+u_exp: 0.0007300000288523734
+u_calc: 0.00020644726464524865
+u_exp: 0.0005099999834783375
+u_calc: 0.00011763445945689455
+u_exp: 0.0003499999875202775
+u_calc: 7.841393380658701e-05
+u_exp: 0.0002500000118743628
+u_calc: 6.082545587560162e-05
+u_exp: 0.0001900000061141327
+u_calc: 5.261234400677495e-05
+u_exp: 0.0001500000071246177
+u_calc: 4.818997695110738e-05
+u_exp: 0.00011000000085914508
+u_calc: 4.6140674385242164e-05
+u_exp: 9.300000237999484e-05
+u_calc: 4.481480209506117e-05
+u_exp: 6.0999998822808266e-05
+u_calc: 4.380223617772572e-05
+u_exp: 6.800000119255856e-05
+u_calc: 4.182743214187212e-05
+u_exp: 5.199999941396527e-05
+u_calc: 3.89998203900177e-05
+u_exp: 3.9999998989515007e-05
+u_calc: 3.635842585936189e-05
+u_exp: 2.9000000722589903e-05
+u_calc: 3.140969783999026e-05
+u_exp: 3.099999958067201e-05
+mse_btc: 2.838537511706818e-07
+sk_end_loss: 0
+loss: 2.838537511706818e-07
+{'training': True, '_parameters': OrderedDict([('f', Parameter containing:
+tensor(1.0594, dtype=torch.float64, requires_grad=True))]), '_buffers': OrderedDict(), '_non_persistent_buffers_set': set(), '_backward_hooks': OrderedDict(), '_is_full_backward_hook': None, '_forward_hooks': OrderedDict(), '_forward_pre_hooks': OrderedDict(), '_state_dict_hooks': OrderedDict(), '_load_state_dict_pre_hooks': OrderedDict(), '_load_state_dict_post_hooks': OrderedDict(), '_modules': OrderedDict(), 'device': device(type='cpu'), 'Nx': 28, 'BC': tensor([0., 0.], dtype=torch.float64), 'layer_sizes': [2, 100, 1000, 100, 1], 'mode': 'train', 'cfg': None, 'bias': True, 'sigmoid': True, 'D': tensor(709.9000, dtype=torch.float64), 'stencil': tensor([-1.,  1.], dtype=torch.float64), 'k_d': tensor(4.5000, dtype=torch.float64), 'v_e': tensor(78.6000, dtype=torch.float64), 'beta': tensor(0.9800, dtype=torch.float64), 'alpha': tensor(0.0050, dtype=torch.float64), 'dx': 2.037037037037037, 'rho_s': tensor(1.5800, dtype=torch.float64), 'n_e': tensor(0.4000, dtype=torch.float64), 'learn_f_hyd': False, 'learn_g_hyd': False, 'learn_r_hyd': False, 'learn_f': True, 'learn_alpha': False, 'learn_k_d': False, 'learn_beta': False, 'learn_sk': False, 'sand': True, 'D_sand': tensor(507.1000, dtype=torch.float64), 'n_e_sand': tensor(0.3100, dtype=torch.float64), 'x_start': tensor(4, dtype=torch.int32), 'x_stop': tensor(24, dtype=torch.int32), 'x_steps_soil': tensor(28, dtype=torch.int32), 'alpha_l_sand': tensor(5., dtype=torch.float64), 'v_e_sand': tensor(101.4200, dtype=torch.float64), 't_steps': 38000}
+sk: tensor([[0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.]], grad_fn=<SelectBackward0>)
+c: tensor([[-0., -0., -0.,  ..., 0., 0., 0.],
+        [-0., -0., -0.,  ..., 0., 0., 0.],
+        [-0., -0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [-0., -0., 0.,  ..., 0., 0., 0.],
+        [-0., -0., -0.,  ..., 0., 0., 0.],
+        [-0., -0., -0.,  ..., 0., 0., 0.]], grad_fn=<SelectBackward0>)
+neg_loss: 0.0
+f: 0.742580424439249
+u_calc: 0.0
+u_exp: 0.0
+u_calc: 0.031437281519174576
+u_exp: 0.029999999329447746
+u_calc: 0.02235809713602066
+u_exp: 0.023000000044703484
+u_calc: 0.011571829207241535
+u_exp: 0.00989999994635582
+u_calc: 0.004855902399867773
+u_exp: 0.005100000184029341
+u_calc: 0.0020030750893056393
+u_exp: 0.0017000000225380063
+u_calc: 0.0008751350687816739
+u_exp: 0.000539999979082495
+u_calc: 0.00040852234815247357
+u_exp: 0.0007300000288523734
+u_calc: 0.00020431644225027412
+u_exp: 0.0005099999834783375
+u_calc: 0.00011659684241749346
+u_exp: 0.0003499999875202775
+u_calc: 7.792108954163268e-05
+u_exp: 0.0002500000118743628
+u_calc: 6.0600337747018784e-05
+u_exp: 0.0001900000061141327
+u_calc: 5.251860784483142e-05
+u_exp: 0.0001500000071246177
+u_calc: 4.816515138372779e-05
+u_exp: 0.00011000000085914508
+u_calc: 4.614304634742439e-05
+u_exp: 9.300000237999484e-05
+u_calc: 4.48300015705172e-05
+u_exp: 6.0999998822808266e-05
+u_calc: 4.382343468023464e-05
+u_exp: 6.800000119255856e-05
+u_calc: 4.1852483263937756e-05
+u_exp: 5.199999941396527e-05
+u_calc: 3.902416574419476e-05
+u_exp: 3.9999998989515007e-05
+u_calc: 3.63813123840373e-05
+u_exp: 2.9000000722589903e-05
+u_calc: 3.1429743103217334e-05
+u_exp: 3.099999958067201e-05
+mse_btc: 2.7860639306709345e-07
+sk_end_loss: 0
+loss: 2.7860639306709345e-07
+Epoch 004/100 took 498.95 seconds. 		Average epoch training error: (+)2.786e-07   
+{'training': True, '_parameters': OrderedDict([('f', Parameter containing:
+tensor(1.0594, dtype=torch.float64, requires_grad=True))]), '_buffers': OrderedDict(), '_non_persistent_buffers_set': set(), '_backward_hooks': OrderedDict(), '_is_full_backward_hook': None, '_forward_hooks': OrderedDict(), '_forward_pre_hooks': OrderedDict(), '_state_dict_hooks': OrderedDict(), '_load_state_dict_pre_hooks': OrderedDict(), '_load_state_dict_post_hooks': OrderedDict(), '_modules': OrderedDict(), 'device': device(type='cpu'), 'Nx': 28, 'BC': tensor([0., 0.], dtype=torch.float64), 'layer_sizes': [2, 100, 1000, 100, 1], 'mode': 'train', 'cfg': None, 'bias': True, 'sigmoid': True, 'D': tensor(709.9000, dtype=torch.float64), 'stencil': tensor([-1.,  1.], dtype=torch.float64), 'k_d': tensor(4.5000, dtype=torch.float64), 'v_e': tensor(78.6000, dtype=torch.float64), 'beta': tensor(0.9800, dtype=torch.float64), 'alpha': tensor(0.0050, dtype=torch.float64), 'dx': 2.037037037037037, 'rho_s': tensor(1.5800, dtype=torch.float64), 'n_e': tensor(0.4000, dtype=torch.float64), 'learn_f_hyd': False, 'learn_g_hyd': False, 'learn_r_hyd': False, 'learn_f': True, 'learn_alpha': False, 'learn_k_d': False, 'learn_beta': False, 'learn_sk': False, 'sand': True, 'D_sand': tensor(507.1000, dtype=torch.float64), 'n_e_sand': tensor(0.3100, dtype=torch.float64), 'x_start': tensor(4, dtype=torch.int32), 'x_stop': tensor(24, dtype=torch.int32), 'x_steps_soil': tensor(28, dtype=torch.int32), 'alpha_l_sand': tensor(5., dtype=torch.float64), 'v_e_sand': tensor(101.4200, dtype=torch.float64), 't_steps': 38000}
+sk: tensor([[0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.]], grad_fn=<SelectBackward0>)
+c: tensor([[-0., -0., -0.,  ..., 0., 0., 0.],
+        [-0., -0., -0.,  ..., 0., 0., 0.],
+        [-0., -0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [-0., -0., 0.,  ..., 0., 0., 0.],
+        [-0., -0., -0.,  ..., 0., 0., 0.],
+        [-0., -0., -0.,  ..., 0., 0., 0.]], grad_fn=<SelectBackward0>)
+neg_loss: 0.0
+f: 0.742580424439249
+u_calc: 0.0
+u_exp: 0.0
+u_calc: 0.031437281519174576
+u_exp: 0.029999999329447746
+u_calc: 0.02235809713602066
+u_exp: 0.023000000044703484
+u_calc: 0.011571829207241535
+u_exp: 0.00989999994635582
+u_calc: 0.004855902399867773
+u_exp: 0.005100000184029341
+u_calc: 0.0020030750893056393
+u_exp: 0.0017000000225380063
+u_calc: 0.0008751350687816739
+u_exp: 0.000539999979082495
+u_calc: 0.00040852234815247357
+u_exp: 0.0007300000288523734
+u_calc: 0.00020431644225027412
+u_exp: 0.0005099999834783375
+u_calc: 0.00011659684241749346
+u_exp: 0.0003499999875202775
+u_calc: 7.792108954163268e-05
+u_exp: 0.0002500000118743628
+u_calc: 6.0600337747018784e-05
+u_exp: 0.0001900000061141327
+u_calc: 5.251860784483142e-05
+u_exp: 0.0001500000071246177
+u_calc: 4.816515138372779e-05
+u_exp: 0.00011000000085914508
+u_calc: 4.614304634742439e-05
+u_exp: 9.300000237999484e-05
+u_calc: 4.48300015705172e-05
+u_exp: 6.0999998822808266e-05
+u_calc: 4.382343468023464e-05
+u_exp: 6.800000119255856e-05
+u_calc: 4.1852483263937756e-05
+u_exp: 5.199999941396527e-05
+u_calc: 3.902416574419476e-05
+u_exp: 3.9999998989515007e-05
+u_calc: 3.63813123840373e-05
+u_exp: 2.9000000722589903e-05
+u_calc: 3.1429743103217334e-05
+u_exp: 3.099999958067201e-05
+mse_btc: 2.7860639306709345e-07
+sk_end_loss: 0
+loss: 2.7860639306709345e-07
+{'training': True, '_parameters': OrderedDict([('f', Parameter containing:
+tensor(1.0498, dtype=torch.float64, requires_grad=True))]), '_buffers': OrderedDict(), '_non_persistent_buffers_set': set(), '_backward_hooks': OrderedDict(), '_is_full_backward_hook': None, '_forward_hooks': OrderedDict(), '_forward_pre_hooks': OrderedDict(), '_state_dict_hooks': OrderedDict(), '_load_state_dict_pre_hooks': OrderedDict(), '_load_state_dict_post_hooks': OrderedDict(), '_modules': OrderedDict(), 'device': device(type='cpu'), 'Nx': 28, 'BC': tensor([0., 0.], dtype=torch.float64), 'layer_sizes': [2, 100, 1000, 100, 1], 'mode': 'train', 'cfg': None, 'bias': True, 'sigmoid': True, 'D': tensor(709.9000, dtype=torch.float64), 'stencil': tensor([-1.,  1.], dtype=torch.float64), 'k_d': tensor(4.5000, dtype=torch.float64), 'v_e': tensor(78.6000, dtype=torch.float64), 'beta': tensor(0.9800, dtype=torch.float64), 'alpha': tensor(0.0050, dtype=torch.float64), 'dx': 2.037037037037037, 'rho_s': tensor(1.5800, dtype=torch.float64), 'n_e': tensor(0.4000, dtype=torch.float64), 'learn_f_hyd': False, 'learn_g_hyd': False, 'learn_r_hyd': False, 'learn_f': True, 'learn_alpha': False, 'learn_k_d': False, 'learn_beta': False, 'learn_sk': False, 'sand': True, 'D_sand': tensor(507.1000, dtype=torch.float64), 'n_e_sand': tensor(0.3100, dtype=torch.float64), 'x_start': tensor(4, dtype=torch.int32), 'x_stop': tensor(24, dtype=torch.int32), 'x_steps_soil': tensor(28, dtype=torch.int32), 'alpha_l_sand': tensor(5., dtype=torch.float64), 'v_e_sand': tensor(101.4200, dtype=torch.float64), 't_steps': 38000}
+sk: tensor([[0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.]], grad_fn=<SelectBackward0>)
+c: tensor([[-0., -0., -0.,  ..., 0., 0., 0.],
+        [-0., -0., -0.,  ..., 0., 0., 0.],
+        [-0., -0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [-0., -0., 0.,  ..., 0., 0., 0.],
+        [-0., -0., -0.,  ..., 0., 0., 0.],
+        [-0., -0., -0.,  ..., 0., 0., 0.]], grad_fn=<SelectBackward0>)
+neg_loss: 0.0
+f: 0.7407393891734477
+u_calc: 0.0
+u_exp: 0.0
+u_calc: 0.03143458813428879
+u_exp: 0.029999999329447746
+u_calc: 0.02231350727379322
+u_exp: 0.023000000044703484
+u_calc: 0.011524705216288567
+u_exp: 0.00989999994635582
+u_calc: 0.004825822077691555
+u_exp: 0.005100000184029341
+u_calc: 0.00198689429089427
+u_exp: 0.0017000000225380063
+u_calc: 0.0008667673682793975
+u_exp: 0.000539999979082495
+u_calc: 0.00040426230407319963
+u_exp: 0.0007300000288523734
+u_calc: 0.0002022178377956152
+u_exp: 0.0005099999834783375
+u_calc: 0.00011557680409168825
+u_exp: 0.0003499999875202775
+u_calc: 7.743755850242451e-05
+u_exp: 0.0002500000118743628
+u_calc: 6.037999992258847e-05
+u_exp: 0.0001900000061141327
+u_calc: 5.242719635134563e-05
+u_exp: 0.0001500000071246177
+u_calc: 4.814122439711355e-05
+u_exp: 0.00011000000085914508
+u_calc: 4.6145687520038337e-05
+u_exp: 9.300000237999484e-05
+u_calc: 4.4845153752248734e-05
+u_exp: 6.0999998822808266e-05
+u_calc: 4.384442217997275e-05
+u_exp: 6.800000119255856e-05
+u_calc: 4.187719605397433e-05
+u_exp: 5.199999941396527e-05
+u_calc: 3.904816912836395e-05
+u_exp: 3.9999998989515007e-05
+u_calc: 3.6403875128598884e-05
+u_exp: 2.9000000722589903e-05
+u_calc: 3.1449504604097456e-05
+u_exp: 3.099999958067201e-05
+mse_btc: 2.7391229195927735e-07
+sk_end_loss: 0
+loss: 2.7391229195927735e-07
+Epoch 005/100 took 506.29 seconds. 		Average epoch training error: (+)2.739e-07   
+{'training': True, '_parameters': OrderedDict([('f', Parameter containing:
+tensor(1.0498, dtype=torch.float64, requires_grad=True))]), '_buffers': OrderedDict(), '_non_persistent_buffers_set': set(), '_backward_hooks': OrderedDict(), '_is_full_backward_hook': None, '_forward_hooks': OrderedDict(), '_forward_pre_hooks': OrderedDict(), '_state_dict_hooks': OrderedDict(), '_load_state_dict_pre_hooks': OrderedDict(), '_load_state_dict_post_hooks': OrderedDict(), '_modules': OrderedDict(), 'device': device(type='cpu'), 'Nx': 28, 'BC': tensor([0., 0.], dtype=torch.float64), 'layer_sizes': [2, 100, 1000, 100, 1], 'mode': 'train', 'cfg': None, 'bias': True, 'sigmoid': True, 'D': tensor(709.9000, dtype=torch.float64), 'stencil': tensor([-1.,  1.], dtype=torch.float64), 'k_d': tensor(4.5000, dtype=torch.float64), 'v_e': tensor(78.6000, dtype=torch.float64), 'beta': tensor(0.9800, dtype=torch.float64), 'alpha': tensor(0.0050, dtype=torch.float64), 'dx': 2.037037037037037, 'rho_s': tensor(1.5800, dtype=torch.float64), 'n_e': tensor(0.4000, dtype=torch.float64), 'learn_f_hyd': False, 'learn_g_hyd': False, 'learn_r_hyd': False, 'learn_f': True, 'learn_alpha': False, 'learn_k_d': False, 'learn_beta': False, 'learn_sk': False, 'sand': True, 'D_sand': tensor(507.1000, dtype=torch.float64), 'n_e_sand': tensor(0.3100, dtype=torch.float64), 'x_start': tensor(4, dtype=torch.int32), 'x_stop': tensor(24, dtype=torch.int32), 'x_steps_soil': tensor(28, dtype=torch.int32), 'alpha_l_sand': tensor(5., dtype=torch.float64), 'v_e_sand': tensor(101.4200, dtype=torch.float64), 't_steps': 38000}
+sk: tensor([[0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.]], grad_fn=<SelectBackward0>)
+c: tensor([[-0., -0., -0.,  ..., 0., 0., 0.],
+        [-0., -0., -0.,  ..., 0., 0., 0.],
+        [-0., -0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [-0., -0., 0.,  ..., 0., 0., 0.],
+        [-0., -0., -0.,  ..., 0., 0., 0.],
+        [-0., -0., -0.,  ..., 0., 0., 0.]], grad_fn=<SelectBackward0>)
+neg_loss: 0.0
+f: 0.7407393891734477
+u_calc: 0.0
+u_exp: 0.0
+u_calc: 0.03143458813428879
+u_exp: 0.029999999329447746
+u_calc: 0.02231350727379322
+u_exp: 0.023000000044703484
+u_calc: 0.011524705216288567
+u_exp: 0.00989999994635582
+u_calc: 0.004825822077691555
+u_exp: 0.005100000184029341
+u_calc: 0.00198689429089427
+u_exp: 0.0017000000225380063
+u_calc: 0.0008667673682793975
+u_exp: 0.000539999979082495
+u_calc: 0.00040426230407319963
+u_exp: 0.0007300000288523734
+u_calc: 0.0002022178377956152
+u_exp: 0.0005099999834783375
+u_calc: 0.00011557680409168825
+u_exp: 0.0003499999875202775
+u_calc: 7.743755850242451e-05
+u_exp: 0.0002500000118743628
+u_calc: 6.037999992258847e-05
+u_exp: 0.0001900000061141327
+u_calc: 5.242719635134563e-05
+u_exp: 0.0001500000071246177
+u_calc: 4.814122439711355e-05
+u_exp: 0.00011000000085914508
+u_calc: 4.6145687520038337e-05
+u_exp: 9.300000237999484e-05
+u_calc: 4.4845153752248734e-05
+u_exp: 6.0999998822808266e-05
+u_calc: 4.384442217997275e-05
+u_exp: 6.800000119255856e-05
+u_calc: 4.187719605397433e-05
+u_exp: 5.199999941396527e-05
+u_calc: 3.904816912836395e-05
+u_exp: 3.9999998989515007e-05
+u_calc: 3.6403875128598884e-05
+u_exp: 2.9000000722589903e-05
+u_calc: 3.1449504604097456e-05
+u_exp: 3.099999958067201e-05
+mse_btc: 2.7391229195927735e-07
+sk_end_loss: 0
+loss: 2.7391229195927735e-07
+{'training': True, '_parameters': OrderedDict([('f', Parameter containing:
+tensor(1.0403, dtype=torch.float64, requires_grad=True))]), '_buffers': OrderedDict(), '_non_persistent_buffers_set': set(), '_backward_hooks': OrderedDict(), '_is_full_backward_hook': None, '_forward_hooks': OrderedDict(), '_forward_pre_hooks': OrderedDict(), '_state_dict_hooks': OrderedDict(), '_load_state_dict_pre_hooks': OrderedDict(), '_load_state_dict_post_hooks': OrderedDict(), '_modules': OrderedDict(), 'device': device(type='cpu'), 'Nx': 28, 'BC': tensor([0., 0.], dtype=torch.float64), 'layer_sizes': [2, 100, 1000, 100, 1], 'mode': 'train', 'cfg': None, 'bias': True, 'sigmoid': True, 'D': tensor(709.9000, dtype=torch.float64), 'stencil': tensor([-1.,  1.], dtype=torch.float64), 'k_d': tensor(4.5000, dtype=torch.float64), 'v_e': tensor(78.6000, dtype=torch.float64), 'beta': tensor(0.9800, dtype=torch.float64), 'alpha': tensor(0.0050, dtype=torch.float64), 'dx': 2.037037037037037, 'rho_s': tensor(1.5800, dtype=torch.float64), 'n_e': tensor(0.4000, dtype=torch.float64), 'learn_f_hyd': False, 'learn_g_hyd': False, 'learn_r_hyd': False, 'learn_f': True, 'learn_alpha': False, 'learn_k_d': False, 'learn_beta': False, 'learn_sk': False, 'sand': True, 'D_sand': tensor(507.1000, dtype=torch.float64), 'n_e_sand': tensor(0.3100, dtype=torch.float64), 'x_start': tensor(4, dtype=torch.int32), 'x_stop': tensor(24, dtype=torch.int32), 'x_steps_soil': tensor(28, dtype=torch.int32), 'alpha_l_sand': tensor(5., dtype=torch.float64), 'v_e_sand': tensor(101.4200, dtype=torch.float64), 't_steps': 38000}
+sk: tensor([[0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.]], grad_fn=<SelectBackward0>)
+c: tensor([[-0., -0., -0.,  ..., 0., 0., 0.],
+        [-0., -0., -0.,  ..., 0., 0., 0.],
+        [-0., -0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [-0., -0., 0.,  ..., 0., 0., 0.],
+        [-0., -0., -0.,  ..., 0., 0., 0.],
+        [-0., -0., -0.,  ..., 0., 0., 0.]], grad_fn=<SelectBackward0>)
+neg_loss: 0.0
+f: 0.7389153644268981
+u_calc: 0.0
+u_exp: 0.0
+u_calc: 0.0314318872988224
+u_exp: 0.029999999329447746
+u_calc: 0.022269150242209435
+u_exp: 0.023000000044703484
+u_calc: 0.01147797703742981
+u_exp: 0.00989999994635582
+u_calc: 0.004796069581061602
+u_exp: 0.005100000184029341
+u_calc: 0.0019709242042154074
+u_exp: 0.0017000000225380063
+u_calc: 0.0008585247560404241
+u_exp: 0.000539999979082495
+u_calc: 0.0004000736225862056
+u_exp: 0.0007300000288523734
+u_calc: 0.00020015817426610738
+u_exp: 0.0005099999834783375
+u_calc: 0.00011457754590082914
+u_exp: 0.0003499999875202775
+u_calc: 7.696482498431578e-05
+u_exp: 0.0002500000118743628
+u_calc: 6.016509360051714e-05
+u_exp: 0.0001900000061141327
+u_calc: 5.233835690887645e-05
+u_exp: 0.0001500000071246177
+u_calc: 4.811823964701034e-05
+u_exp: 0.00011000000085914508
+u_calc: 4.614857607521117e-05
+u_exp: 9.300000237999484e-05
+u_calc: 4.4860200432594866e-05
+u_exp: 6.0999998822808266e-05
+u_calc: 4.3865122279385105e-05
+u_exp: 6.800000119255856e-05
+u_calc: 4.190149047644809e-05
+u_exp: 5.199999941396527e-05
+u_calc: 3.907175050699152e-05
+u_exp: 3.9999998989515007e-05
+u_calc: 3.6426041333470494e-05
+u_exp: 2.9000000722589903e-05
+u_calc: 3.1468920496990904e-05
+u_exp: 3.099999958067201e-05
+mse_btc: 2.6977747324963275e-07
+sk_end_loss: 0
+loss: 2.6977747324963275e-07
+Epoch 006/100 took 489.95 seconds. 		Average epoch training error: (+)2.698e-07   
+{'training': True, '_parameters': OrderedDict([('f', Parameter containing:
+tensor(1.0403, dtype=torch.float64, requires_grad=True))]), '_buffers': OrderedDict(), '_non_persistent_buffers_set': set(), '_backward_hooks': OrderedDict(), '_is_full_backward_hook': None, '_forward_hooks': OrderedDict(), '_forward_pre_hooks': OrderedDict(), '_state_dict_hooks': OrderedDict(), '_load_state_dict_pre_hooks': OrderedDict(), '_load_state_dict_post_hooks': OrderedDict(), '_modules': OrderedDict(), 'device': device(type='cpu'), 'Nx': 28, 'BC': tensor([0., 0.], dtype=torch.float64), 'layer_sizes': [2, 100, 1000, 100, 1], 'mode': 'train', 'cfg': None, 'bias': True, 'sigmoid': True, 'D': tensor(709.9000, dtype=torch.float64), 'stencil': tensor([-1.,  1.], dtype=torch.float64), 'k_d': tensor(4.5000, dtype=torch.float64), 'v_e': tensor(78.6000, dtype=torch.float64), 'beta': tensor(0.9800, dtype=torch.float64), 'alpha': tensor(0.0050, dtype=torch.float64), 'dx': 2.037037037037037, 'rho_s': tensor(1.5800, dtype=torch.float64), 'n_e': tensor(0.4000, dtype=torch.float64), 'learn_f_hyd': False, 'learn_g_hyd': False, 'learn_r_hyd': False, 'learn_f': True, 'learn_alpha': False, 'learn_k_d': False, 'learn_beta': False, 'learn_sk': False, 'sand': True, 'D_sand': tensor(507.1000, dtype=torch.float64), 'n_e_sand': tensor(0.3100, dtype=torch.float64), 'x_start': tensor(4, dtype=torch.int32), 'x_stop': tensor(24, dtype=torch.int32), 'x_steps_soil': tensor(28, dtype=torch.int32), 'alpha_l_sand': tensor(5., dtype=torch.float64), 'v_e_sand': tensor(101.4200, dtype=torch.float64), 't_steps': 38000}
+sk: tensor([[0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.]], grad_fn=<SelectBackward0>)
+c: tensor([[-0., -0., -0.,  ..., 0., 0., 0.],
+        [-0., -0., -0.,  ..., 0., 0., 0.],
+        [-0., -0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [-0., -0., 0.,  ..., 0., 0., 0.],
+        [-0., -0., -0.,  ..., 0., 0., 0.],
+        [-0., -0., -0.,  ..., 0., 0., 0.]], grad_fn=<SelectBackward0>)
+neg_loss: 0.0
+f: 0.7389153644268981
+u_calc: 0.0
+u_exp: 0.0
+u_calc: 0.0314318872988224
+u_exp: 0.029999999329447746
+u_calc: 0.022269150242209435
+u_exp: 0.023000000044703484
+u_calc: 0.01147797703742981
+u_exp: 0.00989999994635582
+u_calc: 0.004796069581061602
+u_exp: 0.005100000184029341
+u_calc: 0.0019709242042154074
+u_exp: 0.0017000000225380063
+u_calc: 0.0008585247560404241
+u_exp: 0.000539999979082495
+u_calc: 0.0004000736225862056
+u_exp: 0.0007300000288523734
+u_calc: 0.00020015817426610738
+u_exp: 0.0005099999834783375
+u_calc: 0.00011457754590082914
+u_exp: 0.0003499999875202775
+u_calc: 7.696482498431578e-05
+u_exp: 0.0002500000118743628
+u_calc: 6.016509360051714e-05
+u_exp: 0.0001900000061141327
+u_calc: 5.233835690887645e-05
+u_exp: 0.0001500000071246177
+u_calc: 4.811823964701034e-05
+u_exp: 0.00011000000085914508
+u_calc: 4.614857607521117e-05
+u_exp: 9.300000237999484e-05
+u_calc: 4.4860200432594866e-05
+u_exp: 6.0999998822808266e-05
+u_calc: 4.3865122279385105e-05
+u_exp: 6.800000119255856e-05
+u_calc: 4.190149047644809e-05
+u_exp: 5.199999941396527e-05
+u_calc: 3.907175050699152e-05
+u_exp: 3.9999998989515007e-05
+u_calc: 3.6426041333470494e-05
+u_exp: 2.9000000722589903e-05
+u_calc: 3.1468920496990904e-05
+u_exp: 3.099999958067201e-05
+mse_btc: 2.6977747324963275e-07
+sk_end_loss: 0
+loss: 2.6977747324963275e-07
+{'training': True, '_parameters': OrderedDict([('f', Parameter containing:
+tensor(1.0310, dtype=torch.float64, requires_grad=True))]), '_buffers': OrderedDict(), '_non_persistent_buffers_set': set(), '_backward_hooks': OrderedDict(), '_is_full_backward_hook': None, '_forward_hooks': OrderedDict(), '_forward_pre_hooks': OrderedDict(), '_state_dict_hooks': OrderedDict(), '_load_state_dict_pre_hooks': OrderedDict(), '_load_state_dict_post_hooks': OrderedDict(), '_modules': OrderedDict(), 'device': device(type='cpu'), 'Nx': 28, 'BC': tensor([0., 0.], dtype=torch.float64), 'layer_sizes': [2, 100, 1000, 100, 1], 'mode': 'train', 'cfg': None, 'bias': True, 'sigmoid': True, 'D': tensor(709.9000, dtype=torch.float64), 'stencil': tensor([-1.,  1.], dtype=torch.float64), 'k_d': tensor(4.5000, dtype=torch.float64), 'v_e': tensor(78.6000, dtype=torch.float64), 'beta': tensor(0.9800, dtype=torch.float64), 'alpha': tensor(0.0050, dtype=torch.float64), 'dx': 2.037037037037037, 'rho_s': tensor(1.5800, dtype=torch.float64), 'n_e': tensor(0.4000, dtype=torch.float64), 'learn_f_hyd': False, 'learn_g_hyd': False, 'learn_r_hyd': False, 'learn_f': True, 'learn_alpha': False, 'learn_k_d': False, 'learn_beta': False, 'learn_sk': False, 'sand': True, 'D_sand': tensor(507.1000, dtype=torch.float64), 'n_e_sand': tensor(0.3100, dtype=torch.float64), 'x_start': tensor(4, dtype=torch.int32), 'x_stop': tensor(24, dtype=torch.int32), 'x_steps_soil': tensor(28, dtype=torch.int32), 'alpha_l_sand': tensor(5., dtype=torch.float64), 'v_e_sand': tensor(101.4200, dtype=torch.float64), 't_steps': 38000}
+sk: tensor([[0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.]], grad_fn=<SelectBackward0>)
+c: tensor([[-0., -0., -0.,  ..., 0., 0., 0.],
+        [-0., -0., -0.,  ..., 0., 0., 0.],
+        [-0., -0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [-0., -0., 0.,  ..., 0., 0., 0.],
+        [-0., -0., -0.,  ..., 0., 0., 0.],
+        [-0., -0., -0.,  ..., 0., 0., 0.]], grad_fn=<SelectBackward0>)
+neg_loss: 0.0
+f: 0.737115684922591
+u_calc: 0.0
+u_exp: 0.0
+u_calc: 0.031429193913936615
+u_exp: 0.029999999329447746
+u_calc: 0.022225206717848778
+u_exp: 0.023000000044703484
+u_calc: 0.011431833729147911
+u_exp: 0.00989999994635582
+u_calc: 0.004766763653606176
+u_exp: 0.005100000184029341
+u_calc: 0.001955227693542838
+u_exp: 0.0017000000225380063
+u_calc: 0.0008504387806169689
+u_exp: 0.000539999979082495
+u_calc: 0.00039597199065610766
+u_exp: 0.0007300000288523734
+u_calc: 0.0001981450041057542
+u_exp: 0.0005099999834783375
+u_calc: 0.00011360263306414708
+u_exp: 0.0003499999875202775
+u_calc: 7.650451880181208e-05
+u_exp: 0.0002500000118743628
+u_calc: 5.99563391006086e-05
+u_exp: 0.0001900000061141327
+u_calc: 5.225236600381322e-05
+u_exp: 0.0001500000071246177
+u_calc: 4.809625897905789e-05
+u_exp: 0.00011000000085914508
+u_calc: 4.615168654709123e-05
+u_exp: 9.300000237999484e-05
+u_calc: 4.4875072489958256e-05
+u_exp: 6.0999998822808266e-05
+u_calc: 4.388545858091675e-05
+u_exp: 6.800000119255856e-05
+u_calc: 4.192527194391005e-05
+u_exp: 5.199999941396527e-05
+u_calc: 3.909481893060729e-05
+u_exp: 3.9999998989515007e-05
+u_calc: 3.6447730963118374e-05
+u_exp: 2.9000000722589903e-05
+u_calc: 3.1487921660300344e-05
+u_exp: 3.099999958067201e-05
+mse_btc: 2.6620389803611033e-07
+sk_end_loss: 0
+loss: 2.6620389803611033e-07
+Epoch 007/100 took 503.57 seconds. 		Average epoch training error: (+)2.662e-07   
+{'training': True, '_parameters': OrderedDict([('f', Parameter containing:
+tensor(1.0310, dtype=torch.float64, requires_grad=True))]), '_buffers': OrderedDict(), '_non_persistent_buffers_set': set(), '_backward_hooks': OrderedDict(), '_is_full_backward_hook': None, '_forward_hooks': OrderedDict(), '_forward_pre_hooks': OrderedDict(), '_state_dict_hooks': OrderedDict(), '_load_state_dict_pre_hooks': OrderedDict(), '_load_state_dict_post_hooks': OrderedDict(), '_modules': OrderedDict(), 'device': device(type='cpu'), 'Nx': 28, 'BC': tensor([0., 0.], dtype=torch.float64), 'layer_sizes': [2, 100, 1000, 100, 1], 'mode': 'train', 'cfg': None, 'bias': True, 'sigmoid': True, 'D': tensor(709.9000, dtype=torch.float64), 'stencil': tensor([-1.,  1.], dtype=torch.float64), 'k_d': tensor(4.5000, dtype=torch.float64), 'v_e': tensor(78.6000, dtype=torch.float64), 'beta': tensor(0.9800, dtype=torch.float64), 'alpha': tensor(0.0050, dtype=torch.float64), 'dx': 2.037037037037037, 'rho_s': tensor(1.5800, dtype=torch.float64), 'n_e': tensor(0.4000, dtype=torch.float64), 'learn_f_hyd': False, 'learn_g_hyd': False, 'learn_r_hyd': False, 'learn_f': True, 'learn_alpha': False, 'learn_k_d': False, 'learn_beta': False, 'learn_sk': False, 'sand': True, 'D_sand': tensor(507.1000, dtype=torch.float64), 'n_e_sand': tensor(0.3100, dtype=torch.float64), 'x_start': tensor(4, dtype=torch.int32), 'x_stop': tensor(24, dtype=torch.int32), 'x_steps_soil': tensor(28, dtype=torch.int32), 'alpha_l_sand': tensor(5., dtype=torch.float64), 'v_e_sand': tensor(101.4200, dtype=torch.float64), 't_steps': 38000}
+sk: tensor([[0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.]], grad_fn=<SelectBackward0>)
+c: tensor([[-0., -0., -0.,  ..., 0., 0., 0.],
+        [-0., -0., -0.,  ..., 0., 0., 0.],
+        [-0., -0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [-0., -0., 0.,  ..., 0., 0., 0.],
+        [-0., -0., -0.,  ..., 0., 0., 0.],
+        [-0., -0., -0.,  ..., 0., 0., 0.]], grad_fn=<SelectBackward0>)
+neg_loss: 0.0
+f: 0.737115684922591
+u_calc: 0.0
+u_exp: 0.0
+u_calc: 0.031429193913936615
+u_exp: 0.029999999329447746
+u_calc: 0.022225206717848778
+u_exp: 0.023000000044703484
+u_calc: 0.011431833729147911
+u_exp: 0.00989999994635582
+u_calc: 0.004766763653606176
+u_exp: 0.005100000184029341
+u_calc: 0.001955227693542838
+u_exp: 0.0017000000225380063
+u_calc: 0.0008504387806169689
+u_exp: 0.000539999979082495
+u_calc: 0.00039597199065610766
+u_exp: 0.0007300000288523734
+u_calc: 0.0001981450041057542
+u_exp: 0.0005099999834783375
+u_calc: 0.00011360263306414708
+u_exp: 0.0003499999875202775
+u_calc: 7.650451880181208e-05
+u_exp: 0.0002500000118743628
+u_calc: 5.99563391006086e-05
+u_exp: 0.0001900000061141327
+u_calc: 5.225236600381322e-05
+u_exp: 0.0001500000071246177
+u_calc: 4.809625897905789e-05
+u_exp: 0.00011000000085914508
+u_calc: 4.615168654709123e-05
+u_exp: 9.300000237999484e-05
+u_calc: 4.4875072489958256e-05
+u_exp: 6.0999998822808266e-05
+u_calc: 4.388545858091675e-05
+u_exp: 6.800000119255856e-05
+u_calc: 4.192527194391005e-05
+u_exp: 5.199999941396527e-05
+u_calc: 3.909481893060729e-05
+u_exp: 3.9999998989515007e-05
+u_calc: 3.6447730963118374e-05
+u_exp: 2.9000000722589903e-05
+u_calc: 3.1487921660300344e-05
+u_exp: 3.099999958067201e-05
+mse_btc: 2.6620389803611033e-07
+sk_end_loss: 0
+loss: 2.6620389803611033e-07
+{'training': True, '_parameters': OrderedDict([('f', Parameter containing:
+tensor(1.0219, dtype=torch.float64, requires_grad=True))]), '_buffers': OrderedDict(), '_non_persistent_buffers_set': set(), '_backward_hooks': OrderedDict(), '_is_full_backward_hook': None, '_forward_hooks': OrderedDict(), '_forward_pre_hooks': OrderedDict(), '_state_dict_hooks': OrderedDict(), '_load_state_dict_pre_hooks': OrderedDict(), '_load_state_dict_post_hooks': OrderedDict(), '_modules': OrderedDict(), 'device': device(type='cpu'), 'Nx': 28, 'BC': tensor([0., 0.], dtype=torch.float64), 'layer_sizes': [2, 100, 1000, 100, 1], 'mode': 'train', 'cfg': None, 'bias': True, 'sigmoid': True, 'D': tensor(709.9000, dtype=torch.float64), 'stencil': tensor([-1.,  1.], dtype=torch.float64), 'k_d': tensor(4.5000, dtype=torch.float64), 'v_e': tensor(78.6000, dtype=torch.float64), 'beta': tensor(0.9800, dtype=torch.float64), 'alpha': tensor(0.0050, dtype=torch.float64), 'dx': 2.037037037037037, 'rho_s': tensor(1.5800, dtype=torch.float64), 'n_e': tensor(0.4000, dtype=torch.float64), 'learn_f_hyd': False, 'learn_g_hyd': False, 'learn_r_hyd': False, 'learn_f': True, 'learn_alpha': False, 'learn_k_d': False, 'learn_beta': False, 'learn_sk': False, 'sand': True, 'D_sand': tensor(507.1000, dtype=torch.float64), 'n_e_sand': tensor(0.3100, dtype=torch.float64), 'x_start': tensor(4, dtype=torch.int32), 'x_stop': tensor(24, dtype=torch.int32), 'x_steps_soil': tensor(28, dtype=torch.int32), 'alpha_l_sand': tensor(5., dtype=torch.float64), 'v_e_sand': tensor(101.4200, dtype=torch.float64), 't_steps': 38000}
+sk: tensor([[0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.]], grad_fn=<SelectBackward0>)
+c: tensor([[-0., -0., -0.,  ..., 0., 0., 0.],
+        [-0., -0., -0.,  ..., 0., 0., 0.],
+        [-0., -0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [-0., -0., 0.,  ..., 0., 0., 0.],
+        [-0., -0., -0.,  ..., 0., 0., 0.],
+        [-0., -0., -0.,  ..., 0., 0., 0.]], grad_fn=<SelectBackward0>)
+neg_loss: 0.0
+f: 0.7353487182834206
+u_calc: 0.0
+u_exp: 0.0
+u_calc: 0.03142651543021202
+u_exp: 0.029999999329447746
+u_calc: 0.022181890904903412
+u_exp: 0.023000000044703484
+u_calc: 0.011386492289602757
+u_exp: 0.00989999994635582
+u_calc: 0.004738038871437311
+u_exp: 0.005100000184029341
+u_calc: 0.0019398746080696583
+u_exp: 0.0017000000225380063
+u_calc: 0.0008425448322668672
+u_exp: 0.000539999979082495
+u_calc: 0.0003919749869965017
+u_exp: 0.0007300000288523734
+u_calc: 0.00019618670921772718
+u_exp: 0.0005099999834783375
+u_calc: 0.00011265601642662659
+u_exp: 0.0003499999875202775
+u_calc: 7.605844439240173e-05
+u_exp: 0.0002500000118743628
+u_calc: 5.975451131234877e-05
+u_exp: 0.0001900000061141327
+u_calc: 5.216953286435455e-05
+u_exp: 0.0001500000071246177
+u_calc: 4.80753333249595e-05
+u_exp: 0.00011000000085914508
+u_calc: 4.6154982555890456e-05
+u_exp: 9.300000237999484e-05
+u_calc: 4.488970080274157e-05
+u_exp: 6.0999998822808266e-05
+u_calc: 4.390533285913989e-05
+u_exp: 6.800000119255856e-05
+u_calc: 4.19484349549748e-05
+u_exp: 5.199999941396527e-05
+u_calc: 3.911727981176227e-05
+u_exp: 3.9999998989515007e-05
+u_calc: 3.646884215413593e-05
+u_exp: 2.9000000722589903e-05
+u_calc: 3.1506420782534406e-05
+u_exp: 3.099999958067201e-05
+mse_btc: 2.631851998557977e-07
+sk_end_loss: 0
+loss: 2.631851998557977e-07
+Epoch 008/100 took 495.67 seconds. 		Average epoch training error: (+)2.632e-07   
+{'training': True, '_parameters': OrderedDict([('f', Parameter containing:
+tensor(1.0219, dtype=torch.float64, requires_grad=True))]), '_buffers': OrderedDict(), '_non_persistent_buffers_set': set(), '_backward_hooks': OrderedDict(), '_is_full_backward_hook': None, '_forward_hooks': OrderedDict(), '_forward_pre_hooks': OrderedDict(), '_state_dict_hooks': OrderedDict(), '_load_state_dict_pre_hooks': OrderedDict(), '_load_state_dict_post_hooks': OrderedDict(), '_modules': OrderedDict(), 'device': device(type='cpu'), 'Nx': 28, 'BC': tensor([0., 0.], dtype=torch.float64), 'layer_sizes': [2, 100, 1000, 100, 1], 'mode': 'train', 'cfg': None, 'bias': True, 'sigmoid': True, 'D': tensor(709.9000, dtype=torch.float64), 'stencil': tensor([-1.,  1.], dtype=torch.float64), 'k_d': tensor(4.5000, dtype=torch.float64), 'v_e': tensor(78.6000, dtype=torch.float64), 'beta': tensor(0.9800, dtype=torch.float64), 'alpha': tensor(0.0050, dtype=torch.float64), 'dx': 2.037037037037037, 'rho_s': tensor(1.5800, dtype=torch.float64), 'n_e': tensor(0.4000, dtype=torch.float64), 'learn_f_hyd': False, 'learn_g_hyd': False, 'learn_r_hyd': False, 'learn_f': True, 'learn_alpha': False, 'learn_k_d': False, 'learn_beta': False, 'learn_sk': False, 'sand': True, 'D_sand': tensor(507.1000, dtype=torch.float64), 'n_e_sand': tensor(0.3100, dtype=torch.float64), 'x_start': tensor(4, dtype=torch.int32), 'x_stop': tensor(24, dtype=torch.int32), 'x_steps_soil': tensor(28, dtype=torch.int32), 'alpha_l_sand': tensor(5., dtype=torch.float64), 'v_e_sand': tensor(101.4200, dtype=torch.float64), 't_steps': 38000}
+sk: tensor([[0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.]], grad_fn=<SelectBackward0>)
+c: tensor([[-0., -0., -0.,  ..., 0., 0., 0.],
+        [-0., -0., -0.,  ..., 0., 0., 0.],
+        [-0., -0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [-0., -0., 0.,  ..., 0., 0., 0.],
+        [-0., -0., -0.,  ..., 0., 0., 0.],
+        [-0., -0., -0.,  ..., 0., 0., 0.]], grad_fn=<SelectBackward0>)
+neg_loss: 0.0
+f: 0.7353487182834206
+u_calc: 0.0
+u_exp: 0.0
+u_calc: 0.03142651543021202
+u_exp: 0.029999999329447746
+u_calc: 0.022181890904903412
+u_exp: 0.023000000044703484
+u_calc: 0.011386492289602757
+u_exp: 0.00989999994635582
+u_calc: 0.004738038871437311
+u_exp: 0.005100000184029341
+u_calc: 0.0019398746080696583
+u_exp: 0.0017000000225380063
+u_calc: 0.0008425448322668672
+u_exp: 0.000539999979082495
+u_calc: 0.0003919749869965017
+u_exp: 0.0007300000288523734
+u_calc: 0.00019618670921772718
+u_exp: 0.0005099999834783375
+u_calc: 0.00011265601642662659
+u_exp: 0.0003499999875202775
+u_calc: 7.605844439240173e-05
+u_exp: 0.0002500000118743628
+u_calc: 5.975451131234877e-05
+u_exp: 0.0001900000061141327
+u_calc: 5.216953286435455e-05
+u_exp: 0.0001500000071246177
+u_calc: 4.80753333249595e-05
+u_exp: 0.00011000000085914508
+u_calc: 4.6154982555890456e-05
+u_exp: 9.300000237999484e-05
+u_calc: 4.488970080274157e-05
+u_exp: 6.0999998822808266e-05
+u_calc: 4.390533285913989e-05
+u_exp: 6.800000119255856e-05
+u_calc: 4.19484349549748e-05
+u_exp: 5.199999941396527e-05
+u_calc: 3.911727981176227e-05
+u_exp: 3.9999998989515007e-05
+u_calc: 3.646884215413593e-05
+u_exp: 2.9000000722589903e-05
+u_calc: 3.1506420782534406e-05
+u_exp: 3.099999958067201e-05
+mse_btc: 2.631851998557977e-07
+sk_end_loss: 0
+loss: 2.631851998557977e-07
+{'training': True, '_parameters': OrderedDict([('f', Parameter containing:
+tensor(1.0131, dtype=torch.float64, requires_grad=True))]), '_buffers': OrderedDict(), '_non_persistent_buffers_set': set(), '_backward_hooks': OrderedDict(), '_is_full_backward_hook': None, '_forward_hooks': OrderedDict(), '_forward_pre_hooks': OrderedDict(), '_state_dict_hooks': OrderedDict(), '_load_state_dict_pre_hooks': OrderedDict(), '_load_state_dict_post_hooks': OrderedDict(), '_modules': OrderedDict(), 'device': device(type='cpu'), 'Nx': 28, 'BC': tensor([0., 0.], dtype=torch.float64), 'layer_sizes': [2, 100, 1000, 100, 1], 'mode': 'train', 'cfg': None, 'bias': True, 'sigmoid': True, 'D': tensor(709.9000, dtype=torch.float64), 'stencil': tensor([-1.,  1.], dtype=torch.float64), 'k_d': tensor(4.5000, dtype=torch.float64), 'v_e': tensor(78.6000, dtype=torch.float64), 'beta': tensor(0.9800, dtype=torch.float64), 'alpha': tensor(0.0050, dtype=torch.float64), 'dx': 2.037037037037037, 'rho_s': tensor(1.5800, dtype=torch.float64), 'n_e': tensor(0.4000, dtype=torch.float64), 'learn_f_hyd': False, 'learn_g_hyd': False, 'learn_r_hyd': False, 'learn_f': True, 'learn_alpha': False, 'learn_k_d': False, 'learn_beta': False, 'learn_sk': False, 'sand': True, 'D_sand': tensor(507.1000, dtype=torch.float64), 'n_e_sand': tensor(0.3100, dtype=torch.float64), 'x_start': tensor(4, dtype=torch.int32), 'x_stop': tensor(24, dtype=torch.int32), 'x_steps_soil': tensor(28, dtype=torch.int32), 'alpha_l_sand': tensor(5., dtype=torch.float64), 'v_e_sand': tensor(101.4200, dtype=torch.float64), 't_steps': 38000}
+sk: tensor([[0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.]], grad_fn=<SelectBackward0>)
+c: tensor([[-0., -0., -0.,  ..., 0., 0., 0.],
+        [-0., -0., -0.,  ..., 0., 0., 0.],
+        [-0., -0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [-0., -0., 0.,  ..., 0., 0., 0.],
+        [-0., -0., -0.,  ..., 0., 0., 0.],
+        [-0., -0., -0.,  ..., 0., 0., 0.]], grad_fn=<SelectBackward0>)
+neg_loss: 0.0
+f: 0.7336238969683435
+u_calc: 0.0
+u_exp: 0.0
+u_calc: 0.03142387792468071
+u_exp: 0.029999999329447746
+u_calc: 0.022139443084597588
+u_exp: 0.023000000044703484
+u_calc: 0.01134219765663147
+u_exp: 0.00989999994635582
+u_calc: 0.004710045177489519
+u_exp: 0.005100000184029341
+u_calc: 0.001924943644553423
+u_exp: 0.0017000000225380063
+u_calc: 0.0008348823175765574
+u_exp: 0.000539999979082495
+u_calc: 0.00038810199475847185
+u_exp: 0.0007300000288523734
+u_calc: 0.00019429253006819636
+u_exp: 0.0005099999834783375
+u_calc: 0.0001117420251830481
+u_exp: 0.0003499999875202775
+u_calc: 7.562858081655577e-05
+u_exp: 0.0002500000118743628
+u_calc: 5.956046879873611e-05
+u_exp: 0.0001900000061141327
+u_calc: 5.2090170356677845e-05
+u_exp: 0.0001500000071246177
+u_calc: 4.8055528168333694e-05
+u_exp: 0.00011000000085914508
+u_calc: 4.6158424083841965e-05
+u_exp: 9.300000237999484e-05
+u_calc: 4.4903994421474636e-05
+u_exp: 6.0999998822808266e-05
+u_calc: 4.392464325064793e-05
+u_exp: 6.800000119255856e-05
+u_calc: 4.197087764623575e-05
+u_exp: 5.199999941396527e-05
+u_calc: 3.913902401109226e-05
+u_exp: 3.9999998989515007e-05
+u_calc: 3.6489283957052976e-05
+u_exp: 2.9000000722589903e-05
+u_calc: 3.1524334190180525e-05
+u_exp: 3.099999958067201e-05
+mse_btc: 2.6070998160321324e-07
+sk_end_loss: 0
+loss: 2.6070998160321324e-07
+Epoch 009/100 took 510.75 seconds. 		Average epoch training error: (+)2.607e-07   
+{'training': True, '_parameters': OrderedDict([('f', Parameter containing:
+tensor(1.0131, dtype=torch.float64, requires_grad=True))]), '_buffers': OrderedDict(), '_non_persistent_buffers_set': set(), '_backward_hooks': OrderedDict(), '_is_full_backward_hook': None, '_forward_hooks': OrderedDict(), '_forward_pre_hooks': OrderedDict(), '_state_dict_hooks': OrderedDict(), '_load_state_dict_pre_hooks': OrderedDict(), '_load_state_dict_post_hooks': OrderedDict(), '_modules': OrderedDict(), 'device': device(type='cpu'), 'Nx': 28, 'BC': tensor([0., 0.], dtype=torch.float64), 'layer_sizes': [2, 100, 1000, 100, 1], 'mode': 'train', 'cfg': None, 'bias': True, 'sigmoid': True, 'D': tensor(709.9000, dtype=torch.float64), 'stencil': tensor([-1.,  1.], dtype=torch.float64), 'k_d': tensor(4.5000, dtype=torch.float64), 'v_e': tensor(78.6000, dtype=torch.float64), 'beta': tensor(0.9800, dtype=torch.float64), 'alpha': tensor(0.0050, dtype=torch.float64), 'dx': 2.037037037037037, 'rho_s': tensor(1.5800, dtype=torch.float64), 'n_e': tensor(0.4000, dtype=torch.float64), 'learn_f_hyd': False, 'learn_g_hyd': False, 'learn_r_hyd': False, 'learn_f': True, 'learn_alpha': False, 'learn_k_d': False, 'learn_beta': False, 'learn_sk': False, 'sand': True, 'D_sand': tensor(507.1000, dtype=torch.float64), 'n_e_sand': tensor(0.3100, dtype=torch.float64), 'x_start': tensor(4, dtype=torch.int32), 'x_stop': tensor(24, dtype=torch.int32), 'x_steps_soil': tensor(28, dtype=torch.int32), 'alpha_l_sand': tensor(5., dtype=torch.float64), 'v_e_sand': tensor(101.4200, dtype=torch.float64), 't_steps': 38000}
+sk: tensor([[0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.]], grad_fn=<SelectBackward0>)
+c: tensor([[-0., -0., -0.,  ..., 0., 0., 0.],
+        [-0., -0., -0.,  ..., 0., 0., 0.],
+        [-0., -0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [-0., -0., 0.,  ..., 0., 0., 0.],
+        [-0., -0., -0.,  ..., 0., 0., 0.],
+        [-0., -0., -0.,  ..., 0., 0., 0.]], grad_fn=<SelectBackward0>)
+neg_loss: 0.0
+f: 0.7336238969683435
+u_calc: 0.0
+u_exp: 0.0
+u_calc: 0.03142387792468071
+u_exp: 0.029999999329447746
+u_calc: 0.022139443084597588
+u_exp: 0.023000000044703484
+u_calc: 0.01134219765663147
+u_exp: 0.00989999994635582
+u_calc: 0.004710045177489519
+u_exp: 0.005100000184029341
+u_calc: 0.001924943644553423
+u_exp: 0.0017000000225380063
+u_calc: 0.0008348823175765574
+u_exp: 0.000539999979082495
+u_calc: 0.00038810199475847185
+u_exp: 0.0007300000288523734
+u_calc: 0.00019429253006819636
+u_exp: 0.0005099999834783375
+u_calc: 0.0001117420251830481
+u_exp: 0.0003499999875202775
+u_calc: 7.562858081655577e-05
+u_exp: 0.0002500000118743628
+u_calc: 5.956046879873611e-05
+u_exp: 0.0001900000061141327
+u_calc: 5.2090170356677845e-05
+u_exp: 0.0001500000071246177
+u_calc: 4.8055528168333694e-05
+u_exp: 0.00011000000085914508
+u_calc: 4.6158424083841965e-05
+u_exp: 9.300000237999484e-05
+u_calc: 4.4903994421474636e-05
+u_exp: 6.0999998822808266e-05
+u_calc: 4.392464325064793e-05
+u_exp: 6.800000119255856e-05
+u_calc: 4.197087764623575e-05
+u_exp: 5.199999941396527e-05
+u_calc: 3.913902401109226e-05
+u_exp: 3.9999998989515007e-05
+u_calc: 3.6489283957052976e-05
+u_exp: 2.9000000722589903e-05
+u_calc: 3.1524334190180525e-05
+u_exp: 3.099999958067201e-05
+mse_btc: 2.6070998160321324e-07
+sk_end_loss: 0
+loss: 2.6070998160321324e-07
+{'training': True, '_parameters': OrderedDict([('f', Parameter containing:
+tensor(1.0045, dtype=torch.float64, requires_grad=True))]), '_buffers': OrderedDict(), '_non_persistent_buffers_set': set(), '_backward_hooks': OrderedDict(), '_is_full_backward_hook': None, '_forward_hooks': OrderedDict(), '_forward_pre_hooks': OrderedDict(), '_state_dict_hooks': OrderedDict(), '_load_state_dict_pre_hooks': OrderedDict(), '_load_state_dict_post_hooks': OrderedDict(), '_modules': OrderedDict(), 'device': device(type='cpu'), 'Nx': 28, 'BC': tensor([0., 0.], dtype=torch.float64), 'layer_sizes': [2, 100, 1000, 100, 1], 'mode': 'train', 'cfg': None, 'bias': True, 'sigmoid': True, 'D': tensor(709.9000, dtype=torch.float64), 'stencil': tensor([-1.,  1.], dtype=torch.float64), 'k_d': tensor(4.5000, dtype=torch.float64), 'v_e': tensor(78.6000, dtype=torch.float64), 'beta': tensor(0.9800, dtype=torch.float64), 'alpha': tensor(0.0050, dtype=torch.float64), 'dx': 2.037037037037037, 'rho_s': tensor(1.5800, dtype=torch.float64), 'n_e': tensor(0.4000, dtype=torch.float64), 'learn_f_hyd': False, 'learn_g_hyd': False, 'learn_r_hyd': False, 'learn_f': True, 'learn_alpha': False, 'learn_k_d': False, 'learn_beta': False, 'learn_sk': False, 'sand': True, 'D_sand': tensor(507.1000, dtype=torch.float64), 'n_e_sand': tensor(0.3100, dtype=torch.float64), 'x_start': tensor(4, dtype=torch.int32), 'x_stop': tensor(24, dtype=torch.int32), 'x_steps_soil': tensor(28, dtype=torch.int32), 'alpha_l_sand': tensor(5., dtype=torch.float64), 'v_e_sand': tensor(101.4200, dtype=torch.float64), 't_steps': 38000}
+sk: tensor([[0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.]], grad_fn=<SelectBackward0>)
+c: tensor([[-0., -0., -0.,  ..., 0., 0., 0.],
+        [-0., -0., -0.,  ..., 0., 0., 0.],
+        [-0., -0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [-0., -0., 0.,  ..., 0., 0., 0.],
+        [-0., -0., -0.,  ..., 0., 0., 0.],
+        [-0., -0., -0.,  ..., 0., 0., 0.]], grad_fn=<SelectBackward0>)
+neg_loss: 0.0
+f: 0.731951697801315
+u_calc: 0.0
+u_exp: 0.0
+u_calc: 0.03142129257321358
+u_exp: 0.029999999329447746
+u_calc: 0.022098137065768242
+u_exp: 0.023000000044703484
+u_calc: 0.011299221776425838
+u_exp: 0.00989999994635582
+u_calc: 0.004682949744164944
+u_exp: 0.005100000184029341
+u_calc: 0.0019105211831629276
+u_exp: 0.0017000000225380063
+u_calc: 0.0008274941937997937
+u_exp: 0.000539999979082495
+u_calc: 0.0003843741142190993
+u_exp: 0.0007300000288523734
+u_calc: 0.00019247249292675406
+u_exp: 0.0005099999834783375
+u_calc: 0.00011086533049819991
+u_exp: 0.0003499999875202775
+u_calc: 7.521703082602471e-05
+u_exp: 0.0002500000118743628
+u_calc: 5.937511377851479e-05
+u_exp: 0.0001900000061141327
+u_calc: 5.201462408876978e-05
+u_exp: 0.0001500000071246177
+u_calc: 4.8036901716841385e-05
+u_exp: 0.00011000000085914508
+u_calc: 4.616197111317888e-05
+u_exp: 9.300000237999484e-05
+u_calc: 4.4917869672644883e-05
+u_exp: 6.0999998822808266e-05
+u_calc: 4.394328061607666e-05
+u_exp: 6.800000119255856e-05
+u_calc: 4.199246541247703e-05
+u_exp: 5.199999941396527e-05
+u_calc: 3.9159931475296617e-05
+u_exp: 3.9999998989515007e-05
+u_calc: 3.650893995654769e-05
+u_exp: 2.9000000722589903e-05
+u_calc: 3.1541560019832104e-05
+u_exp: 3.099999958067201e-05
+mse_btc: 2.587554490673938e-07
+sk_end_loss: 0
+loss: 2.587554490673938e-07
