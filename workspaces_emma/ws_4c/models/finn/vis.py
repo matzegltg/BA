@@ -15,7 +15,7 @@ import pandas as pd
 
 
 def __add_fig(fig, ax, row:float, column:float, title:str, value:np.ndarray, 
-    x:np.ndarray, t:np.ndarray, exp=None):
+    x:np.ndarray, t:np.ndarray, exp=None, exp_mean_t_N2=None, exp_conc_N2=None):
     """add subplot to fig
 
     Args:
@@ -49,30 +49,32 @@ def __add_fig(fig, ax, row:float, column:float, title:str, value:np.ndarray,
         ax[row, column].scatter(inits,x,c="r", s=100)
         print(row)
         if row == 0:
-            df = pd.read_excel("../../220613_ColumnExperiments_Data_N1.xlsx", 
-            "N1", skiprows=9, nrows=40, usecols="B:U")
-            exp_t = df.iloc[[35]].to_numpy(dtype=np.float32).squeeze()
-            exp_t = np.insert(exp_t, 0, 0)
+            if exp_mean_t_N2:
+                ax[row,column].scatter(exp_mean_t_N2, np.zeros(len(exp_mean_t_N2)),c="r",s=100)
+            else:
+                df = pd.read_excel("../../220613_ColumnExperiments_Data_N1.xlsx", "N1", skiprows=9, nrows=40, usecols="B:U")
+                exp_t = df.iloc[[35]].to_numpy(dtype=np.float32).squeeze()
+                exp_t = np.insert(exp_t, 0, 0)
+            
+                # select PFOS row
+                exp_conc = df.iloc[[20]].to_numpy(dtype=np.float32).squeeze()
         
-            # select PFOS row
-            exp_conc = df.iloc[[20]].to_numpy(dtype=np.float32).squeeze()
+                # ng/L -> mug/L -> mug/cm^3
+                exp_conc = exp_conc/1000000
         
-            # ng/L -> mug/L -> mug/cm^3
-            exp_conc = exp_conc/1000000
+                # t=0 initial concentration
+                exp_conc = np.insert(exp_conc, 0, 0)
         
-            # t=0 initial concentration
-            exp_conc = np.insert(exp_conc, 0, 0)
-        
-            # average concentrations -> shift to middle value of times
-            exp_mean_t = []
-            for i in range(0,len(exp_t)):
-                if i == 0:
-                    exp_mean_t.append(exp_t[i])
-                else:
-                    exp_mean_t.append((exp_t[i] + exp_t[i-1])/2)
-            print("now!")
-            z = np.zeros(len(exp_mean_t))
-            ax[row, column].scatter(exp_mean_t,z,c="r",s=100)
+                # average concentrations -> shift to middle value of times
+                exp_mean_t = []
+                for i in range(0,len(exp_t)):
+                    if i == 0:
+                        exp_mean_t.append(exp_t[i])
+                    else:
+                        exp_mean_t.append((exp_t[i] + exp_t[i-1])/2)
+                print("now!")
+                z = np.zeros(len(exp_mean_t))
+                ax[row, column].scatter(exp_mean_t,z,c="r",s=100)
 
 def init_model(number:float, config_NN:Configuration):
     """Loads selected model
@@ -97,7 +99,8 @@ def init_model(number:float, config_NN:Configuration):
     return model, u, u_NN, t, x
 
 def vis_FD_NN(model, u_FD:np.ndarray, u_NN:np.ndarray,
-    t:np.ndarray, x:np.ndarray, config_NN):
+    t:np.ndarray, x:np.ndarray, config_NN, exp_mean_t_N2=None,
+    exp_conc_N2=None):
 
     fig, ax = plt.subplots(2, 1)
     ax = np.expand_dims(ax, axis=1)
@@ -114,9 +117,9 @@ def vis_FD_NN(model, u_FD:np.ndarray, u_NN:np.ndarray,
     #__add_fig(fig=fig, ax=ax, row=1, column=0, title=title_sk, 
     #    value=u_FD[...,1], x=x, t=t, exp=True)
     __add_fig(fig=fig, ax=ax, row=0, column=0, title=r"FINN: $c(t,x) \left[\frac{\mu g}{cm^3}\right]$", 
-        value=u_NN[...,0], x=x, t=t, exp=False)
+        value=u_NN[...,0], x=x, t=t, exp=True, exp_mean_t_N2=exp_mean_t_N2, exp_conc_N2=exp_conc_N2)
     __add_fig(fig=fig, ax=ax, row=1, column=0, title=r"FINN: $s_k(t,x) \left[\frac{\mu g}{g}\right]$", 
-        value=u_NN[...,1], x=x, t=t, exp=False)
+        value=u_NN[...,1], x=x, t=t, exp=True)
     fig.set_size_inches(20,10)
     plt.tight_layout()
     plt.savefig(f"results/{config_NN.model.number}/sol_ov", dpi=500)
@@ -327,12 +330,12 @@ def vis_data(number):
     # visualize
     #print(model.__dict__)
     #vis_FD_NN(model, u, u_NN, t, x, config_NN)
-    #vis_FD_NN(model, u_N2, u_NN_N2, t_N2, x, config_NN)
+    vis_FD_NN(model, u_N2, u_NN_N2, t_N2, x, config_NN, exp_mean_t_N2, exp_conc_N2)
     #vis_diff(model, u, u_NN, t, x, config_NN)
     #plot_tensor(u_NN[...,0])
     #vis_btc(model, u, u_NN, t, x, config_NN)
     #vis_btc(model, u_N2, u_NN_N2, t_N2, x, config_NN, exp_mean_t_N2, exp_conc_N2)
-    vis_comp_btc(u, u_NN, u_N2, u_NN_N2, t, t_N2, x, exp_mean_t_N2, exp_conc_N2)
+    #vis_comp_btc(u, u_NN, u_N2, u_NN_N2, t, t_N2, x, exp_mean_t_N2, exp_conc_N2)
     #vis_sorption_isotherms(model, u, u_NN, t, x, config_NN)
     #vis_sorption_isotherms(model, u_N2, u_NN_N2, t_N2, x, config_NN)
 if __name__ == "__main__":
